@@ -1,4 +1,5 @@
-
+# Most Functionalities of Context Manager is directly implemented in transform.py and has not been abstracted here in the current implementation.
+# If you want to find related code of context manager introduced in the paper, please refer to transform.py.
 class Context():
     def __init__(self, kwlocals):
         self.locals = {}
