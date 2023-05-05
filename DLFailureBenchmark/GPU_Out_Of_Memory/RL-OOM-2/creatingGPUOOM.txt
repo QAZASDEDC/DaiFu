@@ -1,0 +1,4 @@
+# run the occupyGPU.py and then ctrl+z, twice
+python occupyGPU.py 
+python occupyGPU.py 
+# don't forget to kill these GPU occupy program after the experiments

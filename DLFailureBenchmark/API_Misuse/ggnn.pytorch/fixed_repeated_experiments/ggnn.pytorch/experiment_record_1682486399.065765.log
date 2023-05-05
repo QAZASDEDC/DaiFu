@@ -1,0 +1,2 @@
+2023-04-26 13:19:58.258 | INFO     | daifu:<module>:22 - Program Begin
+2023-04-26 13:19:59.065 | INFO     | daifu:log_program_end:27 - Program End with Quality Measure tensor(100.)

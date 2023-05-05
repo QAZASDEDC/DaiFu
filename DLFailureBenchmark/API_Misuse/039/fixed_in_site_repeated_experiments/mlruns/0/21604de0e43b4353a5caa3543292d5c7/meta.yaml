@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/hzl/DaiFu/defect4ML/API_Misuse/039/fixed_in_site/mlruns/0/21604de0e43b4353a5caa3543292d5c7/artifacts
+end_time: 1682433230301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 21604de0e43b4353a5caa3543292d5c7
+run_uuid: 21604de0e43b4353a5caa3543292d5c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682433185050
+status: 3
+tags: []
+user_id: user

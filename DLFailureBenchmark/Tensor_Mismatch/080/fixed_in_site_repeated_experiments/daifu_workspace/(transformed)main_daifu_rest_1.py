@@ -1,0 +1,16 @@
+@daifu.with_goto
+def main_daifu_rest_1():
+    try:
+        global activations, mnist, model, x_test, x_train, y_test, y_train
+        goto .restart
+        (x_train, y_train), (x_test, y_test) = mnist.load_data()
+        x_train = x_train.reshape(-1, 28, 28, 1)
+        model = Sequential([Conv2D(8, kernel_size=(3, 3), padding='same', activation=activations.relu, input_shape=(28, 28, 1)), Dense(64, activation=activations.relu), Dense(64, activation=activations.relu), Dense(10, activation=activations.softmax)])
+        model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+        label .restart
+        model.fit(x_train, y_train, epochs=5)
+    except Exception as main_exception_1:
+        daifu.CT_MANAGER.save(locals())
+        raise
+    else:
+        return None, None

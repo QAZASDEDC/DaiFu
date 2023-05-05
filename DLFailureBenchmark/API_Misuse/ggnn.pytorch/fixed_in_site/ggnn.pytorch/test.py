@@ -1,0 +1,6 @@
+print("Traceback (most recent call last):")
+print(" File 'main.py', line 69, in main")
+print("  test(test_dataloader, net, criterion, optimizer, opt)")
+print(" File '/home/metadata/utils/test.py', line 24, in test")
+print("  test_loss += criterion(output, target).data[0]")
+print("IndexError: invalid index of a 0-dim tensor. Use tensor.item() to convert a 0-dim tensor to a Python number")

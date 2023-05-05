@@ -1,0 +1,5 @@
+2023-03-22 14:47:16.162 | INFO     | daifu:<module>:20 - Program Begin
+2023-03-22 14:47:20.564 | INFO     | daifu.repair:repair:159 - Repair 1 Begin
+2023-03-22 14:48:22.841 | INFO     | daifu.repair:do_action:102 - Repairing... Action
+2023-03-22 14:48:23.978 | INFO     | daifu.repair:repair:179 - Repair 1 End
+2023-03-22 14:55:37.020 | INFO     | daifu:log_program_end:23 - Program End

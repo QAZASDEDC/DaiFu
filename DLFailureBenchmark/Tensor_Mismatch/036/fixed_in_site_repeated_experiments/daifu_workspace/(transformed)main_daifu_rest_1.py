@@ -1,0 +1,54 @@
+@daifu.with_goto
+def main_daifu_rest_1():
+    try:
+        global X_test, X_train, Y_test, Y_train, mnist, model, np, np_utils, y_test, y_train
+        goto .restart
+        np.random.seed(123)
+        (X_train, y_train), (X_test, y_test) = mnist.load_data()
+        print(X_train.shape)
+        print(X_test.shape)
+        print(y_train.shape)
+        print(y_test.shape)
+        X_train = X_train.reshape(X_train.shape[0], 1, 28, 28)
+        print(X_train.shape)
+        X_test = X_test.reshape(X_test.shape[0], 1, 28, 28)
+        X_train = X_train.astype('float32')
+        X_test = X_test.astype('float32')
+        X_train /= 255
+        X_test /= 255
+        print('y_train[:10]')
+        print(y_train[:10])
+        Y_train = np_utils.to_categorical(y_train, 10)
+        print('Y_train.shape')
+        print(Y_train.shape)
+        Y_test = np_utils.to_categorical(y_test, 10)
+        print('Y_test.shape')
+        print(Y_test.shape)
+        model = Sequential()
+        model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)))
+        print(model.output_shape)
+        model.add(Conv2D(32, (3, 3), activation='relu'))
+        print(model.output_shape)
+        model.add(MaxPool2D(pool_size=(2, 2)))
+        print(model.output_shape)
+        model.add(Dropout(0.25))
+        print(model.output_shape)
+        model.add(Flatten())
+        print(model.output_shape)
+        model.add(Dense(128, activation='relu'))
+        print(model.output_shape)
+        model.add(Dropout(0.5))
+        print(model.output_shape)
+        model.add(Dense(10, activation='softmax'))
+        print(model.output_shape)
+        model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+        print(model.input_shape)
+        print(model.output_shape)
+        label .restart
+        model.fit(X_train, Y_train, batch_size=1000, epochs=10, verbose=1)
+        print('Finished')
+    except Exception as main_exception_1:
+        daifu.CT_MANAGER.save(locals())
+        raise
+    else:
+        return None, None

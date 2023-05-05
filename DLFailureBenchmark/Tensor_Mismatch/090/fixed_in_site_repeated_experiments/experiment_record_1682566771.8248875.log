@@ -1,0 +1,11 @@
+2023-04-27 11:36:10.983 | INFO     | daifu:<module>:22 - Program Begin
+2023-04-27 11:36:11.373 | INFO     | daifu.repair:repair:160 - Repair 1 Begin
+2023-04-27 11:36:11.387 | INFO     | daifu.repair:do_surgery:131 - Repairing... Surgery
+2023-04-27 11:36:11.387 | INFO     | daifu.repair:repair:196 - Repair 1 End
+2023-04-27 11:36:11.417 | INFO     | daifu.repair:repair:160 - Repair 2 Begin
+2023-04-27 11:36:11.419 | INFO     | daifu.repair:do_action:102 - Repairing... Action
+2023-04-27 11:36:11.419 | INFO     | daifu.repair:repair:196 - Repair 2 End
+2023-04-27 11:36:11.435 | INFO     | daifu.repair:repair:160 - Repair 3 Begin
+2023-04-27 11:36:11.448 | INFO     | daifu.repair:do_surgery:131 - Repairing... Surgery
+2023-04-27 11:36:11.449 | INFO     | daifu.repair:repair:196 - Repair 3 End
+2023-04-27 11:39:31.824 | INFO     | daifu:log_program_end:27 - Program End
