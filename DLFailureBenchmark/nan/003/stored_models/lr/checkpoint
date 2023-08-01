@@ -1,2 +1,0 @@
-model_checkpoint_path: "logreg"
-all_model_checkpoint_paths: "logreg"
