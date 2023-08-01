@@ -32,7 +32,7 @@ for daifu_dataname in daifu.TRANSFORM_REGISTRY['%s']['dataname_list']:
 
 IN_ADDED_CODE_WARN = '''daifu_store = {}
 for daifu_dataname in daifu.TRANSFORM_REGISTRY['%s']['dataname_list']:
-    if daifu_dataname in globals():
+    if daifu_dataname in daifu.TRANSFORM_REGISTRY['%s']['local_variables_list'] and daifu_dataname in globals():
         daifu_store[daifu_dataname] = globals()[daifu_dataname]
         print('Warning:', daifu_dataname, 'is reused, please check.')
     if daifu_dataname in locals():
@@ -472,6 +472,15 @@ def get_code(co_consts_tuple):
             return item
     raise Exception('No code in co_consts')
 
+def get_local_variables(function_code):
+
+    tree = ast.parse(function_code)
+
+    func_def = [node for node in ast.walk(tree) if isinstance(node, ast.FunctionDef)][0]
+    assignments = [node for node in ast.walk(func_def) if isinstance(node, ast.Assign)]
+    variables = [node.targets[0].id for node in assignments]
+
+    return variables
 
 def transform_code(dl_func):
     dl_func_name = dl_func.__name__
@@ -485,6 +494,8 @@ def transform_code(dl_func):
     original_dl_func_tree = ast.parse(clean_indent(inspect.getsource(dl_func)))
     original_dl_func_code = astor.to_source(original_dl_func_tree)
     TRANSFORM_REGISTRY[dl_func_name]['original'] = original_dl_func_code
+
+    TRANSFORM_REGISTRY[dl_func_name]['local_variables_list'] = get_local_variables(original_dl_func_code)
 
     TRANSFORM_REGISTRY[dl_func_name]['transformed'] = {}
     TRANSFORM_REGISTRY[dl_func_name]['workspace'] = str(

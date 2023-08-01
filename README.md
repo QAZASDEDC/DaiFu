@@ -1,11 +1,10 @@
-# DaiFu: Vaccinating Deep Learning Programs against Failures
-The artifact of ASE 2023 submission#1
+# DaiFu: A Framework for In-Situ Runtime Recovery of Deep Learning Programs against Crash Failures
+The artifact of ICSE 2023 submission#1
 
 ## Project Structure
 
 - `./daifu` contains the source code of daifu.
 - `./DLFailureBenchmark` contains the deep learning failure benchmark as well as our experiments on it.
-- `./result_analysis` contains an ipython notebook which analyzes the experimental results.
 
 ## Reproduction
 
