@@ -542,7 +542,7 @@ def transform_code(dl_func):
         IfRemoveTransformer().visit(transformed_dl_func_tree))
 
     if TRANSFORM_REGISTRY['IS_WARN']:
-        in_added_code = IN_ADDED_CODE_WARN % dl_func_name
+        in_added_code = IN_ADDED_CODE_WARN % (dl_func_name, dl_func_name)
     else:
         in_added_code = IN_ADDED_CODE % dl_func_name
 
@@ -628,7 +628,7 @@ def update_code(dl_func_name, dl_func_code, updated_cell_name, faulty_lineno):
             IfRemoveTransformer().visit(transformed_dl_func_tree))
 
         if TRANSFORM_REGISTRY['IS_WARN']:
-            in_added_code = IN_ADDED_CODE_WARN % dl_func_name
+            in_added_code = IN_ADDED_CODE_WARN % (dl_func_name, dl_func_name)
         else:
             in_added_code = IN_ADDED_CODE % dl_func_name
 
