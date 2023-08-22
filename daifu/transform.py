@@ -473,14 +473,37 @@ def get_code(co_consts_tuple):
     raise Exception('No code in co_consts')
 
 def get_local_variables(function_code):
-
     tree = ast.parse(function_code)
 
-    func_def = [node for node in ast.walk(tree) if isinstance(node, ast.FunctionDef)][0]
-    assignments = [node for node in ast.walk(func_def) if isinstance(node, ast.Assign)]
-    variables = [node.targets[0].id for node in assignments]
+    local_variables = set()
+    global_variables = set()
 
-    return variables
+    class LocalVariableVisitor(ast.NodeVisitor):
+        def visit_FunctionDef(self, node):
+            local_variables.update(arg.arg for arg in node.args.args)
+            self.generic_visit(node)
+
+        def visit_For(self, node):
+            if isinstance(node.target, ast.Name):
+                local_variables.add(node.target.id)
+            self.generic_visit(node)
+
+        def visit_Assign(self, node):
+            for target in node.targets:
+                if isinstance(target, ast.Name):
+                    local_variables.add(target.id)
+            self.generic_visit(node)
+
+        def visit_Global(self, node):
+            global_variables.update(name for name in node.names)
+            self.generic_visit(node)
+
+    visitor = LocalVariableVisitor()
+    visitor.visit(tree)
+
+    local_variables -= global_variables
+
+    return list(local_variables)
 
 def transform_code(dl_func):
     dl_func_name = dl_func.__name__
