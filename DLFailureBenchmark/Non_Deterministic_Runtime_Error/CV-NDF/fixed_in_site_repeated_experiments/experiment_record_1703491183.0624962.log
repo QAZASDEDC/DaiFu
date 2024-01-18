@@ -1,0 +1,6 @@
+2023-12-25 15:57:06.683 | INFO     | daifu:<module>:34 - Program Begin
+2023-12-25 15:57:37.820 | INFO     | daifu.repair:repair:444 - Repair 1 Begin
+2023-12-25 15:57:37.825 | INFO     | daifu.repair:repair:532 - Repair 1 End
+2023-12-25 15:59:43.025 | INFO     | daifu.repair:repair:444 - Repair 2 Begin
+2023-12-25 15:59:43.036 | INFO     | daifu.repair:repair:532 - Repair 2 End
+2023-12-25 15:59:43.062 | INFO     | daifu:log_program_end:40 - Program End with Quality Measure 0.9921

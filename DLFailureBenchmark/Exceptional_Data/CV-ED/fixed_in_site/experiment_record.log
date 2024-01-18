@@ -1,0 +1,5 @@
+2023-10-08 11:04:02.167 | INFO     | daifu:<module>:28 - Program Begin
+2023-10-08 11:05:02.715 | INFO     | daifu.repair:repair:381 - Repair 1 Begin
+2023-10-08 11:05:07.965 | INFO     | daifu.repair:do_surgery:141 - Repairing... Surgery
+2023-10-08 11:05:09.629 | INFO     | daifu.repair:repair:437 - Repair 1 End
+2023-10-08 11:06:43.646 | INFO     | daifu:log_program_end:33 - Program End
