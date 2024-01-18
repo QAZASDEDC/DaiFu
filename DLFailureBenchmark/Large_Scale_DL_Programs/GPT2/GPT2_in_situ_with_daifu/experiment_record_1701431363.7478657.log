@@ -1,0 +1,1206 @@
+2023-12-01 13:08:33.675 | INFO     | daifu:<module>:34 - Program Begin
+2023-12-01 13:09:40.993 | INFO     | torch._tensor:to:88 - Fault Injected To: (0, 0)
+2023-12-01 13:09:40.995 | INFO     | daifu.repair:repair:444 - Repair 1 Begin
+2023-12-01 13:09:40.998 | INFO     | daifu.repair:repair:532 - Repair 1 End
+2023-12-01 13:09:44.943 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (0, 0) Fault Recovered
+2023-12-01 13:11:00.018 | INFO     | torch._tensor:to:88 - Fault Injected To: (20, 0)
+2023-12-01 13:11:00.019 | INFO     | daifu.repair:repair:444 - Repair 2 Begin
+2023-12-01 13:11:00.021 | INFO     | daifu.repair:repair:532 - Repair 2 End
+2023-12-01 13:11:03.973 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (20, 0) Fault Recovered
+2023-12-01 13:12:19.053 | INFO     | torch._tensor:to:88 - Fault Injected To: (40, 0)
+2023-12-01 13:12:19.053 | INFO     | daifu.repair:repair:444 - Repair 3 Begin
+2023-12-01 13:12:19.055 | INFO     | daifu.repair:repair:532 - Repair 3 End
+2023-12-01 13:12:23.009 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (40, 0) Fault Recovered
+2023-12-01 13:13:38.225 | INFO     | torch._tensor:to:88 - Fault Injected To: (60, 0)
+2023-12-01 13:13:38.226 | INFO     | daifu.repair:repair:444 - Repair 4 Begin
+2023-12-01 13:13:38.228 | INFO     | daifu.repair:repair:532 - Repair 4 End
+2023-12-01 13:13:42.190 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (60, 0) Fault Recovered
+2023-12-01 13:14:57.486 | INFO     | torch._tensor:to:88 - Fault Injected To: (80, 0)
+2023-12-01 13:14:57.487 | INFO     | daifu.repair:repair:444 - Repair 5 Begin
+2023-12-01 13:14:57.489 | INFO     | daifu.repair:repair:532 - Repair 5 End
+2023-12-01 13:15:01.453 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (80, 0) Fault Recovered
+2023-12-01 13:16:16.782 | INFO     | torch._tensor:to:88 - Fault Injected To: (100, 0)
+2023-12-01 13:16:16.783 | INFO     | daifu.repair:repair:444 - Repair 6 Begin
+2023-12-01 13:16:16.785 | INFO     | daifu.repair:repair:532 - Repair 6 End
+2023-12-01 13:16:20.747 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (100, 0) Fault Recovered
+2023-12-01 13:17:36.076 | INFO     | torch._tensor:to:88 - Fault Injected To: (120, 0)
+2023-12-01 13:17:36.077 | INFO     | daifu.repair:repair:444 - Repair 7 Begin
+2023-12-01 13:17:36.079 | INFO     | daifu.repair:repair:532 - Repair 7 End
+2023-12-01 13:17:40.043 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (120, 0) Fault Recovered
+2023-12-01 13:18:55.405 | INFO     | torch._tensor:to:88 - Fault Injected To: (140, 0)
+2023-12-01 13:18:55.405 | INFO     | daifu.repair:repair:444 - Repair 8 Begin
+2023-12-01 13:18:55.407 | INFO     | daifu.repair:repair:532 - Repair 8 End
+2023-12-01 13:18:59.378 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (140, 0) Fault Recovered
+2023-12-01 13:20:14.737 | INFO     | torch._tensor:to:88 - Fault Injected To: (160, 0)
+2023-12-01 13:20:14.737 | INFO     | daifu.repair:repair:444 - Repair 9 Begin
+2023-12-01 13:20:14.739 | INFO     | daifu.repair:repair:532 - Repair 9 End
+2023-12-01 13:20:18.702 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (160, 0) Fault Recovered
+2023-12-01 13:21:34.051 | INFO     | torch._tensor:to:88 - Fault Injected To: (180, 0)
+2023-12-01 13:21:34.052 | INFO     | daifu.repair:repair:444 - Repair 10 Begin
+2023-12-01 13:21:34.054 | INFO     | daifu.repair:repair:532 - Repair 10 End
+2023-12-01 13:21:38.021 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (180, 0) Fault Recovered
+2023-12-01 13:22:53.370 | INFO     | torch._tensor:to:88 - Fault Injected To: (200, 0)
+2023-12-01 13:22:53.371 | INFO     | daifu.repair:repair:444 - Repair 11 Begin
+2023-12-01 13:22:53.373 | INFO     | daifu.repair:repair:532 - Repair 11 End
+2023-12-01 13:22:57.339 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (200, 0) Fault Recovered
+2023-12-01 13:24:12.689 | INFO     | torch._tensor:to:88 - Fault Injected To: (220, 0)
+2023-12-01 13:24:12.690 | INFO     | daifu.repair:repair:444 - Repair 12 Begin
+2023-12-01 13:24:12.692 | INFO     | daifu.repair:repair:532 - Repair 12 End
+2023-12-01 13:24:16.656 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (220, 0) Fault Recovered
+2023-12-01 13:25:31.994 | INFO     | torch._tensor:to:88 - Fault Injected To: (240, 0)
+2023-12-01 13:25:31.995 | INFO     | daifu.repair:repair:444 - Repair 13 Begin
+2023-12-01 13:25:31.997 | INFO     | daifu.repair:repair:532 - Repair 13 End
+2023-12-01 13:25:35.964 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (240, 0) Fault Recovered
+2023-12-01 13:26:51.294 | INFO     | torch._tensor:to:88 - Fault Injected To: (260, 0)
+2023-12-01 13:26:51.295 | INFO     | daifu.repair:repair:444 - Repair 14 Begin
+2023-12-01 13:26:51.297 | INFO     | daifu.repair:repair:532 - Repair 14 End
+2023-12-01 13:26:55.260 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (260, 0) Fault Recovered
+2023-12-01 13:28:10.602 | INFO     | torch._tensor:to:88 - Fault Injected To: (280, 0)
+2023-12-01 13:28:10.603 | INFO     | daifu.repair:repair:444 - Repair 15 Begin
+2023-12-01 13:28:10.605 | INFO     | daifu.repair:repair:532 - Repair 15 End
+2023-12-01 13:28:14.569 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (280, 0) Fault Recovered
+2023-12-01 13:29:29.897 | INFO     | torch._tensor:to:88 - Fault Injected To: (300, 0)
+2023-12-01 13:29:29.897 | INFO     | daifu.repair:repair:444 - Repair 16 Begin
+2023-12-01 13:29:29.900 | INFO     | daifu.repair:repair:532 - Repair 16 End
+2023-12-01 13:29:33.862 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (300, 0) Fault Recovered
+2023-12-01 13:30:49.170 | INFO     | torch._tensor:to:88 - Fault Injected To: (320, 0)
+2023-12-01 13:30:49.171 | INFO     | daifu.repair:repair:444 - Repair 17 Begin
+2023-12-01 13:30:49.173 | INFO     | daifu.repair:repair:532 - Repair 17 End
+2023-12-01 13:30:53.137 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (320, 0) Fault Recovered
+2023-12-01 13:32:08.454 | INFO     | torch._tensor:to:88 - Fault Injected To: (340, 0)
+2023-12-01 13:32:08.454 | INFO     | daifu.repair:repair:444 - Repair 18 Begin
+2023-12-01 13:32:08.457 | INFO     | daifu.repair:repair:532 - Repair 18 End
+2023-12-01 13:32:12.421 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (340, 0) Fault Recovered
+2023-12-01 13:33:27.745 | INFO     | torch._tensor:to:88 - Fault Injected To: (360, 0)
+2023-12-01 13:33:27.746 | INFO     | daifu.repair:repair:444 - Repair 19 Begin
+2023-12-01 13:33:27.748 | INFO     | daifu.repair:repair:532 - Repair 19 End
+2023-12-01 13:33:31.713 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (360, 0) Fault Recovered
+2023-12-01 13:34:47.037 | INFO     | torch._tensor:to:88 - Fault Injected To: (380, 0)
+2023-12-01 13:34:47.037 | INFO     | daifu.repair:repair:444 - Repair 20 Begin
+2023-12-01 13:34:47.039 | INFO     | daifu.repair:repair:532 - Repair 20 End
+2023-12-01 13:34:51.004 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (380, 0) Fault Recovered
+2023-12-01 13:36:06.334 | INFO     | torch._tensor:to:88 - Fault Injected To: (400, 0)
+2023-12-01 13:36:06.335 | INFO     | daifu.repair:repair:444 - Repair 21 Begin
+2023-12-01 13:36:06.337 | INFO     | daifu.repair:repair:532 - Repair 21 End
+2023-12-01 13:36:10.305 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (400, 0) Fault Recovered
+2023-12-01 13:37:25.639 | INFO     | torch._tensor:to:88 - Fault Injected To: (420, 0)
+2023-12-01 13:37:25.640 | INFO     | daifu.repair:repair:444 - Repair 22 Begin
+2023-12-01 13:37:25.642 | INFO     | daifu.repair:repair:532 - Repair 22 End
+2023-12-01 13:37:29.605 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (420, 0) Fault Recovered
+2023-12-01 13:38:44.963 | INFO     | torch._tensor:to:88 - Fault Injected To: (440, 0)
+2023-12-01 13:38:44.964 | INFO     | daifu.repair:repair:444 - Repair 23 Begin
+2023-12-01 13:38:44.966 | INFO     | daifu.repair:repair:532 - Repair 23 End
+2023-12-01 13:38:48.932 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (440, 0) Fault Recovered
+2023-12-01 13:40:04.294 | INFO     | torch._tensor:to:88 - Fault Injected To: (460, 0)
+2023-12-01 13:40:04.295 | INFO     | daifu.repair:repair:444 - Repair 24 Begin
+2023-12-01 13:40:04.297 | INFO     | daifu.repair:repair:532 - Repair 24 End
+2023-12-01 13:40:08.263 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (460, 0) Fault Recovered
+2023-12-01 13:41:23.600 | INFO     | torch._tensor:to:88 - Fault Injected To: (480, 0)
+2023-12-01 13:41:23.601 | INFO     | daifu.repair:repair:444 - Repair 25 Begin
+2023-12-01 13:41:23.603 | INFO     | daifu.repair:repair:532 - Repair 25 End
+2023-12-01 13:41:27.568 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (480, 0) Fault Recovered
+2023-12-01 13:42:42.905 | INFO     | torch._tensor:to:88 - Fault Injected To: (500, 0)
+2023-12-01 13:42:42.906 | INFO     | daifu.repair:repair:444 - Repair 26 Begin
+2023-12-01 13:42:42.908 | INFO     | daifu.repair:repair:532 - Repair 26 End
+2023-12-01 13:42:46.872 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (500, 0) Fault Recovered
+2023-12-01 13:44:02.222 | INFO     | torch._tensor:to:88 - Fault Injected To: (520, 0)
+2023-12-01 13:44:02.222 | INFO     | daifu.repair:repair:444 - Repair 27 Begin
+2023-12-01 13:44:02.225 | INFO     | daifu.repair:repair:532 - Repair 27 End
+2023-12-01 13:44:06.190 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (520, 0) Fault Recovered
+2023-12-01 13:45:21.545 | INFO     | torch._tensor:to:88 - Fault Injected To: (540, 0)
+2023-12-01 13:45:21.545 | INFO     | daifu.repair:repair:444 - Repair 28 Begin
+2023-12-01 13:45:21.547 | INFO     | daifu.repair:repair:532 - Repair 28 End
+2023-12-01 13:45:25.513 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (540, 0) Fault Recovered
+2023-12-01 13:46:40.864 | INFO     | torch._tensor:to:88 - Fault Injected To: (560, 0)
+2023-12-01 13:46:40.864 | INFO     | daifu.repair:repair:444 - Repair 29 Begin
+2023-12-01 13:46:40.867 | INFO     | daifu.repair:repair:532 - Repair 29 End
+2023-12-01 13:46:44.831 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (560, 0) Fault Recovered
+2023-12-01 13:48:00.201 | INFO     | torch._tensor:to:88 - Fault Injected To: (580, 0)
+2023-12-01 13:48:00.201 | INFO     | daifu.repair:repair:444 - Repair 30 Begin
+2023-12-01 13:48:00.203 | INFO     | daifu.repair:repair:532 - Repair 30 End
+2023-12-01 13:48:04.172 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (580, 0) Fault Recovered
+2023-12-01 13:49:19.534 | INFO     | torch._tensor:to:88 - Fault Injected To: (600, 0)
+2023-12-01 13:49:19.535 | INFO     | daifu.repair:repair:444 - Repair 31 Begin
+2023-12-01 13:49:19.537 | INFO     | daifu.repair:repair:532 - Repair 31 End
+2023-12-01 13:49:23.505 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (600, 0) Fault Recovered
+2023-12-01 13:50:38.865 | INFO     | torch._tensor:to:88 - Fault Injected To: (620, 0)
+2023-12-01 13:50:38.866 | INFO     | daifu.repair:repair:444 - Repair 32 Begin
+2023-12-01 13:50:38.868 | INFO     | daifu.repair:repair:532 - Repair 32 End
+2023-12-01 13:50:42.835 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (620, 0) Fault Recovered
+2023-12-01 13:51:58.198 | INFO     | torch._tensor:to:88 - Fault Injected To: (640, 0)
+2023-12-01 13:51:58.199 | INFO     | daifu.repair:repair:444 - Repair 33 Begin
+2023-12-01 13:51:58.201 | INFO     | daifu.repair:repair:532 - Repair 33 End
+2023-12-01 13:52:02.165 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (640, 0) Fault Recovered
+2023-12-01 13:53:17.518 | INFO     | torch._tensor:to:88 - Fault Injected To: (660, 0)
+2023-12-01 13:53:17.519 | INFO     | daifu.repair:repair:444 - Repair 34 Begin
+2023-12-01 13:53:17.521 | INFO     | daifu.repair:repair:532 - Repair 34 End
+2023-12-01 13:53:21.486 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (660, 0) Fault Recovered
+2023-12-01 13:54:36.844 | INFO     | torch._tensor:to:88 - Fault Injected To: (680, 0)
+2023-12-01 13:54:36.844 | INFO     | daifu.repair:repair:444 - Repair 35 Begin
+2023-12-01 13:54:36.846 | INFO     | daifu.repair:repair:532 - Repair 35 End
+2023-12-01 13:54:40.812 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (680, 0) Fault Recovered
+2023-12-01 13:55:56.168 | INFO     | torch._tensor:to:88 - Fault Injected To: (700, 0)
+2023-12-01 13:55:56.168 | INFO     | daifu.repair:repair:444 - Repair 36 Begin
+2023-12-01 13:55:56.170 | INFO     | daifu.repair:repair:532 - Repair 36 End
+2023-12-01 13:56:00.135 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (700, 0) Fault Recovered
+2023-12-01 13:57:15.561 | INFO     | torch._tensor:to:88 - Fault Injected To: (720, 0)
+2023-12-01 13:57:15.562 | INFO     | daifu.repair:repair:444 - Repair 37 Begin
+2023-12-01 13:57:15.564 | INFO     | daifu.repair:repair:532 - Repair 37 End
+2023-12-01 13:57:19.529 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (720, 0) Fault Recovered
+2023-12-01 13:58:34.875 | INFO     | torch._tensor:to:88 - Fault Injected To: (740, 0)
+2023-12-01 13:58:34.875 | INFO     | daifu.repair:repair:444 - Repair 38 Begin
+2023-12-01 13:58:34.877 | INFO     | daifu.repair:repair:532 - Repair 38 End
+2023-12-01 13:58:38.842 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (740, 0) Fault Recovered
+2023-12-01 13:59:54.197 | INFO     | torch._tensor:to:88 - Fault Injected To: (760, 0)
+2023-12-01 13:59:54.198 | INFO     | daifu.repair:repair:444 - Repair 39 Begin
+2023-12-01 13:59:54.200 | INFO     | daifu.repair:repair:532 - Repair 39 End
+2023-12-01 13:59:58.167 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (760, 0) Fault Recovered
+2023-12-01 14:01:13.505 | INFO     | torch._tensor:to:88 - Fault Injected To: (780, 0)
+2023-12-01 14:01:13.506 | INFO     | daifu.repair:repair:444 - Repair 40 Begin
+2023-12-01 14:01:13.508 | INFO     | daifu.repair:repair:532 - Repair 40 End
+2023-12-01 14:01:17.472 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (780, 0) Fault Recovered
+2023-12-01 14:02:32.832 | INFO     | torch._tensor:to:88 - Fault Injected To: (800, 0)
+2023-12-01 14:02:32.833 | INFO     | daifu.repair:repair:444 - Repair 41 Begin
+2023-12-01 14:02:32.835 | INFO     | daifu.repair:repair:532 - Repair 41 End
+2023-12-01 14:02:36.804 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (800, 0) Fault Recovered
+2023-12-01 14:03:52.236 | INFO     | torch._tensor:to:88 - Fault Injected To: (820, 0)
+2023-12-01 14:03:52.237 | INFO     | daifu.repair:repair:444 - Repair 42 Begin
+2023-12-01 14:03:52.239 | INFO     | daifu.repair:repair:532 - Repair 42 End
+2023-12-01 14:03:56.211 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (820, 0) Fault Recovered
+2023-12-01 14:05:11.559 | INFO     | torch._tensor:to:88 - Fault Injected To: (840, 0)
+2023-12-01 14:05:11.559 | INFO     | daifu.repair:repair:444 - Repair 43 Begin
+2023-12-01 14:05:11.561 | INFO     | daifu.repair:repair:532 - Repair 43 End
+2023-12-01 14:05:15.530 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (840, 0) Fault Recovered
+2023-12-01 14:06:30.879 | INFO     | torch._tensor:to:88 - Fault Injected To: (860, 0)
+2023-12-01 14:06:30.880 | INFO     | daifu.repair:repair:444 - Repair 44 Begin
+2023-12-01 14:06:30.882 | INFO     | daifu.repair:repair:532 - Repair 44 End
+2023-12-01 14:06:34.846 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (860, 0) Fault Recovered
+2023-12-01 14:07:50.197 | INFO     | torch._tensor:to:88 - Fault Injected To: (880, 0)
+2023-12-01 14:07:50.198 | INFO     | daifu.repair:repair:444 - Repair 45 Begin
+2023-12-01 14:07:50.200 | INFO     | daifu.repair:repair:532 - Repair 45 End
+2023-12-01 14:07:54.169 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (880, 0) Fault Recovered
+2023-12-01 14:09:09.525 | INFO     | torch._tensor:to:88 - Fault Injected To: (900, 0)
+2023-12-01 14:09:09.526 | INFO     | daifu.repair:repair:444 - Repair 46 Begin
+2023-12-01 14:09:09.528 | INFO     | daifu.repair:repair:532 - Repair 46 End
+2023-12-01 14:09:13.495 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (900, 0) Fault Recovered
+2023-12-01 14:10:28.836 | INFO     | torch._tensor:to:88 - Fault Injected To: (920, 0)
+2023-12-01 14:10:28.836 | INFO     | daifu.repair:repair:444 - Repair 47 Begin
+2023-12-01 14:10:28.839 | INFO     | daifu.repair:repair:532 - Repair 47 End
+2023-12-01 14:10:32.801 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (920, 0) Fault Recovered
+2023-12-01 14:11:48.136 | INFO     | torch._tensor:to:88 - Fault Injected To: (940, 0)
+2023-12-01 14:11:48.137 | INFO     | daifu.repair:repair:444 - Repair 48 Begin
+2023-12-01 14:11:48.139 | INFO     | daifu.repair:repair:532 - Repair 48 End
+2023-12-01 14:11:52.107 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (940, 0) Fault Recovered
+2023-12-01 14:13:07.442 | INFO     | torch._tensor:to:88 - Fault Injected To: (960, 0)
+2023-12-01 14:13:07.443 | INFO     | daifu.repair:repair:444 - Repair 49 Begin
+2023-12-01 14:13:07.445 | INFO     | daifu.repair:repair:532 - Repair 49 End
+2023-12-01 14:13:11.409 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (960, 0) Fault Recovered
+2023-12-01 14:14:26.750 | INFO     | torch._tensor:to:88 - Fault Injected To: (980, 0)
+2023-12-01 14:14:26.751 | INFO     | daifu.repair:repair:444 - Repair 50 Begin
+2023-12-01 14:14:26.753 | INFO     | daifu.repair:repair:532 - Repair 50 End
+2023-12-01 14:14:30.717 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (980, 0) Fault Recovered
+2023-12-01 14:15:46.046 | INFO     | torch._tensor:to:88 - Fault Injected To: (1000, 0)
+2023-12-01 14:15:46.046 | INFO     | daifu.repair:repair:444 - Repair 51 Begin
+2023-12-01 14:15:46.048 | INFO     | daifu.repair:repair:532 - Repair 51 End
+2023-12-01 14:15:50.010 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1000, 0) Fault Recovered
+2023-12-01 14:17:05.369 | INFO     | torch._tensor:to:88 - Fault Injected To: (1020, 0)
+2023-12-01 14:17:05.370 | INFO     | daifu.repair:repair:444 - Repair 52 Begin
+2023-12-01 14:17:05.372 | INFO     | daifu.repair:repair:532 - Repair 52 End
+2023-12-01 14:17:09.341 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1020, 0) Fault Recovered
+2023-12-01 14:18:24.710 | INFO     | torch._tensor:to:88 - Fault Injected To: (1040, 0)
+2023-12-01 14:18:24.711 | INFO     | daifu.repair:repair:444 - Repair 53 Begin
+2023-12-01 14:18:24.713 | INFO     | daifu.repair:repair:532 - Repair 53 End
+2023-12-01 14:18:28.677 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1040, 0) Fault Recovered
+2023-12-01 14:19:44.002 | INFO     | torch._tensor:to:88 - Fault Injected To: (1060, 0)
+2023-12-01 14:19:44.002 | INFO     | daifu.repair:repair:444 - Repair 54 Begin
+2023-12-01 14:19:44.004 | INFO     | daifu.repair:repair:532 - Repair 54 End
+2023-12-01 14:19:47.970 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1060, 0) Fault Recovered
+2023-12-01 14:21:03.288 | INFO     | torch._tensor:to:88 - Fault Injected To: (1080, 0)
+2023-12-01 14:21:03.288 | INFO     | daifu.repair:repair:444 - Repair 55 Begin
+2023-12-01 14:21:03.291 | INFO     | daifu.repair:repair:532 - Repair 55 End
+2023-12-01 14:21:07.253 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1080, 0) Fault Recovered
+2023-12-01 14:22:22.554 | INFO     | torch._tensor:to:88 - Fault Injected To: (1100, 0)
+2023-12-01 14:22:22.554 | INFO     | daifu.repair:repair:444 - Repair 56 Begin
+2023-12-01 14:22:22.556 | INFO     | daifu.repair:repair:532 - Repair 56 End
+2023-12-01 14:22:26.520 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1100, 0) Fault Recovered
+2023-12-01 14:23:41.827 | INFO     | torch._tensor:to:88 - Fault Injected To: (1120, 0)
+2023-12-01 14:23:41.827 | INFO     | daifu.repair:repair:444 - Repair 57 Begin
+2023-12-01 14:23:41.829 | INFO     | daifu.repair:repair:532 - Repair 57 End
+2023-12-01 14:23:45.794 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1120, 0) Fault Recovered
+2023-12-01 14:25:01.096 | INFO     | torch._tensor:to:88 - Fault Injected To: (1140, 0)
+2023-12-01 14:25:01.097 | INFO     | daifu.repair:repair:444 - Repair 58 Begin
+2023-12-01 14:25:01.099 | INFO     | daifu.repair:repair:532 - Repair 58 End
+2023-12-01 14:25:05.062 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1140, 0) Fault Recovered
+2023-12-01 14:26:20.376 | INFO     | torch._tensor:to:88 - Fault Injected To: (1160, 0)
+2023-12-01 14:26:20.377 | INFO     | daifu.repair:repair:444 - Repair 59 Begin
+2023-12-01 14:26:20.379 | INFO     | daifu.repair:repair:532 - Repair 59 End
+2023-12-01 14:26:24.342 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1160, 0) Fault Recovered
+2023-12-01 14:27:39.664 | INFO     | torch._tensor:to:88 - Fault Injected To: (1180, 0)
+2023-12-01 14:27:39.665 | INFO     | daifu.repair:repair:444 - Repair 60 Begin
+2023-12-01 14:27:39.667 | INFO     | daifu.repair:repair:532 - Repair 60 End
+2023-12-01 14:27:43.630 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1180, 0) Fault Recovered
+2023-12-01 14:28:58.941 | INFO     | torch._tensor:to:88 - Fault Injected To: (1200, 0)
+2023-12-01 14:28:58.942 | INFO     | daifu.repair:repair:444 - Repair 61 Begin
+2023-12-01 14:28:58.944 | INFO     | daifu.repair:repair:532 - Repair 61 End
+2023-12-01 14:29:02.905 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1200, 0) Fault Recovered
+2023-12-01 14:30:18.215 | INFO     | torch._tensor:to:88 - Fault Injected To: (1220, 0)
+2023-12-01 14:30:18.216 | INFO     | daifu.repair:repair:444 - Repair 62 Begin
+2023-12-01 14:30:18.218 | INFO     | daifu.repair:repair:532 - Repair 62 End
+2023-12-01 14:30:22.183 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1220, 0) Fault Recovered
+2023-12-01 14:31:37.493 | INFO     | torch._tensor:to:88 - Fault Injected To: (1240, 0)
+2023-12-01 14:31:37.494 | INFO     | daifu.repair:repair:444 - Repair 63 Begin
+2023-12-01 14:31:37.496 | INFO     | daifu.repair:repair:532 - Repair 63 End
+2023-12-01 14:31:41.460 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1240, 0) Fault Recovered
+2023-12-01 14:32:56.775 | INFO     | torch._tensor:to:88 - Fault Injected To: (1260, 0)
+2023-12-01 14:32:56.776 | INFO     | daifu.repair:repair:444 - Repair 64 Begin
+2023-12-01 14:32:56.778 | INFO     | daifu.repair:repair:532 - Repair 64 End
+2023-12-01 14:33:00.740 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1260, 0) Fault Recovered
+2023-12-01 14:34:16.152 | INFO     | torch._tensor:to:88 - Fault Injected To: (1280, 0)
+2023-12-01 14:34:16.152 | INFO     | daifu.repair:repair:444 - Repair 65 Begin
+2023-12-01 14:34:16.155 | INFO     | daifu.repair:repair:532 - Repair 65 End
+2023-12-01 14:34:20.118 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1280, 0) Fault Recovered
+2023-12-01 14:35:35.421 | INFO     | torch._tensor:to:88 - Fault Injected To: (1300, 0)
+2023-12-01 14:35:35.421 | INFO     | daifu.repair:repair:444 - Repair 66 Begin
+2023-12-01 14:35:35.423 | INFO     | daifu.repair:repair:532 - Repair 66 End
+2023-12-01 14:35:39.387 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1300, 0) Fault Recovered
+2023-12-01 14:36:54.711 | INFO     | torch._tensor:to:88 - Fault Injected To: (1320, 0)
+2023-12-01 14:36:54.711 | INFO     | daifu.repair:repair:444 - Repair 67 Begin
+2023-12-01 14:36:54.713 | INFO     | daifu.repair:repair:532 - Repair 67 End
+2023-12-01 14:36:58.674 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1320, 0) Fault Recovered
+2023-12-01 14:38:13.985 | INFO     | torch._tensor:to:88 - Fault Injected To: (1340, 0)
+2023-12-01 14:38:13.985 | INFO     | daifu.repair:repair:444 - Repair 68 Begin
+2023-12-01 14:38:13.987 | INFO     | daifu.repair:repair:532 - Repair 68 End
+2023-12-01 14:38:17.953 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1340, 0) Fault Recovered
+2023-12-01 14:39:33.266 | INFO     | torch._tensor:to:88 - Fault Injected To: (1360, 0)
+2023-12-01 14:39:33.267 | INFO     | daifu.repair:repair:444 - Repair 69 Begin
+2023-12-01 14:39:33.269 | INFO     | daifu.repair:repair:532 - Repair 69 End
+2023-12-01 14:39:37.231 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1360, 0) Fault Recovered
+2023-12-01 14:40:52.534 | INFO     | torch._tensor:to:88 - Fault Injected To: (1380, 0)
+2023-12-01 14:40:52.535 | INFO     | daifu.repair:repair:444 - Repair 70 Begin
+2023-12-01 14:40:52.537 | INFO     | daifu.repair:repair:532 - Repair 70 End
+2023-12-01 14:40:56.498 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1380, 0) Fault Recovered
+2023-12-01 14:42:11.801 | INFO     | torch._tensor:to:88 - Fault Injected To: (1400, 0)
+2023-12-01 14:42:11.802 | INFO     | daifu.repair:repair:444 - Repair 71 Begin
+2023-12-01 14:42:11.804 | INFO     | daifu.repair:repair:532 - Repair 71 End
+2023-12-01 14:42:15.767 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1400, 0) Fault Recovered
+2023-12-01 14:43:31.076 | INFO     | torch._tensor:to:88 - Fault Injected To: (1420, 0)
+2023-12-01 14:43:31.077 | INFO     | daifu.repair:repair:444 - Repair 72 Begin
+2023-12-01 14:43:31.079 | INFO     | daifu.repair:repair:532 - Repair 72 End
+2023-12-01 14:43:35.045 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1420, 0) Fault Recovered
+2023-12-01 14:44:50.341 | INFO     | torch._tensor:to:88 - Fault Injected To: (1440, 0)
+2023-12-01 14:44:50.342 | INFO     | daifu.repair:repair:444 - Repair 73 Begin
+2023-12-01 14:44:50.344 | INFO     | daifu.repair:repair:532 - Repair 73 End
+2023-12-01 14:44:54.304 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1440, 0) Fault Recovered
+2023-12-01 14:46:09.621 | INFO     | torch._tensor:to:88 - Fault Injected To: (1460, 0)
+2023-12-01 14:46:09.622 | INFO     | daifu.repair:repair:444 - Repair 74 Begin
+2023-12-01 14:46:09.624 | INFO     | daifu.repair:repair:532 - Repair 74 End
+2023-12-01 14:46:13.595 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1460, 0) Fault Recovered
+2023-12-01 14:47:28.918 | INFO     | torch._tensor:to:88 - Fault Injected To: (1480, 0)
+2023-12-01 14:47:28.919 | INFO     | daifu.repair:repair:444 - Repair 75 Begin
+2023-12-01 14:47:28.921 | INFO     | daifu.repair:repair:532 - Repair 75 End
+2023-12-01 14:47:32.883 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1480, 0) Fault Recovered
+2023-12-01 14:48:48.196 | INFO     | torch._tensor:to:88 - Fault Injected To: (1500, 0)
+2023-12-01 14:48:48.196 | INFO     | daifu.repair:repair:444 - Repair 76 Begin
+2023-12-01 14:48:48.199 | INFO     | daifu.repair:repair:532 - Repair 76 End
+2023-12-01 14:48:52.166 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1500, 0) Fault Recovered
+2023-12-01 14:50:07.475 | INFO     | torch._tensor:to:88 - Fault Injected To: (1520, 0)
+2023-12-01 14:50:07.475 | INFO     | daifu.repair:repair:444 - Repair 77 Begin
+2023-12-01 14:50:07.477 | INFO     | daifu.repair:repair:532 - Repair 77 End
+2023-12-01 14:50:11.441 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1520, 0) Fault Recovered
+2023-12-01 14:51:26.740 | INFO     | torch._tensor:to:88 - Fault Injected To: (1540, 0)
+2023-12-01 14:51:26.741 | INFO     | daifu.repair:repair:444 - Repair 78 Begin
+2023-12-01 14:51:26.743 | INFO     | daifu.repair:repair:532 - Repair 78 End
+2023-12-01 14:51:30.705 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1540, 0) Fault Recovered
+2023-12-01 14:52:46.010 | INFO     | torch._tensor:to:88 - Fault Injected To: (1560, 0)
+2023-12-01 14:52:46.011 | INFO     | daifu.repair:repair:444 - Repair 79 Begin
+2023-12-01 14:52:46.013 | INFO     | daifu.repair:repair:532 - Repair 79 End
+2023-12-01 14:52:49.976 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1560, 0) Fault Recovered
+2023-12-01 14:54:05.279 | INFO     | torch._tensor:to:88 - Fault Injected To: (1580, 0)
+2023-12-01 14:54:05.280 | INFO     | daifu.repair:repair:444 - Repair 80 Begin
+2023-12-01 14:54:05.282 | INFO     | daifu.repair:repair:532 - Repair 80 End
+2023-12-01 14:54:09.247 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1580, 0) Fault Recovered
+2023-12-01 14:55:24.557 | INFO     | torch._tensor:to:88 - Fault Injected To: (1600, 0)
+2023-12-01 14:55:24.558 | INFO     | daifu.repair:repair:444 - Repair 81 Begin
+2023-12-01 14:55:24.560 | INFO     | daifu.repair:repair:532 - Repair 81 End
+2023-12-01 14:55:28.521 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1600, 0) Fault Recovered
+2023-12-01 14:56:43.824 | INFO     | torch._tensor:to:88 - Fault Injected To: (1620, 0)
+2023-12-01 14:56:43.824 | INFO     | daifu.repair:repair:444 - Repair 82 Begin
+2023-12-01 14:56:43.826 | INFO     | daifu.repair:repair:532 - Repair 82 End
+2023-12-01 14:56:47.791 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1620, 0) Fault Recovered
+2023-12-01 14:58:03.091 | INFO     | torch._tensor:to:88 - Fault Injected To: (1640, 0)
+2023-12-01 14:58:03.091 | INFO     | daifu.repair:repair:444 - Repair 83 Begin
+2023-12-01 14:58:03.094 | INFO     | daifu.repair:repair:532 - Repair 83 End
+2023-12-01 14:58:07.054 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1640, 0) Fault Recovered
+2023-12-01 14:59:22.351 | INFO     | torch._tensor:to:88 - Fault Injected To: (1660, 0)
+2023-12-01 14:59:22.351 | INFO     | daifu.repair:repair:444 - Repair 84 Begin
+2023-12-01 14:59:22.353 | INFO     | daifu.repair:repair:532 - Repair 84 End
+2023-12-01 14:59:26.316 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1660, 0) Fault Recovered
+2023-12-01 15:00:41.615 | INFO     | torch._tensor:to:88 - Fault Injected To: (1680, 0)
+2023-12-01 15:00:41.616 | INFO     | daifu.repair:repair:444 - Repair 85 Begin
+2023-12-01 15:00:41.618 | INFO     | daifu.repair:repair:532 - Repair 85 End
+2023-12-01 15:00:45.581 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1680, 0) Fault Recovered
+2023-12-01 15:02:00.899 | INFO     | torch._tensor:to:88 - Fault Injected To: (1700, 0)
+2023-12-01 15:02:00.900 | INFO     | daifu.repair:repair:444 - Repair 86 Begin
+2023-12-01 15:02:00.902 | INFO     | daifu.repair:repair:532 - Repair 86 End
+2023-12-01 15:02:04.864 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1700, 0) Fault Recovered
+2023-12-01 15:03:20.169 | INFO     | torch._tensor:to:88 - Fault Injected To: (1720, 0)
+2023-12-01 15:03:20.170 | INFO     | daifu.repair:repair:444 - Repair 87 Begin
+2023-12-01 15:03:20.172 | INFO     | daifu.repair:repair:532 - Repair 87 End
+2023-12-01 15:03:24.135 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1720, 0) Fault Recovered
+2023-12-01 15:04:39.435 | INFO     | torch._tensor:to:88 - Fault Injected To: (1740, 0)
+2023-12-01 15:04:39.436 | INFO     | daifu.repair:repair:444 - Repair 88 Begin
+2023-12-01 15:04:39.438 | INFO     | daifu.repair:repair:532 - Repair 88 End
+2023-12-01 15:04:43.399 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1740, 0) Fault Recovered
+2023-12-01 15:05:58.698 | INFO     | torch._tensor:to:88 - Fault Injected To: (1760, 0)
+2023-12-01 15:05:58.699 | INFO     | daifu.repair:repair:444 - Repair 89 Begin
+2023-12-01 15:05:58.701 | INFO     | daifu.repair:repair:532 - Repair 89 End
+2023-12-01 15:06:02.665 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1760, 0) Fault Recovered
+2023-12-01 15:07:17.958 | INFO     | torch._tensor:to:88 - Fault Injected To: (1780, 0)
+2023-12-01 15:07:17.959 | INFO     | daifu.repair:repair:444 - Repair 90 Begin
+2023-12-01 15:07:17.961 | INFO     | daifu.repair:repair:532 - Repair 90 End
+2023-12-01 15:07:21.927 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1780, 0) Fault Recovered
+2023-12-01 15:08:37.207 | INFO     | torch._tensor:to:88 - Fault Injected To: (1800, 0)
+2023-12-01 15:08:37.208 | INFO     | daifu.repair:repair:444 - Repair 91 Begin
+2023-12-01 15:08:37.210 | INFO     | daifu.repair:repair:532 - Repair 91 End
+2023-12-01 15:08:41.174 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1800, 0) Fault Recovered
+2023-12-01 15:09:56.471 | INFO     | torch._tensor:to:88 - Fault Injected To: (1820, 0)
+2023-12-01 15:09:56.472 | INFO     | daifu.repair:repair:444 - Repair 92 Begin
+2023-12-01 15:09:56.474 | INFO     | daifu.repair:repair:532 - Repair 92 End
+2023-12-01 15:10:00.437 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1820, 0) Fault Recovered
+2023-12-01 15:11:15.745 | INFO     | torch._tensor:to:88 - Fault Injected To: (1840, 0)
+2023-12-01 15:11:15.746 | INFO     | daifu.repair:repair:444 - Repair 93 Begin
+2023-12-01 15:11:15.748 | INFO     | daifu.repair:repair:532 - Repair 93 End
+2023-12-01 15:11:19.708 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1840, 0) Fault Recovered
+2023-12-01 15:12:34.992 | INFO     | torch._tensor:to:88 - Fault Injected To: (1860, 0)
+2023-12-01 15:12:34.993 | INFO     | daifu.repair:repair:444 - Repair 94 Begin
+2023-12-01 15:12:34.995 | INFO     | daifu.repair:repair:532 - Repair 94 End
+2023-12-01 15:12:38.959 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1860, 0) Fault Recovered
+2023-12-01 15:13:54.225 | INFO     | torch._tensor:to:88 - Fault Injected To: (1880, 0)
+2023-12-01 15:13:54.225 | INFO     | daifu.repair:repair:444 - Repair 95 Begin
+2023-12-01 15:13:54.227 | INFO     | daifu.repair:repair:532 - Repair 95 End
+2023-12-01 15:13:58.190 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1880, 0) Fault Recovered
+2023-12-01 15:15:13.444 | INFO     | torch._tensor:to:88 - Fault Injected To: (1900, 0)
+2023-12-01 15:15:13.445 | INFO     | daifu.repair:repair:444 - Repair 96 Begin
+2023-12-01 15:15:13.447 | INFO     | daifu.repair:repair:532 - Repair 96 End
+2023-12-01 15:15:17.407 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1900, 0) Fault Recovered
+2023-12-01 15:16:32.688 | INFO     | torch._tensor:to:88 - Fault Injected To: (1920, 0)
+2023-12-01 15:16:32.689 | INFO     | daifu.repair:repair:444 - Repair 97 Begin
+2023-12-01 15:16:32.691 | INFO     | daifu.repair:repair:532 - Repair 97 End
+2023-12-01 15:16:36.658 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1920, 0) Fault Recovered
+2023-12-01 15:17:52.065 | INFO     | torch._tensor:to:88 - Fault Injected To: (1940, 0)
+2023-12-01 15:17:52.066 | INFO     | daifu.repair:repair:444 - Repair 98 Begin
+2023-12-01 15:17:52.068 | INFO     | daifu.repair:repair:532 - Repair 98 End
+2023-12-01 15:17:56.034 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1940, 0) Fault Recovered
+2023-12-01 15:19:11.309 | INFO     | torch._tensor:to:88 - Fault Injected To: (1960, 0)
+2023-12-01 15:19:11.310 | INFO     | daifu.repair:repair:444 - Repair 99 Begin
+2023-12-01 15:19:11.312 | INFO     | daifu.repair:repair:532 - Repair 99 End
+2023-12-01 15:19:15.273 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1960, 0) Fault Recovered
+2023-12-01 15:20:30.561 | INFO     | torch._tensor:to:88 - Fault Injected To: (1980, 0)
+2023-12-01 15:20:30.562 | INFO     | daifu.repair:repair:444 - Repair 100 Begin
+2023-12-01 15:20:30.564 | INFO     | daifu.repair:repair:532 - Repair 100 End
+2023-12-01 15:20:34.528 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (1980, 0) Fault Recovered
+2023-12-01 15:22:54.935 | INFO     | torch._tensor:to:88 - Fault Injected To: (2000, 0)
+2023-12-01 15:22:54.935 | INFO     | daifu.repair:repair:444 - Repair 101 Begin
+2023-12-01 15:22:54.937 | INFO     | daifu.repair:repair:532 - Repair 101 End
+2023-12-01 15:22:58.877 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2000, 0) Fault Recovered
+2023-12-01 15:24:13.819 | INFO     | torch._tensor:to:88 - Fault Injected To: (2020, 0)
+2023-12-01 15:24:13.820 | INFO     | daifu.repair:repair:444 - Repair 102 Begin
+2023-12-01 15:24:13.822 | INFO     | daifu.repair:repair:532 - Repair 102 End
+2023-12-01 15:24:17.776 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2020, 0) Fault Recovered
+2023-12-01 15:25:32.930 | INFO     | torch._tensor:to:88 - Fault Injected To: (2040, 0)
+2023-12-01 15:25:32.931 | INFO     | daifu.repair:repair:444 - Repair 103 Begin
+2023-12-01 15:25:32.933 | INFO     | daifu.repair:repair:532 - Repair 103 End
+2023-12-01 15:25:36.889 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2040, 0) Fault Recovered
+2023-12-01 15:26:52.083 | INFO     | torch._tensor:to:88 - Fault Injected To: (2060, 0)
+2023-12-01 15:26:52.084 | INFO     | daifu.repair:repair:444 - Repair 104 Begin
+2023-12-01 15:26:52.086 | INFO     | daifu.repair:repair:532 - Repair 104 End
+2023-12-01 15:26:56.046 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2060, 0) Fault Recovered
+2023-12-01 15:28:11.303 | INFO     | torch._tensor:to:88 - Fault Injected To: (2080, 0)
+2023-12-01 15:28:11.303 | INFO     | daifu.repair:repair:444 - Repair 105 Begin
+2023-12-01 15:28:11.305 | INFO     | daifu.repair:repair:532 - Repair 105 End
+2023-12-01 15:28:15.267 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2080, 0) Fault Recovered
+2023-12-01 15:29:30.544 | INFO     | torch._tensor:to:88 - Fault Injected To: (2100, 0)
+2023-12-01 15:29:30.544 | INFO     | daifu.repair:repair:444 - Repair 106 Begin
+2023-12-01 15:29:30.546 | INFO     | daifu.repair:repair:532 - Repair 106 End
+2023-12-01 15:29:34.508 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2100, 0) Fault Recovered
+2023-12-01 15:30:49.794 | INFO     | torch._tensor:to:88 - Fault Injected To: (2120, 0)
+2023-12-01 15:30:49.794 | INFO     | daifu.repair:repair:444 - Repair 107 Begin
+2023-12-01 15:30:49.796 | INFO     | daifu.repair:repair:532 - Repair 107 End
+2023-12-01 15:30:53.761 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2120, 0) Fault Recovered
+2023-12-01 15:32:09.067 | INFO     | torch._tensor:to:88 - Fault Injected To: (2140, 0)
+2023-12-01 15:32:09.068 | INFO     | daifu.repair:repair:444 - Repair 108 Begin
+2023-12-01 15:32:09.070 | INFO     | daifu.repair:repair:532 - Repair 108 End
+2023-12-01 15:32:13.034 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2140, 0) Fault Recovered
+2023-12-01 15:33:28.343 | INFO     | torch._tensor:to:88 - Fault Injected To: (2160, 0)
+2023-12-01 15:33:28.344 | INFO     | daifu.repair:repair:444 - Repair 109 Begin
+2023-12-01 15:33:28.346 | INFO     | daifu.repair:repair:532 - Repair 109 End
+2023-12-01 15:33:32.312 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2160, 0) Fault Recovered
+2023-12-01 15:34:47.624 | INFO     | torch._tensor:to:88 - Fault Injected To: (2180, 0)
+2023-12-01 15:34:47.624 | INFO     | daifu.repair:repair:444 - Repair 110 Begin
+2023-12-01 15:34:47.626 | INFO     | daifu.repair:repair:532 - Repair 110 End
+2023-12-01 15:34:51.590 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2180, 0) Fault Recovered
+2023-12-01 15:36:06.932 | INFO     | torch._tensor:to:88 - Fault Injected To: (2200, 0)
+2023-12-01 15:36:06.933 | INFO     | daifu.repair:repair:444 - Repair 111 Begin
+2023-12-01 15:36:06.935 | INFO     | daifu.repair:repair:532 - Repair 111 End
+2023-12-01 15:36:10.897 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2200, 0) Fault Recovered
+2023-12-01 15:37:26.202 | INFO     | torch._tensor:to:88 - Fault Injected To: (2220, 0)
+2023-12-01 15:37:26.203 | INFO     | daifu.repair:repair:444 - Repair 112 Begin
+2023-12-01 15:37:26.205 | INFO     | daifu.repair:repair:532 - Repair 112 End
+2023-12-01 15:37:30.167 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2220, 0) Fault Recovered
+2023-12-01 15:38:45.471 | INFO     | torch._tensor:to:88 - Fault Injected To: (2240, 0)
+2023-12-01 15:38:45.472 | INFO     | daifu.repair:repair:444 - Repair 113 Begin
+2023-12-01 15:38:45.474 | INFO     | daifu.repair:repair:532 - Repair 113 End
+2023-12-01 15:38:49.432 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2240, 0) Fault Recovered
+2023-12-01 15:40:04.770 | INFO     | torch._tensor:to:88 - Fault Injected To: (2260, 0)
+2023-12-01 15:40:04.771 | INFO     | daifu.repair:repair:444 - Repair 114 Begin
+2023-12-01 15:40:04.773 | INFO     | daifu.repair:repair:532 - Repair 114 End
+2023-12-01 15:40:08.736 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2260, 0) Fault Recovered
+2023-12-01 15:41:24.046 | INFO     | torch._tensor:to:88 - Fault Injected To: (2280, 0)
+2023-12-01 15:41:24.047 | INFO     | daifu.repair:repair:444 - Repair 115 Begin
+2023-12-01 15:41:24.049 | INFO     | daifu.repair:repair:532 - Repair 115 End
+2023-12-01 15:41:28.010 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2280, 0) Fault Recovered
+2023-12-01 15:42:43.299 | INFO     | torch._tensor:to:88 - Fault Injected To: (2300, 0)
+2023-12-01 15:42:43.300 | INFO     | daifu.repair:repair:444 - Repair 116 Begin
+2023-12-01 15:42:43.302 | INFO     | daifu.repair:repair:532 - Repair 116 End
+2023-12-01 15:42:47.264 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2300, 0) Fault Recovered
+2023-12-01 15:44:02.572 | INFO     | torch._tensor:to:88 - Fault Injected To: (2320, 0)
+2023-12-01 15:44:02.572 | INFO     | daifu.repair:repair:444 - Repair 117 Begin
+2023-12-01 15:44:02.574 | INFO     | daifu.repair:repair:532 - Repair 117 End
+2023-12-01 15:44:06.537 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2320, 0) Fault Recovered
+2023-12-01 15:45:21.836 | INFO     | torch._tensor:to:88 - Fault Injected To: (2340, 0)
+2023-12-01 15:45:21.836 | INFO     | daifu.repair:repair:444 - Repair 118 Begin
+2023-12-01 15:45:21.838 | INFO     | daifu.repair:repair:532 - Repair 118 End
+2023-12-01 15:45:25.803 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2340, 0) Fault Recovered
+2023-12-01 15:46:41.099 | INFO     | torch._tensor:to:88 - Fault Injected To: (2360, 0)
+2023-12-01 15:46:41.099 | INFO     | daifu.repair:repair:444 - Repair 119 Begin
+2023-12-01 15:46:41.102 | INFO     | daifu.repair:repair:532 - Repair 119 End
+2023-12-01 15:46:45.067 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2360, 0) Fault Recovered
+2023-12-01 15:48:00.364 | INFO     | torch._tensor:to:88 - Fault Injected To: (2380, 0)
+2023-12-01 15:48:00.365 | INFO     | daifu.repair:repair:444 - Repair 120 Begin
+2023-12-01 15:48:00.367 | INFO     | daifu.repair:repair:532 - Repair 120 End
+2023-12-01 15:48:04.330 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2380, 0) Fault Recovered
+2023-12-01 15:49:19.628 | INFO     | torch._tensor:to:88 - Fault Injected To: (2400, 0)
+2023-12-01 15:49:19.629 | INFO     | daifu.repair:repair:444 - Repair 121 Begin
+2023-12-01 15:49:19.631 | INFO     | daifu.repair:repair:532 - Repair 121 End
+2023-12-01 15:49:23.591 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2400, 0) Fault Recovered
+2023-12-01 15:50:38.895 | INFO     | torch._tensor:to:88 - Fault Injected To: (2420, 0)
+2023-12-01 15:50:38.896 | INFO     | daifu.repair:repair:444 - Repair 122 Begin
+2023-12-01 15:50:38.898 | INFO     | daifu.repair:repair:532 - Repair 122 End
+2023-12-01 15:50:42.858 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2420, 0) Fault Recovered
+2023-12-01 15:51:58.249 | INFO     | torch._tensor:to:88 - Fault Injected To: (2440, 0)
+2023-12-01 15:51:58.250 | INFO     | daifu.repair:repair:444 - Repair 123 Begin
+2023-12-01 15:51:58.252 | INFO     | daifu.repair:repair:532 - Repair 123 End
+2023-12-01 15:52:02.219 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2440, 0) Fault Recovered
+2023-12-01 15:53:17.574 | INFO     | torch._tensor:to:88 - Fault Injected To: (2460, 0)
+2023-12-01 15:53:17.575 | INFO     | daifu.repair:repair:444 - Repair 124 Begin
+2023-12-01 15:53:17.577 | INFO     | daifu.repair:repair:532 - Repair 124 End
+2023-12-01 15:53:21.543 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2460, 0) Fault Recovered
+2023-12-01 15:54:36.842 | INFO     | torch._tensor:to:88 - Fault Injected To: (2480, 0)
+2023-12-01 15:54:36.843 | INFO     | daifu.repair:repair:444 - Repair 125 Begin
+2023-12-01 15:54:36.845 | INFO     | daifu.repair:repair:532 - Repair 125 End
+2023-12-01 15:54:40.808 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2480, 0) Fault Recovered
+2023-12-01 15:55:56.118 | INFO     | torch._tensor:to:88 - Fault Injected To: (2500, 0)
+2023-12-01 15:55:56.119 | INFO     | daifu.repair:repair:444 - Repair 126 Begin
+2023-12-01 15:55:56.121 | INFO     | daifu.repair:repair:532 - Repair 126 End
+2023-12-01 15:56:00.082 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2500, 0) Fault Recovered
+2023-12-01 15:57:15.380 | INFO     | torch._tensor:to:88 - Fault Injected To: (2520, 0)
+2023-12-01 15:57:15.380 | INFO     | daifu.repair:repair:444 - Repair 127 Begin
+2023-12-01 15:57:15.382 | INFO     | daifu.repair:repair:532 - Repair 127 End
+2023-12-01 15:57:19.348 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2520, 0) Fault Recovered
+2023-12-01 15:58:34.647 | INFO     | torch._tensor:to:88 - Fault Injected To: (2540, 0)
+2023-12-01 15:58:34.647 | INFO     | daifu.repair:repair:444 - Repair 128 Begin
+2023-12-01 15:58:34.650 | INFO     | daifu.repair:repair:532 - Repair 128 End
+2023-12-01 15:58:38.614 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2540, 0) Fault Recovered
+2023-12-01 15:59:53.904 | INFO     | torch._tensor:to:88 - Fault Injected To: (2560, 0)
+2023-12-01 15:59:53.905 | INFO     | daifu.repair:repair:444 - Repair 129 Begin
+2023-12-01 15:59:53.907 | INFO     | daifu.repair:repair:532 - Repair 129 End
+2023-12-01 15:59:57.870 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2560, 0) Fault Recovered
+2023-12-01 16:01:13.166 | INFO     | torch._tensor:to:88 - Fault Injected To: (2580, 0)
+2023-12-01 16:01:13.166 | INFO     | daifu.repair:repair:444 - Repair 130 Begin
+2023-12-01 16:01:13.168 | INFO     | daifu.repair:repair:532 - Repair 130 End
+2023-12-01 16:01:17.130 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2580, 0) Fault Recovered
+2023-12-01 16:02:32.441 | INFO     | torch._tensor:to:88 - Fault Injected To: (2600, 0)
+2023-12-01 16:02:32.442 | INFO     | daifu.repair:repair:444 - Repair 131 Begin
+2023-12-01 16:02:32.444 | INFO     | daifu.repair:repair:532 - Repair 131 End
+2023-12-01 16:02:36.410 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2600, 0) Fault Recovered
+2023-12-01 16:03:51.711 | INFO     | torch._tensor:to:88 - Fault Injected To: (2620, 0)
+2023-12-01 16:03:51.711 | INFO     | daifu.repair:repair:444 - Repair 132 Begin
+2023-12-01 16:03:51.714 | INFO     | daifu.repair:repair:532 - Repair 132 End
+2023-12-01 16:03:55.675 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2620, 0) Fault Recovered
+2023-12-01 16:05:10.977 | INFO     | torch._tensor:to:88 - Fault Injected To: (2640, 0)
+2023-12-01 16:05:10.978 | INFO     | daifu.repair:repair:444 - Repair 133 Begin
+2023-12-01 16:05:10.980 | INFO     | daifu.repair:repair:532 - Repair 133 End
+2023-12-01 16:05:14.945 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2640, 0) Fault Recovered
+2023-12-01 16:06:30.251 | INFO     | torch._tensor:to:88 - Fault Injected To: (2660, 0)
+2023-12-01 16:06:30.252 | INFO     | daifu.repair:repair:444 - Repair 134 Begin
+2023-12-01 16:06:30.254 | INFO     | daifu.repair:repair:532 - Repair 134 End
+2023-12-01 16:06:34.217 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2660, 0) Fault Recovered
+2023-12-01 16:07:49.506 | INFO     | torch._tensor:to:88 - Fault Injected To: (2680, 0)
+2023-12-01 16:07:49.506 | INFO     | daifu.repair:repair:444 - Repair 135 Begin
+2023-12-01 16:07:49.508 | INFO     | daifu.repair:repair:532 - Repair 135 End
+2023-12-01 16:07:53.474 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2680, 0) Fault Recovered
+2023-12-01 16:09:08.771 | INFO     | torch._tensor:to:88 - Fault Injected To: (2700, 0)
+2023-12-01 16:09:08.771 | INFO     | daifu.repair:repair:444 - Repair 136 Begin
+2023-12-01 16:09:08.773 | INFO     | daifu.repair:repair:532 - Repair 136 End
+2023-12-01 16:09:12.735 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2700, 0) Fault Recovered
+2023-12-01 16:10:28.031 | INFO     | torch._tensor:to:88 - Fault Injected To: (2720, 0)
+2023-12-01 16:10:28.031 | INFO     | daifu.repair:repair:444 - Repair 137 Begin
+2023-12-01 16:10:28.033 | INFO     | daifu.repair:repair:532 - Repair 137 End
+2023-12-01 16:10:31.997 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2720, 0) Fault Recovered
+2023-12-01 16:11:47.291 | INFO     | torch._tensor:to:88 - Fault Injected To: (2740, 0)
+2023-12-01 16:11:47.292 | INFO     | daifu.repair:repair:444 - Repair 138 Begin
+2023-12-01 16:11:47.294 | INFO     | daifu.repair:repair:532 - Repair 138 End
+2023-12-01 16:11:51.257 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2740, 0) Fault Recovered
+2023-12-01 16:13:06.563 | INFO     | torch._tensor:to:88 - Fault Injected To: (2760, 0)
+2023-12-01 16:13:06.563 | INFO     | daifu.repair:repair:444 - Repair 139 Begin
+2023-12-01 16:13:06.565 | INFO     | daifu.repair:repair:532 - Repair 139 End
+2023-12-01 16:13:10.530 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2760, 0) Fault Recovered
+2023-12-01 16:14:25.810 | INFO     | torch._tensor:to:88 - Fault Injected To: (2780, 0)
+2023-12-01 16:14:25.811 | INFO     | daifu.repair:repair:444 - Repair 140 Begin
+2023-12-01 16:14:25.813 | INFO     | daifu.repair:repair:532 - Repair 140 End
+2023-12-01 16:14:29.774 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2780, 0) Fault Recovered
+2023-12-01 16:15:45.119 | INFO     | torch._tensor:to:88 - Fault Injected To: (2800, 0)
+2023-12-01 16:15:45.120 | INFO     | daifu.repair:repair:444 - Repair 141 Begin
+2023-12-01 16:15:45.122 | INFO     | daifu.repair:repair:532 - Repair 141 End
+2023-12-01 16:15:49.090 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2800, 0) Fault Recovered
+2023-12-01 16:17:04.400 | INFO     | torch._tensor:to:88 - Fault Injected To: (2820, 0)
+2023-12-01 16:17:04.401 | INFO     | daifu.repair:repair:444 - Repair 142 Begin
+2023-12-01 16:17:04.403 | INFO     | daifu.repair:repair:532 - Repair 142 End
+2023-12-01 16:17:08.368 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2820, 0) Fault Recovered
+2023-12-01 16:18:23.679 | INFO     | torch._tensor:to:88 - Fault Injected To: (2840, 0)
+2023-12-01 16:18:23.680 | INFO     | daifu.repair:repair:444 - Repair 143 Begin
+2023-12-01 16:18:23.682 | INFO     | daifu.repair:repair:532 - Repair 143 End
+2023-12-01 16:18:27.646 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2840, 0) Fault Recovered
+2023-12-01 16:19:42.938 | INFO     | torch._tensor:to:88 - Fault Injected To: (2860, 0)
+2023-12-01 16:19:42.939 | INFO     | daifu.repair:repair:444 - Repair 144 Begin
+2023-12-01 16:19:42.941 | INFO     | daifu.repair:repair:532 - Repair 144 End
+2023-12-01 16:19:46.902 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2860, 0) Fault Recovered
+2023-12-01 16:21:02.204 | INFO     | torch._tensor:to:88 - Fault Injected To: (2880, 0)
+2023-12-01 16:21:02.205 | INFO     | daifu.repair:repair:444 - Repair 145 Begin
+2023-12-01 16:21:02.207 | INFO     | daifu.repair:repair:532 - Repair 145 End
+2023-12-01 16:21:06.166 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2880, 0) Fault Recovered
+2023-12-01 16:22:21.465 | INFO     | torch._tensor:to:88 - Fault Injected To: (2900, 0)
+2023-12-01 16:22:21.466 | INFO     | daifu.repair:repair:444 - Repair 146 Begin
+2023-12-01 16:22:21.468 | INFO     | daifu.repair:repair:532 - Repair 146 End
+2023-12-01 16:22:25.433 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2900, 0) Fault Recovered
+2023-12-01 16:23:40.723 | INFO     | torch._tensor:to:88 - Fault Injected To: (2920, 0)
+2023-12-01 16:23:40.724 | INFO     | daifu.repair:repair:444 - Repair 147 Begin
+2023-12-01 16:23:40.726 | INFO     | daifu.repair:repair:532 - Repair 147 End
+2023-12-01 16:23:44.687 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2920, 0) Fault Recovered
+2023-12-01 16:24:59.987 | INFO     | torch._tensor:to:88 - Fault Injected To: (2940, 0)
+2023-12-01 16:24:59.988 | INFO     | daifu.repair:repair:444 - Repair 148 Begin
+2023-12-01 16:24:59.990 | INFO     | daifu.repair:repair:532 - Repair 148 End
+2023-12-01 16:25:03.950 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2940, 0) Fault Recovered
+2023-12-01 16:26:19.301 | INFO     | torch._tensor:to:88 - Fault Injected To: (2960, 0)
+2023-12-01 16:26:19.301 | INFO     | daifu.repair:repair:444 - Repair 149 Begin
+2023-12-01 16:26:19.304 | INFO     | daifu.repair:repair:532 - Repair 149 End
+2023-12-01 16:26:23.274 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2960, 0) Fault Recovered
+2023-12-01 16:27:38.560 | INFO     | torch._tensor:to:88 - Fault Injected To: (2980, 0)
+2023-12-01 16:27:38.561 | INFO     | daifu.repair:repair:444 - Repair 150 Begin
+2023-12-01 16:27:38.563 | INFO     | daifu.repair:repair:532 - Repair 150 End
+2023-12-01 16:27:42.526 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (2980, 0) Fault Recovered
+2023-12-01 16:28:57.821 | INFO     | torch._tensor:to:88 - Fault Injected To: (3000, 0)
+2023-12-01 16:28:57.822 | INFO     | daifu.repair:repair:444 - Repair 151 Begin
+2023-12-01 16:28:57.824 | INFO     | daifu.repair:repair:532 - Repair 151 End
+2023-12-01 16:29:01.785 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3000, 0) Fault Recovered
+2023-12-01 16:30:17.080 | INFO     | torch._tensor:to:88 - Fault Injected To: (3020, 0)
+2023-12-01 16:30:17.080 | INFO     | daifu.repair:repair:444 - Repair 152 Begin
+2023-12-01 16:30:17.082 | INFO     | daifu.repair:repair:532 - Repair 152 End
+2023-12-01 16:30:21.044 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3020, 0) Fault Recovered
+2023-12-01 16:31:36.418 | INFO     | torch._tensor:to:88 - Fault Injected To: (3040, 0)
+2023-12-01 16:31:36.418 | INFO     | daifu.repair:repair:444 - Repair 153 Begin
+2023-12-01 16:31:36.420 | INFO     | daifu.repair:repair:532 - Repair 153 End
+2023-12-01 16:31:40.389 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3040, 0) Fault Recovered
+2023-12-01 16:32:55.717 | INFO     | torch._tensor:to:88 - Fault Injected To: (3060, 0)
+2023-12-01 16:32:55.717 | INFO     | daifu.repair:repair:444 - Repair 154 Begin
+2023-12-01 16:32:55.719 | INFO     | daifu.repair:repair:532 - Repair 154 End
+2023-12-01 16:32:59.681 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3060, 0) Fault Recovered
+2023-12-01 16:34:14.973 | INFO     | torch._tensor:to:88 - Fault Injected To: (3080, 0)
+2023-12-01 16:34:14.974 | INFO     | daifu.repair:repair:444 - Repair 155 Begin
+2023-12-01 16:34:14.976 | INFO     | daifu.repair:repair:532 - Repair 155 End
+2023-12-01 16:34:18.939 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3080, 0) Fault Recovered
+2023-12-01 16:35:34.233 | INFO     | torch._tensor:to:88 - Fault Injected To: (3100, 0)
+2023-12-01 16:35:34.233 | INFO     | daifu.repair:repair:444 - Repair 156 Begin
+2023-12-01 16:35:34.235 | INFO     | daifu.repair:repair:532 - Repair 156 End
+2023-12-01 16:35:38.198 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3100, 0) Fault Recovered
+2023-12-01 16:36:53.495 | INFO     | torch._tensor:to:88 - Fault Injected To: (3120, 0)
+2023-12-01 16:36:53.495 | INFO     | daifu.repair:repair:444 - Repair 157 Begin
+2023-12-01 16:36:53.497 | INFO     | daifu.repair:repair:532 - Repair 157 End
+2023-12-01 16:36:57.457 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3120, 0) Fault Recovered
+2023-12-01 16:38:12.739 | INFO     | torch._tensor:to:88 - Fault Injected To: (3140, 0)
+2023-12-01 16:38:12.740 | INFO     | daifu.repair:repair:444 - Repair 158 Begin
+2023-12-01 16:38:12.742 | INFO     | daifu.repair:repair:532 - Repair 158 End
+2023-12-01 16:38:16.704 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3140, 0) Fault Recovered
+2023-12-01 16:39:32.018 | INFO     | torch._tensor:to:88 - Fault Injected To: (3160, 0)
+2023-12-01 16:39:32.018 | INFO     | daifu.repair:repair:444 - Repair 159 Begin
+2023-12-01 16:39:32.020 | INFO     | daifu.repair:repair:532 - Repair 159 End
+2023-12-01 16:39:35.978 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3160, 0) Fault Recovered
+2023-12-01 16:40:51.275 | INFO     | torch._tensor:to:88 - Fault Injected To: (3180, 0)
+2023-12-01 16:40:51.276 | INFO     | daifu.repair:repair:444 - Repair 160 Begin
+2023-12-01 16:40:51.278 | INFO     | daifu.repair:repair:532 - Repair 160 End
+2023-12-01 16:40:55.241 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3180, 0) Fault Recovered
+2023-12-01 16:42:10.532 | INFO     | torch._tensor:to:88 - Fault Injected To: (3200, 0)
+2023-12-01 16:42:10.533 | INFO     | daifu.repair:repair:444 - Repair 161 Begin
+2023-12-01 16:42:10.535 | INFO     | daifu.repair:repair:532 - Repair 161 End
+2023-12-01 16:42:14.496 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3200, 0) Fault Recovered
+2023-12-01 16:43:29.792 | INFO     | torch._tensor:to:88 - Fault Injected To: (3220, 0)
+2023-12-01 16:43:29.793 | INFO     | daifu.repair:repair:444 - Repair 162 Begin
+2023-12-01 16:43:29.795 | INFO     | daifu.repair:repair:532 - Repair 162 End
+2023-12-01 16:43:33.757 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3220, 0) Fault Recovered
+2023-12-01 16:44:49.040 | INFO     | torch._tensor:to:88 - Fault Injected To: (3240, 0)
+2023-12-01 16:44:49.040 | INFO     | daifu.repair:repair:444 - Repair 163 Begin
+2023-12-01 16:44:49.042 | INFO     | daifu.repair:repair:532 - Repair 163 End
+2023-12-01 16:44:53.006 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3240, 0) Fault Recovered
+2023-12-01 16:46:08.297 | INFO     | torch._tensor:to:88 - Fault Injected To: (3260, 0)
+2023-12-01 16:46:08.297 | INFO     | daifu.repair:repair:444 - Repair 164 Begin
+2023-12-01 16:46:08.299 | INFO     | daifu.repair:repair:532 - Repair 164 End
+2023-12-01 16:46:12.261 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3260, 0) Fault Recovered
+2023-12-01 16:47:27.630 | INFO     | torch._tensor:to:88 - Fault Injected To: (3280, 0)
+2023-12-01 16:47:27.631 | INFO     | daifu.repair:repair:444 - Repair 165 Begin
+2023-12-01 16:47:27.633 | INFO     | daifu.repair:repair:532 - Repair 165 End
+2023-12-01 16:47:31.600 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3280, 0) Fault Recovered
+2023-12-01 16:48:47.030 | INFO     | torch._tensor:to:88 - Fault Injected To: (3300, 0)
+2023-12-01 16:48:47.031 | INFO     | daifu.repair:repair:444 - Repair 166 Begin
+2023-12-01 16:48:47.033 | INFO     | daifu.repair:repair:532 - Repair 166 End
+2023-12-01 16:48:51.002 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3300, 0) Fault Recovered
+2023-12-01 16:50:06.424 | INFO     | torch._tensor:to:88 - Fault Injected To: (3320, 0)
+2023-12-01 16:50:06.425 | INFO     | daifu.repair:repair:444 - Repair 167 Begin
+2023-12-01 16:50:06.427 | INFO     | daifu.repair:repair:532 - Repair 167 End
+2023-12-01 16:50:10.392 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3320, 0) Fault Recovered
+2023-12-01 16:51:25.806 | INFO     | torch._tensor:to:88 - Fault Injected To: (3340, 0)
+2023-12-01 16:51:25.807 | INFO     | daifu.repair:repair:444 - Repair 168 Begin
+2023-12-01 16:51:25.809 | INFO     | daifu.repair:repair:532 - Repair 168 End
+2023-12-01 16:51:29.779 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3340, 0) Fault Recovered
+2023-12-01 16:52:45.077 | INFO     | torch._tensor:to:88 - Fault Injected To: (3360, 0)
+2023-12-01 16:52:45.078 | INFO     | daifu.repair:repair:444 - Repair 169 Begin
+2023-12-01 16:52:45.080 | INFO     | daifu.repair:repair:532 - Repair 169 End
+2023-12-01 16:52:49.045 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3360, 0) Fault Recovered
+2023-12-01 16:54:04.334 | INFO     | torch._tensor:to:88 - Fault Injected To: (3380, 0)
+2023-12-01 16:54:04.335 | INFO     | daifu.repair:repair:444 - Repair 170 Begin
+2023-12-01 16:54:04.337 | INFO     | daifu.repair:repair:532 - Repair 170 End
+2023-12-01 16:54:08.299 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3380, 0) Fault Recovered
+2023-12-01 16:55:23.591 | INFO     | torch._tensor:to:88 - Fault Injected To: (3400, 0)
+2023-12-01 16:55:23.592 | INFO     | daifu.repair:repair:444 - Repair 171 Begin
+2023-12-01 16:55:23.594 | INFO     | daifu.repair:repair:532 - Repair 171 End
+2023-12-01 16:55:27.554 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3400, 0) Fault Recovered
+2023-12-01 16:56:42.843 | INFO     | torch._tensor:to:88 - Fault Injected To: (3420, 0)
+2023-12-01 16:56:42.844 | INFO     | daifu.repair:repair:444 - Repair 172 Begin
+2023-12-01 16:56:42.846 | INFO     | daifu.repair:repair:532 - Repair 172 End
+2023-12-01 16:56:46.807 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3420, 0) Fault Recovered
+2023-12-01 16:58:02.105 | INFO     | torch._tensor:to:88 - Fault Injected To: (3440, 0)
+2023-12-01 16:58:02.105 | INFO     | daifu.repair:repair:444 - Repair 173 Begin
+2023-12-01 16:58:02.107 | INFO     | daifu.repair:repair:532 - Repair 173 End
+2023-12-01 16:58:06.068 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3440, 0) Fault Recovered
+2023-12-01 16:59:21.361 | INFO     | torch._tensor:to:88 - Fault Injected To: (3460, 0)
+2023-12-01 16:59:21.362 | INFO     | daifu.repair:repair:444 - Repair 174 Begin
+2023-12-01 16:59:21.364 | INFO     | daifu.repair:repair:532 - Repair 174 End
+2023-12-01 16:59:25.327 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3460, 0) Fault Recovered
+2023-12-01 17:00:40.614 | INFO     | torch._tensor:to:88 - Fault Injected To: (3480, 0)
+2023-12-01 17:00:40.615 | INFO     | daifu.repair:repair:444 - Repair 175 Begin
+2023-12-01 17:00:40.617 | INFO     | daifu.repair:repair:532 - Repair 175 End
+2023-12-01 17:00:44.579 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3480, 0) Fault Recovered
+2023-12-01 17:01:59.861 | INFO     | torch._tensor:to:88 - Fault Injected To: (3500, 0)
+2023-12-01 17:01:59.861 | INFO     | daifu.repair:repair:444 - Repair 176 Begin
+2023-12-01 17:01:59.863 | INFO     | daifu.repair:repair:532 - Repair 176 End
+2023-12-01 17:02:03.826 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3500, 0) Fault Recovered
+2023-12-01 17:03:19.114 | INFO     | torch._tensor:to:88 - Fault Injected To: (3520, 0)
+2023-12-01 17:03:19.114 | INFO     | daifu.repair:repair:444 - Repair 177 Begin
+2023-12-01 17:03:19.116 | INFO     | daifu.repair:repair:532 - Repair 177 End
+2023-12-01 17:03:23.077 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3520, 0) Fault Recovered
+2023-12-01 17:04:38.370 | INFO     | torch._tensor:to:88 - Fault Injected To: (3540, 0)
+2023-12-01 17:04:38.371 | INFO     | daifu.repair:repair:444 - Repair 178 Begin
+2023-12-01 17:04:38.373 | INFO     | daifu.repair:repair:532 - Repair 178 End
+2023-12-01 17:04:42.335 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3540, 0) Fault Recovered
+2023-12-01 17:05:57.632 | INFO     | torch._tensor:to:88 - Fault Injected To: (3560, 0)
+2023-12-01 17:05:57.632 | INFO     | daifu.repair:repair:444 - Repair 179 Begin
+2023-12-01 17:05:57.634 | INFO     | daifu.repair:repair:532 - Repair 179 End
+2023-12-01 17:06:01.598 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3560, 0) Fault Recovered
+2023-12-01 17:07:16.924 | INFO     | torch._tensor:to:88 - Fault Injected To: (3580, 0)
+2023-12-01 17:07:16.925 | INFO     | daifu.repair:repair:444 - Repair 180 Begin
+2023-12-01 17:07:16.927 | INFO     | daifu.repair:repair:532 - Repair 180 End
+2023-12-01 17:07:20.888 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3580, 0) Fault Recovered
+2023-12-01 17:08:36.208 | INFO     | torch._tensor:to:88 - Fault Injected To: (3600, 0)
+2023-12-01 17:08:36.209 | INFO     | daifu.repair:repair:444 - Repair 181 Begin
+2023-12-01 17:08:36.211 | INFO     | daifu.repair:repair:532 - Repair 181 End
+2023-12-01 17:08:40.173 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3600, 0) Fault Recovered
+2023-12-01 17:09:55.468 | INFO     | torch._tensor:to:88 - Fault Injected To: (3620, 0)
+2023-12-01 17:09:55.468 | INFO     | daifu.repair:repair:444 - Repair 182 Begin
+2023-12-01 17:09:55.470 | INFO     | daifu.repair:repair:532 - Repair 182 End
+2023-12-01 17:09:59.434 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3620, 0) Fault Recovered
+2023-12-01 17:11:14.739 | INFO     | torch._tensor:to:88 - Fault Injected To: (3640, 0)
+2023-12-01 17:11:14.740 | INFO     | daifu.repair:repair:444 - Repair 183 Begin
+2023-12-01 17:11:14.742 | INFO     | daifu.repair:repair:532 - Repair 183 End
+2023-12-01 17:11:18.706 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3640, 0) Fault Recovered
+2023-12-01 17:12:34.026 | INFO     | torch._tensor:to:88 - Fault Injected To: (3660, 0)
+2023-12-01 17:12:34.026 | INFO     | daifu.repair:repair:444 - Repair 184 Begin
+2023-12-01 17:12:34.028 | INFO     | daifu.repair:repair:532 - Repair 184 End
+2023-12-01 17:12:37.989 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3660, 0) Fault Recovered
+2023-12-01 17:13:53.310 | INFO     | torch._tensor:to:88 - Fault Injected To: (3680, 0)
+2023-12-01 17:13:53.311 | INFO     | daifu.repair:repair:444 - Repair 185 Begin
+2023-12-01 17:13:53.313 | INFO     | daifu.repair:repair:532 - Repair 185 End
+2023-12-01 17:13:57.275 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3680, 0) Fault Recovered
+2023-12-01 17:15:12.573 | INFO     | torch._tensor:to:88 - Fault Injected To: (3700, 0)
+2023-12-01 17:15:12.574 | INFO     | daifu.repair:repair:444 - Repair 186 Begin
+2023-12-01 17:15:12.576 | INFO     | daifu.repair:repair:532 - Repair 186 End
+2023-12-01 17:15:16.542 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3700, 0) Fault Recovered
+2023-12-01 17:16:31.840 | INFO     | torch._tensor:to:88 - Fault Injected To: (3720, 0)
+2023-12-01 17:16:31.840 | INFO     | daifu.repair:repair:444 - Repair 187 Begin
+2023-12-01 17:16:31.842 | INFO     | daifu.repair:repair:532 - Repair 187 End
+2023-12-01 17:16:35.802 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3720, 0) Fault Recovered
+2023-12-01 17:17:51.097 | INFO     | torch._tensor:to:88 - Fault Injected To: (3740, 0)
+2023-12-01 17:17:51.097 | INFO     | daifu.repair:repair:444 - Repair 188 Begin
+2023-12-01 17:17:51.100 | INFO     | daifu.repair:repair:532 - Repair 188 End
+2023-12-01 17:17:55.061 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3740, 0) Fault Recovered
+2023-12-01 17:19:10.343 | INFO     | torch._tensor:to:88 - Fault Injected To: (3760, 0)
+2023-12-01 17:19:10.343 | INFO     | daifu.repair:repair:444 - Repair 189 Begin
+2023-12-01 17:19:10.345 | INFO     | daifu.repair:repair:532 - Repair 189 End
+2023-12-01 17:19:14.307 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3760, 0) Fault Recovered
+2023-12-01 17:20:29.580 | INFO     | torch._tensor:to:88 - Fault Injected To: (3780, 0)
+2023-12-01 17:20:29.581 | INFO     | daifu.repair:repair:444 - Repair 190 Begin
+2023-12-01 17:20:29.583 | INFO     | daifu.repair:repair:532 - Repair 190 End
+2023-12-01 17:20:33.546 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3780, 0) Fault Recovered
+2023-12-01 17:21:48.820 | INFO     | torch._tensor:to:88 - Fault Injected To: (3800, 0)
+2023-12-01 17:21:48.821 | INFO     | daifu.repair:repair:444 - Repair 191 Begin
+2023-12-01 17:21:48.823 | INFO     | daifu.repair:repair:532 - Repair 191 End
+2023-12-01 17:21:52.786 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3800, 0) Fault Recovered
+2023-12-01 17:23:08.077 | INFO     | torch._tensor:to:88 - Fault Injected To: (3820, 0)
+2023-12-01 17:23:08.078 | INFO     | daifu.repair:repair:444 - Repair 192 Begin
+2023-12-01 17:23:08.080 | INFO     | daifu.repair:repair:532 - Repair 192 End
+2023-12-01 17:23:12.042 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3820, 0) Fault Recovered
+2023-12-01 17:24:27.363 | INFO     | torch._tensor:to:88 - Fault Injected To: (3840, 0)
+2023-12-01 17:24:27.364 | INFO     | daifu.repair:repair:444 - Repair 193 Begin
+2023-12-01 17:24:27.366 | INFO     | daifu.repair:repair:532 - Repair 193 End
+2023-12-01 17:24:31.327 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3840, 0) Fault Recovered
+2023-12-01 17:25:46.602 | INFO     | torch._tensor:to:88 - Fault Injected To: (3860, 0)
+2023-12-01 17:25:46.602 | INFO     | daifu.repair:repair:444 - Repair 194 Begin
+2023-12-01 17:25:46.604 | INFO     | daifu.repair:repair:532 - Repair 194 End
+2023-12-01 17:25:50.568 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3860, 0) Fault Recovered
+2023-12-01 17:27:05.845 | INFO     | torch._tensor:to:88 - Fault Injected To: (3880, 0)
+2023-12-01 17:27:05.846 | INFO     | daifu.repair:repair:444 - Repair 195 Begin
+2023-12-01 17:27:05.848 | INFO     | daifu.repair:repair:532 - Repair 195 End
+2023-12-01 17:27:09.809 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3880, 0) Fault Recovered
+2023-12-01 17:28:25.099 | INFO     | torch._tensor:to:88 - Fault Injected To: (3900, 0)
+2023-12-01 17:28:25.099 | INFO     | daifu.repair:repair:444 - Repair 196 Begin
+2023-12-01 17:28:25.101 | INFO     | daifu.repair:repair:532 - Repair 196 End
+2023-12-01 17:28:29.063 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3900, 0) Fault Recovered
+2023-12-01 17:29:44.349 | INFO     | torch._tensor:to:88 - Fault Injected To: (3920, 0)
+2023-12-01 17:29:44.349 | INFO     | daifu.repair:repair:444 - Repair 197 Begin
+2023-12-01 17:29:44.351 | INFO     | daifu.repair:repair:532 - Repair 197 End
+2023-12-01 17:29:48.318 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3920, 0) Fault Recovered
+2023-12-01 17:31:03.596 | INFO     | torch._tensor:to:88 - Fault Injected To: (3940, 0)
+2023-12-01 17:31:03.596 | INFO     | daifu.repair:repair:444 - Repair 198 Begin
+2023-12-01 17:31:03.598 | INFO     | daifu.repair:repair:532 - Repair 198 End
+2023-12-01 17:31:07.560 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3940, 0) Fault Recovered
+2023-12-01 17:32:22.856 | INFO     | torch._tensor:to:88 - Fault Injected To: (3960, 0)
+2023-12-01 17:32:22.857 | INFO     | daifu.repair:repair:444 - Repair 199 Begin
+2023-12-01 17:32:22.859 | INFO     | daifu.repair:repair:532 - Repair 199 End
+2023-12-01 17:32:26.820 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3960, 0) Fault Recovered
+2023-12-01 17:33:42.097 | INFO     | torch._tensor:to:88 - Fault Injected To: (3980, 0)
+2023-12-01 17:33:42.098 | INFO     | daifu.repair:repair:444 - Repair 200 Begin
+2023-12-01 17:33:42.100 | INFO     | daifu.repair:repair:532 - Repair 200 End
+2023-12-01 17:33:46.062 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (3980, 0) Fault Recovered
+2023-12-01 17:36:06.599 | INFO     | torch._tensor:to:88 - Fault Injected To: (4000, 0)
+2023-12-01 17:36:06.600 | INFO     | daifu.repair:repair:444 - Repair 201 Begin
+2023-12-01 17:36:06.606 | INFO     | daifu.repair:repair:532 - Repair 201 End
+2023-12-01 17:36:10.546 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4000, 0) Fault Recovered
+2023-12-01 17:37:25.534 | INFO     | torch._tensor:to:88 - Fault Injected To: (4020, 0)
+2023-12-01 17:37:25.535 | INFO     | daifu.repair:repair:444 - Repair 202 Begin
+2023-12-01 17:37:25.537 | INFO     | daifu.repair:repair:532 - Repair 202 End
+2023-12-01 17:37:29.484 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4020, 0) Fault Recovered
+2023-12-01 17:38:44.573 | INFO     | torch._tensor:to:88 - Fault Injected To: (4040, 0)
+2023-12-01 17:38:44.574 | INFO     | daifu.repair:repair:444 - Repair 203 Begin
+2023-12-01 17:38:44.576 | INFO     | daifu.repair:repair:532 - Repair 203 End
+2023-12-01 17:38:48.530 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4040, 0) Fault Recovered
+2023-12-01 17:40:03.719 | INFO     | torch._tensor:to:88 - Fault Injected To: (4060, 0)
+2023-12-01 17:40:03.720 | INFO     | daifu.repair:repair:444 - Repair 204 Begin
+2023-12-01 17:40:03.722 | INFO     | daifu.repair:repair:532 - Repair 204 End
+2023-12-01 17:40:07.682 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4060, 0) Fault Recovered
+2023-12-01 17:41:22.924 | INFO     | torch._tensor:to:88 - Fault Injected To: (4080, 0)
+2023-12-01 17:41:22.924 | INFO     | daifu.repair:repair:444 - Repair 205 Begin
+2023-12-01 17:41:22.926 | INFO     | daifu.repair:repair:532 - Repair 205 End
+2023-12-01 17:41:26.884 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4080, 0) Fault Recovered
+2023-12-01 17:42:42.174 | INFO     | torch._tensor:to:88 - Fault Injected To: (4100, 0)
+2023-12-01 17:42:42.174 | INFO     | daifu.repair:repair:444 - Repair 206 Begin
+2023-12-01 17:42:42.176 | INFO     | daifu.repair:repair:532 - Repair 206 End
+2023-12-01 17:42:46.141 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4100, 0) Fault Recovered
+2023-12-01 17:44:01.469 | INFO     | torch._tensor:to:88 - Fault Injected To: (4120, 0)
+2023-12-01 17:44:01.469 | INFO     | daifu.repair:repair:444 - Repair 207 Begin
+2023-12-01 17:44:01.471 | INFO     | daifu.repair:repair:532 - Repair 207 End
+2023-12-01 17:44:05.437 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4120, 0) Fault Recovered
+2023-12-01 17:45:20.764 | INFO     | torch._tensor:to:88 - Fault Injected To: (4140, 0)
+2023-12-01 17:45:20.765 | INFO     | daifu.repair:repair:444 - Repair 208 Begin
+2023-12-01 17:45:20.767 | INFO     | daifu.repair:repair:532 - Repair 208 End
+2023-12-01 17:45:24.732 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4140, 0) Fault Recovered
+2023-12-01 17:46:40.100 | INFO     | torch._tensor:to:88 - Fault Injected To: (4160, 0)
+2023-12-01 17:46:40.100 | INFO     | daifu.repair:repair:444 - Repair 209 Begin
+2023-12-01 17:46:40.103 | INFO     | daifu.repair:repair:532 - Repair 209 End
+2023-12-01 17:46:44.066 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4160, 0) Fault Recovered
+2023-12-01 17:47:59.380 | INFO     | torch._tensor:to:88 - Fault Injected To: (4180, 0)
+2023-12-01 17:47:59.380 | INFO     | daifu.repair:repair:444 - Repair 210 Begin
+2023-12-01 17:47:59.382 | INFO     | daifu.repair:repair:532 - Repair 210 End
+2023-12-01 17:48:03.347 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4180, 0) Fault Recovered
+2023-12-01 17:49:18.655 | INFO     | torch._tensor:to:88 - Fault Injected To: (4200, 0)
+2023-12-01 17:49:18.655 | INFO     | daifu.repair:repair:444 - Repair 211 Begin
+2023-12-01 17:49:18.657 | INFO     | daifu.repair:repair:532 - Repair 211 End
+2023-12-01 17:49:22.620 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4200, 0) Fault Recovered
+2023-12-01 17:50:37.928 | INFO     | torch._tensor:to:88 - Fault Injected To: (4220, 0)
+2023-12-01 17:50:37.929 | INFO     | daifu.repair:repair:444 - Repair 212 Begin
+2023-12-01 17:50:37.931 | INFO     | daifu.repair:repair:532 - Repair 212 End
+2023-12-01 17:50:41.896 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4220, 0) Fault Recovered
+2023-12-01 17:51:57.223 | INFO     | torch._tensor:to:88 - Fault Injected To: (4240, 0)
+2023-12-01 17:51:57.224 | INFO     | daifu.repair:repair:444 - Repair 213 Begin
+2023-12-01 17:51:57.226 | INFO     | daifu.repair:repair:532 - Repair 213 End
+2023-12-01 17:52:01.189 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4240, 0) Fault Recovered
+2023-12-01 17:53:16.545 | INFO     | torch._tensor:to:88 - Fault Injected To: (4260, 0)
+2023-12-01 17:53:16.546 | INFO     | daifu.repair:repair:444 - Repair 214 Begin
+2023-12-01 17:53:16.548 | INFO     | daifu.repair:repair:532 - Repair 214 End
+2023-12-01 17:53:20.511 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4260, 0) Fault Recovered
+2023-12-01 17:54:35.844 | INFO     | torch._tensor:to:88 - Fault Injected To: (4280, 0)
+2023-12-01 17:54:35.845 | INFO     | daifu.repair:repair:444 - Repair 215 Begin
+2023-12-01 17:54:35.847 | INFO     | daifu.repair:repair:532 - Repair 215 End
+2023-12-01 17:54:39.809 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4280, 0) Fault Recovered
+2023-12-01 17:55:55.130 | INFO     | torch._tensor:to:88 - Fault Injected To: (4300, 0)
+2023-12-01 17:55:55.131 | INFO     | daifu.repair:repair:444 - Repair 216 Begin
+2023-12-01 17:55:55.133 | INFO     | daifu.repair:repair:532 - Repair 216 End
+2023-12-01 17:55:59.098 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4300, 0) Fault Recovered
+2023-12-01 17:57:14.419 | INFO     | torch._tensor:to:88 - Fault Injected To: (4320, 0)
+2023-12-01 17:57:14.420 | INFO     | daifu.repair:repair:444 - Repair 217 Begin
+2023-12-01 17:57:14.422 | INFO     | daifu.repair:repair:532 - Repair 217 End
+2023-12-01 17:57:18.382 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4320, 0) Fault Recovered
+2023-12-01 17:58:33.756 | INFO     | torch._tensor:to:88 - Fault Injected To: (4340, 0)
+2023-12-01 17:58:33.757 | INFO     | daifu.repair:repair:444 - Repair 218 Begin
+2023-12-01 17:58:33.759 | INFO     | daifu.repair:repair:532 - Repair 218 End
+2023-12-01 17:58:37.722 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4340, 0) Fault Recovered
+2023-12-01 17:59:53.077 | INFO     | torch._tensor:to:88 - Fault Injected To: (4360, 0)
+2023-12-01 17:59:53.077 | INFO     | daifu.repair:repair:444 - Repair 219 Begin
+2023-12-01 17:59:53.079 | INFO     | daifu.repair:repair:532 - Repair 219 End
+2023-12-01 17:59:57.047 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4360, 0) Fault Recovered
+2023-12-01 18:01:12.388 | INFO     | torch._tensor:to:88 - Fault Injected To: (4380, 0)
+2023-12-01 18:01:12.389 | INFO     | daifu.repair:repair:444 - Repair 220 Begin
+2023-12-01 18:01:12.391 | INFO     | daifu.repair:repair:532 - Repair 220 End
+2023-12-01 18:01:16.360 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4380, 0) Fault Recovered
+2023-12-01 18:02:31.697 | INFO     | torch._tensor:to:88 - Fault Injected To: (4400, 0)
+2023-12-01 18:02:31.698 | INFO     | daifu.repair:repair:444 - Repair 221 Begin
+2023-12-01 18:02:31.700 | INFO     | daifu.repair:repair:532 - Repair 221 End
+2023-12-01 18:02:35.669 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4400, 0) Fault Recovered
+2023-12-01 18:03:51.007 | INFO     | torch._tensor:to:88 - Fault Injected To: (4420, 0)
+2023-12-01 18:03:51.008 | INFO     | daifu.repair:repair:444 - Repair 222 Begin
+2023-12-01 18:03:51.010 | INFO     | daifu.repair:repair:532 - Repair 222 End
+2023-12-01 18:03:54.970 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4420, 0) Fault Recovered
+2023-12-01 18:05:10.287 | INFO     | torch._tensor:to:88 - Fault Injected To: (4440, 0)
+2023-12-01 18:05:10.287 | INFO     | daifu.repair:repair:444 - Repair 223 Begin
+2023-12-01 18:05:10.289 | INFO     | daifu.repair:repair:532 - Repair 223 End
+2023-12-01 18:05:14.255 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4440, 0) Fault Recovered
+2023-12-01 18:06:29.558 | INFO     | torch._tensor:to:88 - Fault Injected To: (4460, 0)
+2023-12-01 18:06:29.558 | INFO     | daifu.repair:repair:444 - Repair 224 Begin
+2023-12-01 18:06:29.560 | INFO     | daifu.repair:repair:532 - Repair 224 End
+2023-12-01 18:06:33.525 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4460, 0) Fault Recovered
+2023-12-01 18:07:48.841 | INFO     | torch._tensor:to:88 - Fault Injected To: (4480, 0)
+2023-12-01 18:07:48.842 | INFO     | daifu.repair:repair:444 - Repair 225 Begin
+2023-12-01 18:07:48.844 | INFO     | daifu.repair:repair:532 - Repair 225 End
+2023-12-01 18:07:52.807 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4480, 0) Fault Recovered
+2023-12-01 18:09:08.116 | INFO     | torch._tensor:to:88 - Fault Injected To: (4500, 0)
+2023-12-01 18:09:08.117 | INFO     | daifu.repair:repair:444 - Repair 226 Begin
+2023-12-01 18:09:08.119 | INFO     | daifu.repair:repair:532 - Repair 226 End
+2023-12-01 18:09:12.082 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4500, 0) Fault Recovered
+2023-12-01 18:10:27.384 | INFO     | torch._tensor:to:88 - Fault Injected To: (4520, 0)
+2023-12-01 18:10:27.384 | INFO     | daifu.repair:repair:444 - Repair 227 Begin
+2023-12-01 18:10:27.386 | INFO     | daifu.repair:repair:532 - Repair 227 End
+2023-12-01 18:10:31.345 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4520, 0) Fault Recovered
+2023-12-01 18:11:46.639 | INFO     | torch._tensor:to:88 - Fault Injected To: (4540, 0)
+2023-12-01 18:11:46.640 | INFO     | daifu.repair:repair:444 - Repair 228 Begin
+2023-12-01 18:11:46.642 | INFO     | daifu.repair:repair:532 - Repair 228 End
+2023-12-01 18:11:50.606 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4540, 0) Fault Recovered
+2023-12-01 18:13:05.919 | INFO     | torch._tensor:to:88 - Fault Injected To: (4560, 0)
+2023-12-01 18:13:05.920 | INFO     | daifu.repair:repair:444 - Repair 229 Begin
+2023-12-01 18:13:05.922 | INFO     | daifu.repair:repair:532 - Repair 229 End
+2023-12-01 18:13:09.884 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4560, 0) Fault Recovered
+2023-12-01 18:14:25.186 | INFO     | torch._tensor:to:88 - Fault Injected To: (4580, 0)
+2023-12-01 18:14:25.187 | INFO     | daifu.repair:repair:444 - Repair 230 Begin
+2023-12-01 18:14:25.189 | INFO     | daifu.repair:repair:532 - Repair 230 End
+2023-12-01 18:14:29.152 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4580, 0) Fault Recovered
+2023-12-01 18:15:44.465 | INFO     | torch._tensor:to:88 - Fault Injected To: (4600, 0)
+2023-12-01 18:15:44.466 | INFO     | daifu.repair:repair:444 - Repair 231 Begin
+2023-12-01 18:15:44.468 | INFO     | daifu.repair:repair:532 - Repair 231 End
+2023-12-01 18:15:48.430 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4600, 0) Fault Recovered
+2023-12-01 18:17:03.743 | INFO     | torch._tensor:to:88 - Fault Injected To: (4620, 0)
+2023-12-01 18:17:03.744 | INFO     | daifu.repair:repair:444 - Repair 232 Begin
+2023-12-01 18:17:03.746 | INFO     | daifu.repair:repair:532 - Repair 232 End
+2023-12-01 18:17:07.708 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4620, 0) Fault Recovered
+2023-12-01 18:18:23.019 | INFO     | torch._tensor:to:88 - Fault Injected To: (4640, 0)
+2023-12-01 18:18:23.020 | INFO     | daifu.repair:repair:444 - Repair 233 Begin
+2023-12-01 18:18:23.022 | INFO     | daifu.repair:repair:532 - Repair 233 End
+2023-12-01 18:18:26.987 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4640, 0) Fault Recovered
+2023-12-01 18:19:42.281 | INFO     | torch._tensor:to:88 - Fault Injected To: (4660, 0)
+2023-12-01 18:19:42.282 | INFO     | daifu.repair:repair:444 - Repair 234 Begin
+2023-12-01 18:19:42.284 | INFO     | daifu.repair:repair:532 - Repair 234 End
+2023-12-01 18:19:46.250 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4660, 0) Fault Recovered
+2023-12-01 18:21:01.557 | INFO     | torch._tensor:to:88 - Fault Injected To: (4680, 0)
+2023-12-01 18:21:01.557 | INFO     | daifu.repair:repair:444 - Repair 235 Begin
+2023-12-01 18:21:01.560 | INFO     | daifu.repair:repair:532 - Repair 235 End
+2023-12-01 18:21:05.521 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4680, 0) Fault Recovered
+2023-12-01 18:22:20.834 | INFO     | torch._tensor:to:88 - Fault Injected To: (4700, 0)
+2023-12-01 18:22:20.834 | INFO     | daifu.repair:repair:444 - Repair 236 Begin
+2023-12-01 18:22:20.836 | INFO     | daifu.repair:repair:532 - Repair 236 End
+2023-12-01 18:22:24.800 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4700, 0) Fault Recovered
+2023-12-01 18:23:40.105 | INFO     | torch._tensor:to:88 - Fault Injected To: (4720, 0)
+2023-12-01 18:23:40.106 | INFO     | daifu.repair:repair:444 - Repair 237 Begin
+2023-12-01 18:23:40.108 | INFO     | daifu.repair:repair:532 - Repair 237 End
+2023-12-01 18:23:44.070 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4720, 0) Fault Recovered
+2023-12-01 18:24:59.388 | INFO     | torch._tensor:to:88 - Fault Injected To: (4740, 0)
+2023-12-01 18:24:59.388 | INFO     | daifu.repair:repair:444 - Repair 238 Begin
+2023-12-01 18:24:59.390 | INFO     | daifu.repair:repair:532 - Repair 238 End
+2023-12-01 18:25:03.357 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4740, 0) Fault Recovered
+2023-12-01 18:26:18.671 | INFO     | torch._tensor:to:88 - Fault Injected To: (4760, 0)
+2023-12-01 18:26:18.672 | INFO     | daifu.repair:repair:444 - Repair 239 Begin
+2023-12-01 18:26:18.674 | INFO     | daifu.repair:repair:532 - Repair 239 End
+2023-12-01 18:26:22.635 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4760, 0) Fault Recovered
+2023-12-01 18:27:37.933 | INFO     | torch._tensor:to:88 - Fault Injected To: (4780, 0)
+2023-12-01 18:27:37.933 | INFO     | daifu.repair:repair:444 - Repair 240 Begin
+2023-12-01 18:27:37.935 | INFO     | daifu.repair:repair:532 - Repair 240 End
+2023-12-01 18:27:41.899 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4780, 0) Fault Recovered
+2023-12-01 18:28:57.197 | INFO     | torch._tensor:to:88 - Fault Injected To: (4800, 0)
+2023-12-01 18:28:57.198 | INFO     | daifu.repair:repair:444 - Repair 241 Begin
+2023-12-01 18:28:57.200 | INFO     | daifu.repair:repair:532 - Repair 241 End
+2023-12-01 18:29:01.166 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4800, 0) Fault Recovered
+2023-12-01 18:30:16.475 | INFO     | torch._tensor:to:88 - Fault Injected To: (4820, 0)
+2023-12-01 18:30:16.475 | INFO     | daifu.repair:repair:444 - Repair 242 Begin
+2023-12-01 18:30:16.477 | INFO     | daifu.repair:repair:532 - Repair 242 End
+2023-12-01 18:30:20.437 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4820, 0) Fault Recovered
+2023-12-01 18:31:35.747 | INFO     | torch._tensor:to:88 - Fault Injected To: (4840, 0)
+2023-12-01 18:31:35.747 | INFO     | daifu.repair:repair:444 - Repair 243 Begin
+2023-12-01 18:31:35.749 | INFO     | daifu.repair:repair:532 - Repair 243 End
+2023-12-01 18:31:39.715 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4840, 0) Fault Recovered
+2023-12-01 18:32:55.014 | INFO     | torch._tensor:to:88 - Fault Injected To: (4860, 0)
+2023-12-01 18:32:55.015 | INFO     | daifu.repair:repair:444 - Repair 244 Begin
+2023-12-01 18:32:55.017 | INFO     | daifu.repair:repair:532 - Repair 244 End
+2023-12-01 18:32:58.979 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4860, 0) Fault Recovered
+2023-12-01 18:34:14.317 | INFO     | torch._tensor:to:88 - Fault Injected To: (4880, 0)
+2023-12-01 18:34:14.318 | INFO     | daifu.repair:repair:444 - Repair 245 Begin
+2023-12-01 18:34:14.320 | INFO     | daifu.repair:repair:532 - Repair 245 End
+2023-12-01 18:34:18.285 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4880, 0) Fault Recovered
+2023-12-01 18:35:33.586 | INFO     | torch._tensor:to:88 - Fault Injected To: (4900, 0)
+2023-12-01 18:35:33.586 | INFO     | daifu.repair:repair:444 - Repair 246 Begin
+2023-12-01 18:35:33.588 | INFO     | daifu.repair:repair:532 - Repair 246 End
+2023-12-01 18:35:37.557 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4900, 0) Fault Recovered
+2023-12-01 18:36:52.870 | INFO     | torch._tensor:to:88 - Fault Injected To: (4920, 0)
+2023-12-01 18:36:52.871 | INFO     | daifu.repair:repair:444 - Repair 247 Begin
+2023-12-01 18:36:52.873 | INFO     | daifu.repair:repair:532 - Repair 247 End
+2023-12-01 18:36:56.834 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4920, 0) Fault Recovered
+2023-12-01 18:38:12.135 | INFO     | torch._tensor:to:88 - Fault Injected To: (4940, 0)
+2023-12-01 18:38:12.135 | INFO     | daifu.repair:repair:444 - Repair 248 Begin
+2023-12-01 18:38:12.137 | INFO     | daifu.repair:repair:532 - Repair 248 End
+2023-12-01 18:38:16.105 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4940, 0) Fault Recovered
+2023-12-01 18:39:31.404 | INFO     | torch._tensor:to:88 - Fault Injected To: (4960, 0)
+2023-12-01 18:39:31.405 | INFO     | daifu.repair:repair:444 - Repair 249 Begin
+2023-12-01 18:39:31.407 | INFO     | daifu.repair:repair:532 - Repair 249 End
+2023-12-01 18:39:35.370 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4960, 0) Fault Recovered
+2023-12-01 18:40:50.740 | INFO     | torch._tensor:to:88 - Fault Injected To: (4980, 0)
+2023-12-01 18:40:50.740 | INFO     | daifu.repair:repair:444 - Repair 250 Begin
+2023-12-01 18:40:50.742 | INFO     | daifu.repair:repair:532 - Repair 250 End
+2023-12-01 18:40:54.706 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (4980, 0) Fault Recovered
+2023-12-01 18:42:10.011 | INFO     | torch._tensor:to:88 - Fault Injected To: (5000, 0)
+2023-12-01 18:42:10.012 | INFO     | daifu.repair:repair:444 - Repair 251 Begin
+2023-12-01 18:42:10.014 | INFO     | daifu.repair:repair:532 - Repair 251 End
+2023-12-01 18:42:13.979 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5000, 0) Fault Recovered
+2023-12-01 18:43:29.285 | INFO     | torch._tensor:to:88 - Fault Injected To: (5020, 0)
+2023-12-01 18:43:29.286 | INFO     | daifu.repair:repair:444 - Repair 252 Begin
+2023-12-01 18:43:29.288 | INFO     | daifu.repair:repair:532 - Repair 252 End
+2023-12-01 18:43:33.257 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5020, 0) Fault Recovered
+2023-12-01 18:44:48.559 | INFO     | torch._tensor:to:88 - Fault Injected To: (5040, 0)
+2023-12-01 18:44:48.559 | INFO     | daifu.repair:repair:444 - Repair 253 Begin
+2023-12-01 18:44:48.561 | INFO     | daifu.repair:repair:532 - Repair 253 End
+2023-12-01 18:44:52.523 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5040, 0) Fault Recovered
+2023-12-01 18:46:07.818 | INFO     | torch._tensor:to:88 - Fault Injected To: (5060, 0)
+2023-12-01 18:46:07.819 | INFO     | daifu.repair:repair:444 - Repair 254 Begin
+2023-12-01 18:46:07.821 | INFO     | daifu.repair:repair:532 - Repair 254 End
+2023-12-01 18:46:11.785 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5060, 0) Fault Recovered
+2023-12-01 18:47:27.078 | INFO     | torch._tensor:to:88 - Fault Injected To: (5080, 0)
+2023-12-01 18:47:27.079 | INFO     | daifu.repair:repair:444 - Repair 255 Begin
+2023-12-01 18:47:27.081 | INFO     | daifu.repair:repair:532 - Repair 255 End
+2023-12-01 18:47:31.045 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5080, 0) Fault Recovered
+2023-12-01 18:48:46.351 | INFO     | torch._tensor:to:88 - Fault Injected To: (5100, 0)
+2023-12-01 18:48:46.351 | INFO     | daifu.repair:repair:444 - Repair 256 Begin
+2023-12-01 18:48:46.353 | INFO     | daifu.repair:repair:532 - Repair 256 End
+2023-12-01 18:48:50.314 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5100, 0) Fault Recovered
+2023-12-01 18:50:05.628 | INFO     | torch._tensor:to:88 - Fault Injected To: (5120, 0)
+2023-12-01 18:50:05.629 | INFO     | daifu.repair:repair:444 - Repair 257 Begin
+2023-12-01 18:50:05.631 | INFO     | daifu.repair:repair:532 - Repair 257 End
+2023-12-01 18:50:09.595 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5120, 0) Fault Recovered
+2023-12-01 18:51:24.904 | INFO     | torch._tensor:to:88 - Fault Injected To: (5140, 0)
+2023-12-01 18:51:24.905 | INFO     | daifu.repair:repair:444 - Repair 258 Begin
+2023-12-01 18:51:24.907 | INFO     | daifu.repair:repair:532 - Repair 258 End
+2023-12-01 18:51:28.870 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5140, 0) Fault Recovered
+2023-12-01 18:52:44.197 | INFO     | torch._tensor:to:88 - Fault Injected To: (5160, 0)
+2023-12-01 18:52:44.197 | INFO     | daifu.repair:repair:444 - Repair 259 Begin
+2023-12-01 18:52:44.199 | INFO     | daifu.repair:repair:532 - Repair 259 End
+2023-12-01 18:52:48.160 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5160, 0) Fault Recovered
+2023-12-01 18:54:03.469 | INFO     | torch._tensor:to:88 - Fault Injected To: (5180, 0)
+2023-12-01 18:54:03.470 | INFO     | daifu.repair:repair:444 - Repair 260 Begin
+2023-12-01 18:54:03.472 | INFO     | daifu.repair:repair:532 - Repair 260 End
+2023-12-01 18:54:07.435 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5180, 0) Fault Recovered
+2023-12-01 18:55:22.746 | INFO     | torch._tensor:to:88 - Fault Injected To: (5200, 0)
+2023-12-01 18:55:22.746 | INFO     | daifu.repair:repair:444 - Repair 261 Begin
+2023-12-01 18:55:22.748 | INFO     | daifu.repair:repair:532 - Repair 261 End
+2023-12-01 18:55:26.711 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5200, 0) Fault Recovered
+2023-12-01 18:56:42.020 | INFO     | torch._tensor:to:88 - Fault Injected To: (5220, 0)
+2023-12-01 18:56:42.020 | INFO     | daifu.repair:repair:444 - Repair 262 Begin
+2023-12-01 18:56:42.023 | INFO     | daifu.repair:repair:532 - Repair 262 End
+2023-12-01 18:56:45.989 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5220, 0) Fault Recovered
+2023-12-01 18:58:01.309 | INFO     | torch._tensor:to:88 - Fault Injected To: (5240, 0)
+2023-12-01 18:58:01.309 | INFO     | daifu.repair:repair:444 - Repair 263 Begin
+2023-12-01 18:58:01.311 | INFO     | daifu.repair:repair:532 - Repair 263 End
+2023-12-01 18:58:05.286 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5240, 0) Fault Recovered
+2023-12-01 18:59:20.633 | INFO     | torch._tensor:to:88 - Fault Injected To: (5260, 0)
+2023-12-01 18:59:20.634 | INFO     | daifu.repair:repair:444 - Repair 264 Begin
+2023-12-01 18:59:20.636 | INFO     | daifu.repair:repair:532 - Repair 264 End
+2023-12-01 18:59:24.600 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5260, 0) Fault Recovered
+2023-12-01 19:00:39.923 | INFO     | torch._tensor:to:88 - Fault Injected To: (5280, 0)
+2023-12-01 19:00:39.924 | INFO     | daifu.repair:repair:444 - Repair 265 Begin
+2023-12-01 19:00:39.926 | INFO     | daifu.repair:repair:532 - Repair 265 End
+2023-12-01 19:00:43.888 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5280, 0) Fault Recovered
+2023-12-01 19:01:59.191 | INFO     | torch._tensor:to:88 - Fault Injected To: (5300, 0)
+2023-12-01 19:01:59.191 | INFO     | daifu.repair:repair:444 - Repair 266 Begin
+2023-12-01 19:01:59.193 | INFO     | daifu.repair:repair:532 - Repair 266 End
+2023-12-01 19:02:03.159 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5300, 0) Fault Recovered
+2023-12-01 19:03:18.455 | INFO     | torch._tensor:to:88 - Fault Injected To: (5320, 0)
+2023-12-01 19:03:18.456 | INFO     | daifu.repair:repair:444 - Repair 267 Begin
+2023-12-01 19:03:18.458 | INFO     | daifu.repair:repair:532 - Repair 267 End
+2023-12-01 19:03:22.419 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5320, 0) Fault Recovered
+2023-12-01 19:04:37.728 | INFO     | torch._tensor:to:88 - Fault Injected To: (5340, 0)
+2023-12-01 19:04:37.728 | INFO     | daifu.repair:repair:444 - Repair 268 Begin
+2023-12-01 19:04:37.730 | INFO     | daifu.repair:repair:532 - Repair 268 End
+2023-12-01 19:04:41.694 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5340, 0) Fault Recovered
+2023-12-01 19:05:57.057 | INFO     | torch._tensor:to:88 - Fault Injected To: (5360, 0)
+2023-12-01 19:05:57.058 | INFO     | daifu.repair:repair:444 - Repair 269 Begin
+2023-12-01 19:05:57.060 | INFO     | daifu.repair:repair:532 - Repair 269 End
+2023-12-01 19:06:01.030 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5360, 0) Fault Recovered
+2023-12-01 19:07:16.466 | INFO     | torch._tensor:to:88 - Fault Injected To: (5380, 0)
+2023-12-01 19:07:16.466 | INFO     | daifu.repair:repair:444 - Repair 270 Begin
+2023-12-01 19:07:16.468 | INFO     | daifu.repair:repair:532 - Repair 270 End
+2023-12-01 19:07:20.434 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5380, 0) Fault Recovered
+2023-12-01 19:08:35.743 | INFO     | torch._tensor:to:88 - Fault Injected To: (5400, 0)
+2023-12-01 19:08:35.743 | INFO     | daifu.repair:repair:444 - Repair 271 Begin
+2023-12-01 19:08:35.745 | INFO     | daifu.repair:repair:532 - Repair 271 End
+2023-12-01 19:08:39.711 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5400, 0) Fault Recovered
+2023-12-01 19:09:55.019 | INFO     | torch._tensor:to:88 - Fault Injected To: (5420, 0)
+2023-12-01 19:09:55.020 | INFO     | daifu.repair:repair:444 - Repair 272 Begin
+2023-12-01 19:09:55.022 | INFO     | daifu.repair:repair:532 - Repair 272 End
+2023-12-01 19:09:58.985 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5420, 0) Fault Recovered
+2023-12-01 19:11:14.290 | INFO     | torch._tensor:to:88 - Fault Injected To: (5440, 0)
+2023-12-01 19:11:14.291 | INFO     | daifu.repair:repair:444 - Repair 273 Begin
+2023-12-01 19:11:14.293 | INFO     | daifu.repair:repair:532 - Repair 273 End
+2023-12-01 19:11:18.258 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5440, 0) Fault Recovered
+2023-12-01 19:12:33.572 | INFO     | torch._tensor:to:88 - Fault Injected To: (5460, 0)
+2023-12-01 19:12:33.572 | INFO     | daifu.repair:repair:444 - Repair 274 Begin
+2023-12-01 19:12:33.574 | INFO     | daifu.repair:repair:532 - Repair 274 End
+2023-12-01 19:12:37.540 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5460, 0) Fault Recovered
+2023-12-01 19:13:52.845 | INFO     | torch._tensor:to:88 - Fault Injected To: (5480, 0)
+2023-12-01 19:13:52.846 | INFO     | daifu.repair:repair:444 - Repair 275 Begin
+2023-12-01 19:13:52.848 | INFO     | daifu.repair:repair:532 - Repair 275 End
+2023-12-01 19:13:56.810 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5480, 0) Fault Recovered
+2023-12-01 19:15:12.122 | INFO     | torch._tensor:to:88 - Fault Injected To: (5500, 0)
+2023-12-01 19:15:12.123 | INFO     | daifu.repair:repair:444 - Repair 276 Begin
+2023-12-01 19:15:12.125 | INFO     | daifu.repair:repair:532 - Repair 276 End
+2023-12-01 19:15:16.089 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5500, 0) Fault Recovered
+2023-12-01 19:16:31.391 | INFO     | torch._tensor:to:88 - Fault Injected To: (5520, 0)
+2023-12-01 19:16:31.392 | INFO     | daifu.repair:repair:444 - Repair 277 Begin
+2023-12-01 19:16:31.394 | INFO     | daifu.repair:repair:532 - Repair 277 End
+2023-12-01 19:16:35.357 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5520, 0) Fault Recovered
+2023-12-01 19:17:50.704 | INFO     | torch._tensor:to:88 - Fault Injected To: (5540, 0)
+2023-12-01 19:17:50.705 | INFO     | daifu.repair:repair:444 - Repair 278 Begin
+2023-12-01 19:17:50.707 | INFO     | daifu.repair:repair:532 - Repair 278 End
+2023-12-01 19:17:54.670 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5540, 0) Fault Recovered
+2023-12-01 19:19:09.972 | INFO     | torch._tensor:to:88 - Fault Injected To: (5560, 0)
+2023-12-01 19:19:09.973 | INFO     | daifu.repair:repair:444 - Repair 279 Begin
+2023-12-01 19:19:09.975 | INFO     | daifu.repair:repair:532 - Repair 279 End
+2023-12-01 19:19:13.941 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5560, 0) Fault Recovered
+2023-12-01 19:20:29.257 | INFO     | torch._tensor:to:88 - Fault Injected To: (5580, 0)
+2023-12-01 19:20:29.258 | INFO     | daifu.repair:repair:444 - Repair 280 Begin
+2023-12-01 19:20:29.260 | INFO     | daifu.repair:repair:532 - Repair 280 End
+2023-12-01 19:20:33.225 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5580, 0) Fault Recovered
+2023-12-01 19:21:48.551 | INFO     | torch._tensor:to:88 - Fault Injected To: (5600, 0)
+2023-12-01 19:21:48.552 | INFO     | daifu.repair:repair:444 - Repair 281 Begin
+2023-12-01 19:21:48.554 | INFO     | daifu.repair:repair:532 - Repair 281 End
+2023-12-01 19:21:52.518 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5600, 0) Fault Recovered
+2023-12-01 19:23:07.850 | INFO     | torch._tensor:to:88 - Fault Injected To: (5620, 0)
+2023-12-01 19:23:07.851 | INFO     | daifu.repair:repair:444 - Repair 282 Begin
+2023-12-01 19:23:07.853 | INFO     | daifu.repair:repair:532 - Repair 282 End
+2023-12-01 19:23:11.818 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5620, 0) Fault Recovered
+2023-12-01 19:24:27.149 | INFO     | torch._tensor:to:88 - Fault Injected To: (5640, 0)
+2023-12-01 19:24:27.149 | INFO     | daifu.repair:repair:444 - Repair 283 Begin
+2023-12-01 19:24:27.151 | INFO     | daifu.repair:repair:532 - Repair 283 End
+2023-12-01 19:24:31.115 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5640, 0) Fault Recovered
+2023-12-01 19:25:46.447 | INFO     | torch._tensor:to:88 - Fault Injected To: (5660, 0)
+2023-12-01 19:25:46.447 | INFO     | daifu.repair:repair:444 - Repair 284 Begin
+2023-12-01 19:25:46.450 | INFO     | daifu.repair:repair:532 - Repair 284 End
+2023-12-01 19:25:50.413 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5660, 0) Fault Recovered
+2023-12-01 19:27:05.777 | INFO     | torch._tensor:to:88 - Fault Injected To: (5680, 0)
+2023-12-01 19:27:05.777 | INFO     | daifu.repair:repair:444 - Repair 285 Begin
+2023-12-01 19:27:05.779 | INFO     | daifu.repair:repair:532 - Repair 285 End
+2023-12-01 19:27:09.748 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5680, 0) Fault Recovered
+2023-12-01 19:28:25.106 | INFO     | torch._tensor:to:88 - Fault Injected To: (5700, 0)
+2023-12-01 19:28:25.107 | INFO     | daifu.repair:repair:444 - Repair 286 Begin
+2023-12-01 19:28:25.109 | INFO     | daifu.repair:repair:532 - Repair 286 End
+2023-12-01 19:28:29.074 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5700, 0) Fault Recovered
+2023-12-01 19:29:44.392 | INFO     | torch._tensor:to:88 - Fault Injected To: (5720, 0)
+2023-12-01 19:29:44.392 | INFO     | daifu.repair:repair:444 - Repair 287 Begin
+2023-12-01 19:29:44.394 | INFO     | daifu.repair:repair:532 - Repair 287 End
+2023-12-01 19:29:48.359 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5720, 0) Fault Recovered
+2023-12-01 19:31:03.647 | INFO     | torch._tensor:to:88 - Fault Injected To: (5740, 0)
+2023-12-01 19:31:03.647 | INFO     | daifu.repair:repair:444 - Repair 288 Begin
+2023-12-01 19:31:03.649 | INFO     | daifu.repair:repair:532 - Repair 288 End
+2023-12-01 19:31:07.609 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5740, 0) Fault Recovered
+2023-12-01 19:32:22.895 | INFO     | torch._tensor:to:88 - Fault Injected To: (5760, 0)
+2023-12-01 19:32:22.896 | INFO     | daifu.repair:repair:444 - Repair 289 Begin
+2023-12-01 19:32:22.898 | INFO     | daifu.repair:repair:532 - Repair 289 End
+2023-12-01 19:32:26.861 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5760, 0) Fault Recovered
+2023-12-01 19:33:42.154 | INFO     | torch._tensor:to:88 - Fault Injected To: (5780, 0)
+2023-12-01 19:33:42.154 | INFO     | daifu.repair:repair:444 - Repair 290 Begin
+2023-12-01 19:33:42.156 | INFO     | daifu.repair:repair:532 - Repair 290 End
+2023-12-01 19:33:46.126 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5780, 0) Fault Recovered
+2023-12-01 19:35:01.501 | INFO     | torch._tensor:to:88 - Fault Injected To: (5800, 0)
+2023-12-01 19:35:01.502 | INFO     | daifu.repair:repair:444 - Repair 291 Begin
+2023-12-01 19:35:01.504 | INFO     | daifu.repair:repair:532 - Repair 291 End
+2023-12-01 19:35:05.466 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5800, 0) Fault Recovered
+2023-12-01 19:36:20.766 | INFO     | torch._tensor:to:88 - Fault Injected To: (5820, 0)
+2023-12-01 19:36:20.767 | INFO     | daifu.repair:repair:444 - Repair 292 Begin
+2023-12-01 19:36:20.769 | INFO     | daifu.repair:repair:532 - Repair 292 End
+2023-12-01 19:36:24.728 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5820, 0) Fault Recovered
+2023-12-01 19:37:40.044 | INFO     | torch._tensor:to:88 - Fault Injected To: (5840, 0)
+2023-12-01 19:37:40.044 | INFO     | daifu.repair:repair:444 - Repair 293 Begin
+2023-12-01 19:37:40.046 | INFO     | daifu.repair:repair:532 - Repair 293 End
+2023-12-01 19:37:44.011 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5840, 0) Fault Recovered
+2023-12-01 19:38:59.345 | INFO     | torch._tensor:to:88 - Fault Injected To: (5860, 0)
+2023-12-01 19:38:59.346 | INFO     | daifu.repair:repair:444 - Repair 294 Begin
+2023-12-01 19:38:59.348 | INFO     | daifu.repair:repair:532 - Repair 294 End
+2023-12-01 19:39:03.316 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5860, 0) Fault Recovered
+2023-12-01 19:40:18.645 | INFO     | torch._tensor:to:88 - Fault Injected To: (5880, 0)
+2023-12-01 19:40:18.646 | INFO     | daifu.repair:repair:444 - Repair 295 Begin
+2023-12-01 19:40:18.648 | INFO     | daifu.repair:repair:532 - Repair 295 End
+2023-12-01 19:40:22.611 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5880, 0) Fault Recovered
+2023-12-01 19:41:37.948 | INFO     | torch._tensor:to:88 - Fault Injected To: (5900, 0)
+2023-12-01 19:41:37.948 | INFO     | daifu.repair:repair:444 - Repair 296 Begin
+2023-12-01 19:41:37.950 | INFO     | daifu.repair:repair:532 - Repair 296 End
+2023-12-01 19:41:41.914 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5900, 0) Fault Recovered
+2023-12-01 19:42:57.256 | INFO     | torch._tensor:to:88 - Fault Injected To: (5920, 0)
+2023-12-01 19:42:57.256 | INFO     | daifu.repair:repair:444 - Repair 297 Begin
+2023-12-01 19:42:57.258 | INFO     | daifu.repair:repair:532 - Repair 297 End
+2023-12-01 19:43:01.230 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5920, 0) Fault Recovered
+2023-12-01 19:44:16.631 | INFO     | torch._tensor:to:88 - Fault Injected To: (5940, 0)
+2023-12-01 19:44:16.632 | INFO     | daifu.repair:repair:444 - Repair 298 Begin
+2023-12-01 19:44:16.634 | INFO     | daifu.repair:repair:532 - Repair 298 End
+2023-12-01 19:44:20.598 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5940, 0) Fault Recovered
+2023-12-01 19:45:35.908 | INFO     | torch._tensor:to:88 - Fault Injected To: (5960, 0)
+2023-12-01 19:45:35.909 | INFO     | daifu.repair:repair:444 - Repair 299 Begin
+2023-12-01 19:45:35.911 | INFO     | daifu.repair:repair:532 - Repair 299 End
+2023-12-01 19:45:39.874 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5960, 0) Fault Recovered
+2023-12-01 19:46:55.155 | INFO     | torch._tensor:to:88 - Fault Injected To: (5980, 0)
+2023-12-01 19:46:55.156 | INFO     | daifu.repair:repair:444 - Repair 300 Begin
+2023-12-01 19:46:55.158 | INFO     | daifu.repair:repair:532 - Repair 300 End
+2023-12-01 19:46:59.120 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (5980, 0) Fault Recovered
+2023-12-01 19:49:19.801 | INFO     | torch._tensor:to:88 - Fault Injected To: (6000, 0)
+2023-12-01 19:49:19.802 | INFO     | daifu.repair:repair:444 - Repair 301 Begin
+2023-12-01 19:49:19.804 | INFO     | daifu.repair:repair:532 - Repair 301 End
+2023-12-01 19:49:23.746 | INFO     | torch:fault_injection_scheduler_and_recorder:1006 - (6000, 0) Fault Recovered
+2023-12-01 19:49:23.747 | INFO     | daifu:log_program_end:40 - Program End with Quality Measure 3.310736656188965

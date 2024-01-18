@@ -1,0 +1,1035 @@
+2023-11-21 09:08:11.284 | INFO     | daifu:<module>:34 - Program Begin
+2023-11-21 09:08:38.991 | INFO     | torch._tensor:to:88 - Fault Injected To: (0, 0)
+2023-11-21 09:09:10.790 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (0, 0) Fault Recovered
+2023-11-21 09:09:45.984 | INFO     | torch._tensor:to:88 - Fault Injected To: (50, 0)
+2023-11-21 09:10:53.633 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (50, 0) Fault Recovered
+2023-11-21 09:11:36.874 | INFO     | torch._tensor:to:88 - Fault Injected To: (100, 0)
+2023-11-21 09:13:26.375 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (100, 0) Fault Recovered
+2023-11-21 09:14:03.767 | INFO     | torch._tensor:to:88 - Fault Injected To: (150, 0)
+2023-11-21 09:14:41.231 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (150, 0) Fault Recovered
+2023-11-21 09:15:18.606 | INFO     | torch._tensor:to:88 - Fault Injected To: (200, 0)
+2023-11-21 09:15:53.637 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (200, 0) Fault Recovered
+2023-11-21 09:16:30.652 | INFO     | torch._tensor:to:88 - Fault Injected To: (250, 0)
+2023-11-21 09:17:42.385 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (250, 0) Fault Recovered
+2023-11-21 09:18:19.811 | INFO     | torch._tensor:to:88 - Fault Injected To: (300, 0)
+2023-11-21 09:18:54.546 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (300, 0) Fault Recovered
+2023-11-21 09:19:31.741 | INFO     | torch._tensor:to:88 - Fault Injected To: (350, 0)
+2023-11-21 09:20:44.450 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (350, 0) Fault Recovered
+2023-11-21 09:21:21.911 | INFO     | torch._tensor:to:88 - Fault Injected To: (400, 0)
+2023-11-21 09:21:58.371 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (400, 0) Fault Recovered
+2023-11-21 09:22:35.363 | INFO     | torch._tensor:to:88 - Fault Injected To: (450, 0)
+2023-11-21 09:23:49.844 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (450, 0) Fault Recovered
+2023-11-21 09:24:27.483 | INFO     | torch._tensor:to:88 - Fault Injected To: (500, 0)
+2023-11-21 09:25:05.586 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (500, 0) Fault Recovered
+2023-11-21 09:25:43.007 | INFO     | torch._tensor:to:88 - Fault Injected To: (550, 0)
+2023-11-21 09:26:17.122 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (550, 0) Fault Recovered
+2023-11-21 09:26:53.916 | INFO     | torch._tensor:to:88 - Fault Injected To: (600, 0)
+2023-11-21 09:28:05.448 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (600, 0) Fault Recovered
+2023-11-21 09:28:42.950 | INFO     | torch._tensor:to:88 - Fault Injected To: (650, 0)
+2023-11-21 09:29:17.979 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (650, 0) Fault Recovered
+2023-11-21 09:29:54.961 | INFO     | torch._tensor:to:88 - Fault Injected To: (700, 0)
+2023-11-21 09:31:07.768 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (700, 0) Fault Recovered
+2023-11-21 09:31:45.294 | INFO     | torch._tensor:to:88 - Fault Injected To: (750, 0)
+2023-11-21 09:32:22.243 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (750, 0) Fault Recovered
+2023-11-21 09:32:59.445 | INFO     | torch._tensor:to:88 - Fault Injected To: (800, 0)
+2023-11-21 09:33:33.855 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (800, 0) Fault Recovered
+2023-11-21 09:34:10.744 | INFO     | torch._tensor:to:88 - Fault Injected To: (850, 0)
+2023-11-21 09:35:20.946 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (850, 0) Fault Recovered
+2023-11-21 09:35:58.311 | INFO     | torch._tensor:to:88 - Fault Injected To: (900, 0)
+2023-11-21 09:36:32.582 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (900, 0) Fault Recovered
+2023-11-21 09:37:09.613 | INFO     | torch._tensor:to:88 - Fault Injected To: (950, 0)
+2023-11-21 09:38:21.244 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (950, 0) Fault Recovered
+2023-11-21 09:38:58.743 | INFO     | torch._tensor:to:88 - Fault Injected To: (1000, 0)
+2023-11-21 09:39:34.365 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1000, 0) Fault Recovered
+2023-11-21 09:40:11.516 | INFO     | torch._tensor:to:88 - Fault Injected To: (1050, 0)
+2023-11-21 09:41:24.273 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1050, 0) Fault Recovered
+2023-11-21 09:42:01.680 | INFO     | torch._tensor:to:88 - Fault Injected To: (1100, 0)
+2023-11-21 09:42:38.222 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1100, 0) Fault Recovered
+2023-11-21 09:43:15.364 | INFO     | torch._tensor:to:88 - Fault Injected To: (1150, 0)
+2023-11-21 09:44:29.689 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1150, 0) Fault Recovered
+2023-11-21 09:45:06.915 | INFO     | torch._tensor:to:88 - Fault Injected To: (1200, 0)
+2023-11-21 09:45:45.124 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1200, 0) Fault Recovered
+2023-11-21 09:46:22.472 | INFO     | torch._tensor:to:88 - Fault Injected To: (1250, 0)
+2023-11-21 09:46:57.409 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1250, 0) Fault Recovered
+2023-11-21 09:47:34.390 | INFO     | torch._tensor:to:88 - Fault Injected To: (1300, 0)
+2023-11-21 09:48:45.036 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1300, 0) Fault Recovered
+2023-11-21 09:49:22.532 | INFO     | torch._tensor:to:88 - Fault Injected To: (1350, 0)
+2023-11-21 09:49:57.851 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1350, 0) Fault Recovered
+2023-11-21 09:50:34.885 | INFO     | torch._tensor:to:88 - Fault Injected To: (1400, 0)
+2023-11-21 09:51:48.262 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1400, 0) Fault Recovered
+2023-11-21 09:52:25.983 | INFO     | torch._tensor:to:88 - Fault Injected To: (1450, 0)
+2023-11-21 09:53:02.808 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1450, 0) Fault Recovered
+2023-11-21 09:53:40.064 | INFO     | torch._tensor:to:88 - Fault Injected To: (1500, 0)
+2023-11-21 09:54:14.326 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1500, 0) Fault Recovered
+2023-11-21 09:54:51.260 | INFO     | torch._tensor:to:88 - Fault Injected To: (1550, 0)
+2023-11-21 09:56:01.083 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1550, 0) Fault Recovered
+2023-11-21 09:56:38.550 | INFO     | torch._tensor:to:88 - Fault Injected To: (1600, 0)
+2023-11-21 09:57:13.970 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1600, 0) Fault Recovered
+2023-11-21 09:57:51.115 | INFO     | torch._tensor:to:88 - Fault Injected To: (1650, 0)
+2023-11-21 09:59:01.868 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1650, 0) Fault Recovered
+2023-11-21 09:59:39.272 | INFO     | torch._tensor:to:88 - Fault Injected To: (1700, 0)
+2023-11-21 10:00:14.692 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1700, 0) Fault Recovered
+2023-11-21 10:00:51.629 | INFO     | torch._tensor:to:88 - Fault Injected To: (1750, 0)
+2023-11-21 10:02:04.393 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1750, 0) Fault Recovered
+2023-11-21 10:02:41.910 | INFO     | torch._tensor:to:88 - Fault Injected To: (1800, 0)
+2023-11-21 10:03:18.673 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1800, 0) Fault Recovered
+2023-11-21 10:03:55.748 | INFO     | torch._tensor:to:88 - Fault Injected To: (1850, 0)
+2023-11-21 10:05:10.043 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1850, 0) Fault Recovered
+2023-11-21 10:05:47.383 | INFO     | torch._tensor:to:88 - Fault Injected To: (1900, 0)
+2023-11-21 10:06:25.392 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1900, 0) Fault Recovered
+2023-11-21 10:07:02.786 | INFO     | torch._tensor:to:88 - Fault Injected To: (1950, 0)
+2023-11-21 10:07:37.874 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (1950, 0) Fault Recovered
+2023-11-21 10:08:15.001 | INFO     | torch._tensor:to:88 - Fault Injected To: (2000, 0)
+2023-11-21 10:09:26.594 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2000, 0) Fault Recovered
+2023-11-21 10:10:04.034 | INFO     | torch._tensor:to:88 - Fault Injected To: (2050, 0)
+2023-11-21 10:10:39.170 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2050, 0) Fault Recovered
+2023-11-21 10:11:16.164 | INFO     | torch._tensor:to:88 - Fault Injected To: (2100, 0)
+2023-11-21 10:12:27.953 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2100, 0) Fault Recovered
+2023-11-21 10:13:05.328 | INFO     | torch._tensor:to:88 - Fault Injected To: (2150, 0)
+2023-11-21 10:13:41.695 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2150, 0) Fault Recovered
+2023-11-21 10:14:18.933 | INFO     | torch._tensor:to:88 - Fault Injected To: (2200, 0)
+2023-11-21 10:14:53.096 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2200, 0) Fault Recovered
+2023-11-21 10:15:29.888 | INFO     | torch._tensor:to:88 - Fault Injected To: (2250, 0)
+2023-11-21 10:16:40.348 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2250, 0) Fault Recovered
+2023-11-21 10:17:17.922 | INFO     | torch._tensor:to:88 - Fault Injected To: (2300, 0)
+2023-11-21 10:17:52.908 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2300, 0) Fault Recovered
+2023-11-21 10:18:29.887 | INFO     | torch._tensor:to:88 - Fault Injected To: (2350, 0)
+2023-11-21 10:19:41.449 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2350, 0) Fault Recovered
+2023-11-21 10:20:18.999 | INFO     | torch._tensor:to:88 - Fault Injected To: (2400, 0)
+2023-11-21 10:20:54.199 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2400, 0) Fault Recovered
+2023-11-21 10:21:31.247 | INFO     | torch._tensor:to:88 - Fault Injected To: (2450, 0)
+2023-11-21 10:22:43.705 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2450, 0) Fault Recovered
+2023-11-21 10:23:21.277 | INFO     | torch._tensor:to:88 - Fault Injected To: (2500, 0)
+2023-11-21 10:23:57.850 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2500, 0) Fault Recovered
+2023-11-21 10:24:34.788 | INFO     | torch._tensor:to:88 - Fault Injected To: (2550, 0)
+2023-11-21 10:25:49.330 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2550, 0) Fault Recovered
+2023-11-21 10:26:26.847 | INFO     | torch._tensor:to:88 - Fault Injected To: (2600, 0)
+2023-11-21 10:27:05.082 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2600, 0) Fault Recovered
+2023-11-21 10:27:42.406 | INFO     | torch._tensor:to:88 - Fault Injected To: (2650, 0)
+2023-11-21 10:28:17.430 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2650, 0) Fault Recovered
+2023-11-21 10:28:54.399 | INFO     | torch._tensor:to:88 - Fault Injected To: (2700, 0)
+2023-11-21 10:30:05.933 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2700, 0) Fault Recovered
+2023-11-21 10:30:43.309 | INFO     | torch._tensor:to:88 - Fault Injected To: (2750, 0)
+2023-11-21 10:31:18.625 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2750, 0) Fault Recovered
+2023-11-21 10:31:55.533 | INFO     | torch._tensor:to:88 - Fault Injected To: (2800, 0)
+2023-11-21 10:33:08.916 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2800, 0) Fault Recovered
+2023-11-21 10:33:46.322 | INFO     | torch._tensor:to:88 - Fault Injected To: (2850, 0)
+2023-11-21 10:34:22.868 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2850, 0) Fault Recovered
+2023-11-21 10:34:59.940 | INFO     | torch._tensor:to:88 - Fault Injected To: (2900, 0)
+2023-11-21 10:35:33.954 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2900, 0) Fault Recovered
+2023-11-21 10:36:10.804 | INFO     | torch._tensor:to:88 - Fault Injected To: (2950, 0)
+2023-11-21 10:37:20.516 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (2950, 0) Fault Recovered
+2023-11-21 10:37:57.791 | INFO     | torch._tensor:to:88 - Fault Injected To: (3000, 0)
+2023-11-21 10:38:33.001 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3000, 0) Fault Recovered
+2023-11-21 10:39:10.083 | INFO     | torch._tensor:to:88 - Fault Injected To: (3050, 0)
+2023-11-21 10:40:21.076 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3050, 0) Fault Recovered
+2023-11-21 10:40:58.470 | INFO     | torch._tensor:to:88 - Fault Injected To: (3100, 0)
+2023-11-21 10:41:33.890 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3100, 0) Fault Recovered
+2023-11-21 10:42:10.932 | INFO     | torch._tensor:to:88 - Fault Injected To: (3150, 0)
+2023-11-21 10:43:23.936 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3150, 0) Fault Recovered
+2023-11-21 10:44:01.377 | INFO     | torch._tensor:to:88 - Fault Injected To: (3200, 0)
+2023-11-21 10:44:38.192 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3200, 0) Fault Recovered
+2023-11-21 10:45:15.187 | INFO     | torch._tensor:to:88 - Fault Injected To: (3250, 0)
+2023-11-21 10:46:29.789 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3250, 0) Fault Recovered
+2023-11-21 10:47:07.271 | INFO     | torch._tensor:to:88 - Fault Injected To: (3300, 0)
+2023-11-21 10:47:45.341 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3300, 0) Fault Recovered
+2023-11-21 10:48:22.631 | INFO     | torch._tensor:to:88 - Fault Injected To: (3350, 0)
+2023-11-21 10:48:57.328 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3350, 0) Fault Recovered
+2023-11-21 10:49:34.159 | INFO     | torch._tensor:to:88 - Fault Injected To: (3400, 0)
+2023-11-21 10:50:45.254 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3400, 0) Fault Recovered
+2023-11-21 10:51:22.949 | INFO     | torch._tensor:to:88 - Fault Injected To: (3450, 0)
+2023-11-21 10:51:58.427 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3450, 0) Fault Recovered
+2023-11-21 10:52:35.515 | INFO     | torch._tensor:to:88 - Fault Injected To: (3500, 0)
+2023-11-21 10:53:48.233 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3500, 0) Fault Recovered
+2023-11-21 10:54:25.635 | INFO     | torch._tensor:to:88 - Fault Injected To: (3550, 0)
+2023-11-21 10:55:02.037 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3550, 0) Fault Recovered
+2023-11-21 10:55:39.145 | INFO     | torch._tensor:to:88 - Fault Injected To: (3600, 0)
+2023-11-21 10:56:13.426 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3600, 0) Fault Recovered
+2023-11-21 10:56:50.342 | INFO     | torch._tensor:to:88 - Fault Injected To: (3650, 0)
+2023-11-21 10:58:00.249 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3650, 0) Fault Recovered
+2023-11-21 10:58:37.623 | INFO     | torch._tensor:to:88 - Fault Injected To: (3700, 0)
+2023-11-21 10:59:12.323 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3700, 0) Fault Recovered
+2023-11-21 10:59:49.581 | INFO     | torch._tensor:to:88 - Fault Injected To: (3750, 0)
+2023-11-21 11:01:01.199 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3750, 0) Fault Recovered
+2023-11-21 11:01:38.960 | INFO     | torch._tensor:to:88 - Fault Injected To: (3800, 0)
+2023-11-21 11:02:14.441 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3800, 0) Fault Recovered
+2023-11-21 11:02:51.435 | INFO     | torch._tensor:to:88 - Fault Injected To: (3850, 0)
+2023-11-21 11:04:04.458 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3850, 0) Fault Recovered
+2023-11-21 11:04:41.979 | INFO     | torch._tensor:to:88 - Fault Injected To: (3900, 0)
+2023-11-21 11:05:18.414 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3900, 0) Fault Recovered
+2023-11-21 11:05:55.452 | INFO     | torch._tensor:to:88 - Fault Injected To: (3950, 0)
+2023-11-21 11:07:10.275 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (3950, 0) Fault Recovered
+2023-11-21 11:07:47.801 | INFO     | torch._tensor:to:88 - Fault Injected To: (4000, 0)
+2023-11-21 11:08:25.997 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4000, 0) Fault Recovered
+2023-11-21 11:09:02.982 | INFO     | torch._tensor:to:88 - Fault Injected To: (4050, 0)
+2023-11-21 11:09:37.934 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4050, 0) Fault Recovered
+2023-11-21 11:10:14.537 | INFO     | torch._tensor:to:88 - Fault Injected To: (4100, 0)
+2023-11-21 11:10:48.994 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4100, 0) Fault Recovered
+2023-11-21 11:11:25.531 | INFO     | torch._tensor:to:88 - Fault Injected To: (4150, 0)
+2023-11-21 11:12:34.931 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4150, 0) Fault Recovered
+2023-11-21 11:13:11.824 | INFO     | torch._tensor:to:88 - Fault Injected To: (4200, 0)
+2023-11-21 11:13:51.104 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4200, 0) Fault Recovered
+2023-11-21 11:14:28.177 | INFO     | torch._tensor:to:88 - Fault Injected To: (4250, 0)
+2023-11-21 11:15:04.729 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4250, 0) Fault Recovered
+2023-11-21 11:15:41.473 | INFO     | torch._tensor:to:88 - Fault Injected To: (4300, 0)
+2023-11-21 11:16:16.541 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4300, 0) Fault Recovered
+2023-11-21 11:16:53.256 | INFO     | torch._tensor:to:88 - Fault Injected To: (4350, 0)
+2023-11-21 11:18:03.207 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4350, 0) Fault Recovered
+2023-11-21 11:18:40.326 | INFO     | torch._tensor:to:88 - Fault Injected To: (4400, 0)
+2023-11-21 11:19:21.569 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4400, 0) Fault Recovered
+2023-11-21 11:19:58.625 | INFO     | torch._tensor:to:88 - Fault Injected To: (4450, 0)
+2023-11-21 11:20:35.857 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4450, 0) Fault Recovered
+2023-11-21 11:21:12.832 | INFO     | torch._tensor:to:88 - Fault Injected To: (4500, 0)
+2023-11-21 11:21:48.378 | INFO     | torch:fault_injection_scheduler_and_recorder:997 - (4500, 0) Fault Recovered
+2023-11-21 11:22:24.903 | INFO     | torch._tensor:to:88 - Fault Injected To: (4550, 0)
+2023-11-21 11:22:48.124 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:22:48.126 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:22:56.726 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4550, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:23:33.135 | INFO     | torch._tensor:to:88 - Fault Injected To: (4600, 0)
+2023-11-21 11:23:56.192 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:23:56.193 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:24:04.985 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4600, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:24:41.450 | INFO     | torch._tensor:to:88 - Fault Injected To: (4650, 0)
+2023-11-21 11:25:04.446 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:25:04.448 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:25:13.049 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4650, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:25:49.538 | INFO     | torch._tensor:to:88 - Fault Injected To: (4700, 0)
+2023-11-21 11:26:12.509 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:26:12.511 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:26:21.110 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4700, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:26:57.470 | INFO     | torch._tensor:to:88 - Fault Injected To: (4750, 0)
+2023-11-21 11:27:20.454 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:27:20.455 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:27:28.992 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4750, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:28:05.487 | INFO     | torch._tensor:to:88 - Fault Injected To: (4800, 0)
+2023-11-21 11:28:28.362 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:28:28.364 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:28:37.006 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4800, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:29:13.486 | INFO     | torch._tensor:to:88 - Fault Injected To: (4850, 0)
+2023-11-21 11:29:35.385 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:29:35.386 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:29:44.015 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4850, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:30:20.446 | INFO     | torch._tensor:to:88 - Fault Injected To: (4900, 0)
+2023-11-21 11:30:43.254 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:30:43.255 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:30:52.093 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4900, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:31:28.528 | INFO     | torch._tensor:to:88 - Fault Injected To: (4950, 0)
+2023-11-21 11:31:51.449 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:31:51.450 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:32:00.204 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4950, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:32:36.728 | INFO     | torch._tensor:to:88 - Fault Injected To: (5000, 0)
+2023-11-21 11:32:59.527 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:32:59.528 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:33:08.319 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (5000, 0) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:34:32.548 | INFO     | torch:fault_injection_scheduler_and_recorder_for_epoch:1033 - 0 Fault Recovered
+2023-11-21 11:34:34.994 | INFO     | torch._tensor:to:88 - Fault Injected To: (0, 1)
+2023-11-21 11:34:58.069 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:34:58.070 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:35:06.520 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (0, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:35:43.035 | INFO     | torch._tensor:to:88 - Fault Injected To: (50, 1)
+2023-11-21 11:36:06.045 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:36:06.047 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:36:14.677 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (50, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:36:51.134 | INFO     | torch._tensor:to:88 - Fault Injected To: (100, 1)
+2023-11-21 11:37:14.094 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:37:14.096 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:37:22.804 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (100, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:37:59.196 | INFO     | torch._tensor:to:88 - Fault Injected To: (150, 1)
+2023-11-21 11:38:21.244 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:38:21.245 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:38:29.877 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (150, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:39:06.336 | INFO     | torch._tensor:to:88 - Fault Injected To: (200, 1)
+2023-11-21 11:39:28.483 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:39:28.484 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:39:37.072 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (200, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:40:13.598 | INFO     | torch._tensor:to:88 - Fault Injected To: (250, 1)
+2023-11-21 11:40:36.718 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:40:36.718 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:40:45.723 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (250, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:41:22.177 | INFO     | torch._tensor:to:88 - Fault Injected To: (300, 1)
+2023-11-21 11:41:45.261 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:41:45.262 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:41:53.983 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (300, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:42:30.464 | INFO     | torch._tensor:to:88 - Fault Injected To: (350, 1)
+2023-11-21 11:42:53.479 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:42:53.480 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:43:02.133 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (350, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:43:38.605 | INFO     | torch._tensor:to:88 - Fault Injected To: (400, 1)
+2023-11-21 11:44:00.377 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:44:00.379 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:44:09.030 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (400, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:44:45.467 | INFO     | torch._tensor:to:88 - Fault Injected To: (450, 1)
+2023-11-21 11:45:08.304 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:45:08.309 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:45:16.897 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (450, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:45:53.303 | INFO     | torch._tensor:to:88 - Fault Injected To: (500, 1)
+2023-11-21 11:46:16.165 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:46:16.166 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:46:24.842 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (500, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:47:01.224 | INFO     | torch._tensor:to:88 - Fault Injected To: (550, 1)
+2023-11-21 11:47:24.315 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:47:24.317 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:47:32.909 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (550, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:48:09.378 | INFO     | torch._tensor:to:88 - Fault Injected To: (600, 1)
+2023-11-21 11:48:32.258 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:48:32.259 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:48:40.941 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (600, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:49:17.291 | INFO     | torch._tensor:to:88 - Fault Injected To: (650, 1)
+2023-11-21 11:49:40.114 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:49:40.116 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:49:48.670 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (650, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:50:25.027 | INFO     | torch._tensor:to:88 - Fault Injected To: (700, 1)
+2023-11-21 11:50:47.897 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:50:47.899 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:50:56.520 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (700, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:51:32.928 | INFO     | torch._tensor:to:88 - Fault Injected To: (750, 1)
+2023-11-21 11:51:55.838 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:51:55.839 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:52:04.573 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (750, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:52:40.998 | INFO     | torch._tensor:to:88 - Fault Injected To: (800, 1)
+2023-11-21 11:53:03.985 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:53:03.986 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:53:12.584 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (800, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:53:49.248 | INFO     | torch._tensor:to:88 - Fault Injected To: (850, 1)
+2023-11-21 11:54:12.534 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:54:12.536 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:54:21.128 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (850, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:54:57.557 | INFO     | torch._tensor:to:88 - Fault Injected To: (900, 1)
+2023-11-21 11:55:19.794 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:55:19.796 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:55:28.430 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (900, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:56:04.917 | INFO     | torch._tensor:to:88 - Fault Injected To: (950, 1)
+2023-11-21 11:56:27.829 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:56:27.830 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:56:36.630 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (950, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:57:13.040 | INFO     | torch._tensor:to:88 - Fault Injected To: (1000, 1)
+2023-11-21 11:57:35.929 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:57:35.930 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:57:44.659 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1000, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:58:21.108 | INFO     | torch._tensor:to:88 - Fault Injected To: (1050, 1)
+2023-11-21 11:58:43.976 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:58:43.978 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 11:58:52.767 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1050, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 11:59:29.299 | INFO     | torch._tensor:to:88 - Fault Injected To: (1100, 1)
+2023-11-21 11:59:52.151 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 11:59:52.153 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:00:00.879 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1100, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:00:37.307 | INFO     | torch._tensor:to:88 - Fault Injected To: (1150, 1)
+2023-11-21 12:00:59.253 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:00:59.255 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:01:08.009 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1150, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:01:44.483 | INFO     | torch._tensor:to:88 - Fault Injected To: (1200, 1)
+2023-11-21 12:02:07.352 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:02:07.353 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:02:15.913 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1200, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:02:52.360 | INFO     | torch._tensor:to:88 - Fault Injected To: (1250, 1)
+2023-11-21 12:03:14.295 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:03:14.296 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:03:22.874 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1250, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:03:59.294 | INFO     | torch._tensor:to:88 - Fault Injected To: (1300, 1)
+2023-11-21 12:04:22.303 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:04:22.305 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:04:30.875 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1300, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:05:07.227 | INFO     | torch._tensor:to:88 - Fault Injected To: (1350, 1)
+2023-11-21 12:05:30.116 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:05:30.117 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:05:38.776 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1350, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:06:15.205 | INFO     | torch._tensor:to:88 - Fault Injected To: (1400, 1)
+2023-11-21 12:06:38.232 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:06:38.234 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:06:46.842 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1400, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:07:23.261 | INFO     | torch._tensor:to:88 - Fault Injected To: (1450, 1)
+2023-11-21 12:07:46.419 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:07:46.421 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:07:55.004 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1450, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:08:31.400 | INFO     | torch._tensor:to:88 - Fault Injected To: (1500, 1)
+2023-11-21 12:08:54.166 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:08:54.167 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:09:02.879 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1500, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:09:39.360 | INFO     | torch._tensor:to:88 - Fault Injected To: (1550, 1)
+2023-11-21 12:10:02.470 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:10:02.471 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:10:11.038 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1550, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:10:47.475 | INFO     | torch._tensor:to:88 - Fault Injected To: (1600, 1)
+2023-11-21 12:11:10.400 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:11:10.402 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:11:19.030 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1600, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:11:55.442 | INFO     | torch._tensor:to:88 - Fault Injected To: (1650, 1)
+2023-11-21 12:12:18.442 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:12:18.443 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:12:26.965 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1650, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:13:03.485 | INFO     | torch._tensor:to:88 - Fault Injected To: (1700, 1)
+2023-11-21 12:13:26.403 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:13:26.405 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:13:35.044 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1700, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:14:11.463 | INFO     | torch._tensor:to:88 - Fault Injected To: (1750, 1)
+2023-11-21 12:14:34.459 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:14:34.461 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:14:43.033 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1750, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:15:19.504 | INFO     | torch._tensor:to:88 - Fault Injected To: (1800, 1)
+2023-11-21 12:15:42.527 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:15:42.529 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:15:51.143 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1800, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:16:27.558 | INFO     | torch._tensor:to:88 - Fault Injected To: (1850, 1)
+2023-11-21 12:16:50.503 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:16:50.505 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:16:59.229 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1850, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:17:35.624 | INFO     | torch._tensor:to:88 - Fault Injected To: (1900, 1)
+2023-11-21 12:17:58.529 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:17:58.530 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:18:07.204 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1900, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:18:43.604 | INFO     | torch._tensor:to:88 - Fault Injected To: (1950, 1)
+2023-11-21 12:19:06.650 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:19:06.651 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:19:15.441 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1950, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:19:51.832 | INFO     | torch._tensor:to:88 - Fault Injected To: (2000, 1)
+2023-11-21 12:20:14.662 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:20:14.663 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:20:23.250 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2000, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:20:59.947 | INFO     | torch._tensor:to:88 - Fault Injected To: (2050, 1)
+2023-11-21 12:21:23.035 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:21:23.037 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:21:31.790 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2050, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:22:08.347 | INFO     | torch._tensor:to:88 - Fault Injected To: (2100, 1)
+2023-11-21 12:22:31.309 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:22:31.310 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:22:40.024 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2100, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:23:16.503 | INFO     | torch._tensor:to:88 - Fault Injected To: (2150, 1)
+2023-11-21 12:23:39.320 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:23:39.321 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:23:48.070 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2150, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:24:24.663 | INFO     | torch._tensor:to:88 - Fault Injected To: (2200, 1)
+2023-11-21 12:24:46.485 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:24:46.486 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:24:55.167 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2200, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:25:31.655 | INFO     | torch._tensor:to:88 - Fault Injected To: (2250, 1)
+2023-11-21 12:25:54.755 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:25:54.756 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:26:03.373 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2250, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:26:39.783 | INFO     | torch._tensor:to:88 - Fault Injected To: (2300, 1)
+2023-11-21 12:27:02.739 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:27:02.741 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:27:11.380 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2300, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:27:47.820 | INFO     | torch._tensor:to:88 - Fault Injected To: (2350, 1)
+2023-11-21 12:28:10.778 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:28:10.780 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:28:19.662 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2350, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:28:56.089 | INFO     | torch._tensor:to:88 - Fault Injected To: (2400, 1)
+2023-11-21 12:29:19.064 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:29:19.065 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:29:27.740 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2400, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:30:04.215 | INFO     | torch._tensor:to:88 - Fault Injected To: (2450, 1)
+2023-11-21 12:30:27.045 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:30:27.047 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:30:35.789 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2450, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:31:12.206 | INFO     | torch._tensor:to:88 - Fault Injected To: (2500, 1)
+2023-11-21 12:31:35.369 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:31:35.370 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:31:43.924 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2500, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:32:20.387 | INFO     | torch._tensor:to:88 - Fault Injected To: (2550, 1)
+2023-11-21 12:32:43.417 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:32:43.419 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:32:51.977 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2550, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:33:28.363 | INFO     | torch._tensor:to:88 - Fault Injected To: (2600, 1)
+2023-11-21 12:33:51.330 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:33:51.331 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:33:59.907 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2600, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:34:36.412 | INFO     | torch._tensor:to:88 - Fault Injected To: (2650, 1)
+2023-11-21 12:34:58.386 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:34:58.387 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:35:07.080 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2650, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:35:43.536 | INFO     | torch._tensor:to:88 - Fault Injected To: (2700, 1)
+2023-11-21 12:36:06.459 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:36:06.460 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:36:15.148 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2700, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:36:51.520 | INFO     | torch._tensor:to:88 - Fault Injected To: (2750, 1)
+2023-11-21 12:37:14.451 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:37:14.453 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:37:23.149 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2750, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:37:59.571 | INFO     | torch._tensor:to:88 - Fault Injected To: (2800, 1)
+2023-11-21 12:38:22.509 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:38:22.511 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:38:31.048 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2800, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:39:07.503 | INFO     | torch._tensor:to:88 - Fault Injected To: (2850, 1)
+2023-11-21 12:39:30.350 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:39:30.351 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:39:38.918 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2850, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:40:15.346 | INFO     | torch._tensor:to:88 - Fault Injected To: (2900, 1)
+2023-11-21 12:40:38.280 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:40:38.281 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:40:46.845 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2900, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:41:23.210 | INFO     | torch._tensor:to:88 - Fault Injected To: (2950, 1)
+2023-11-21 12:41:46.364 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:41:46.365 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:41:54.945 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2950, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:42:31.319 | INFO     | torch._tensor:to:88 - Fault Injected To: (3000, 1)
+2023-11-21 12:42:54.254 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:42:54.255 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:43:02.873 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3000, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:43:39.272 | INFO     | torch._tensor:to:88 - Fault Injected To: (3050, 1)
+2023-11-21 12:44:01.306 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:44:01.307 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:44:10.137 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3050, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:44:46.625 | INFO     | torch._tensor:to:88 - Fault Injected To: (3100, 1)
+2023-11-21 12:45:09.579 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:45:09.580 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:45:18.291 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3100, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:45:54.654 | INFO     | torch._tensor:to:88 - Fault Injected To: (3150, 1)
+2023-11-21 12:46:17.531 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:46:17.532 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:46:26.240 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3150, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:47:02.636 | INFO     | torch._tensor:to:88 - Fault Injected To: (3200, 1)
+2023-11-21 12:47:25.676 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:47:25.677 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:47:34.455 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3200, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:48:10.926 | INFO     | torch._tensor:to:88 - Fault Injected To: (3250, 1)
+2023-11-21 12:48:33.923 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:48:33.924 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:48:42.648 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3250, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:49:19.053 | INFO     | torch._tensor:to:88 - Fault Injected To: (3300, 1)
+2023-11-21 12:49:42.065 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:49:42.066 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:49:50.614 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3300, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:50:27.014 | INFO     | torch._tensor:to:88 - Fault Injected To: (3350, 1)
+2023-11-21 12:50:50.095 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:50:50.096 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:50:58.640 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3350, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:51:35.017 | INFO     | torch._tensor:to:88 - Fault Injected To: (3400, 1)
+2023-11-21 12:51:58.045 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:51:58.046 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:52:06.777 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3400, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:52:43.210 | INFO     | torch._tensor:to:88 - Fault Injected To: (3450, 1)
+2023-11-21 12:53:06.130 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:53:06.132 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:53:14.795 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3450, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:53:51.191 | INFO     | torch._tensor:to:88 - Fault Injected To: (3500, 1)
+2023-11-21 12:54:14.327 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:54:14.327 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:54:22.825 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3500, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:54:59.277 | INFO     | torch._tensor:to:88 - Fault Injected To: (3550, 1)
+2023-11-21 12:55:22.471 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:55:22.472 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:55:31.279 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3550, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:56:07.710 | INFO     | torch._tensor:to:88 - Fault Injected To: (3600, 1)
+2023-11-21 12:56:30.748 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:56:30.749 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:56:39.289 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3600, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:57:15.818 | INFO     | torch._tensor:to:88 - Fault Injected To: (3650, 1)
+2023-11-21 12:57:38.574 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:57:38.576 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:57:47.184 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3650, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:58:23.626 | INFO     | torch._tensor:to:88 - Fault Injected To: (3700, 1)
+2023-11-21 12:58:46.815 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:58:46.816 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 12:58:55.472 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3700, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 12:59:31.995 | INFO     | torch._tensor:to:88 - Fault Injected To: (3750, 1)
+2023-11-21 12:59:55.046 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 12:59:55.047 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:00:03.635 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3750, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:00:40.059 | INFO     | torch._tensor:to:88 - Fault Injected To: (3800, 1)
+2023-11-21 13:01:02.980 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:01:02.982 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:01:11.585 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3800, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:01:48.000 | INFO     | torch._tensor:to:88 - Fault Injected To: (3850, 1)
+2023-11-21 13:02:10.801 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:02:10.803 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:02:19.455 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3850, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:02:55.926 | INFO     | torch._tensor:to:88 - Fault Injected To: (3900, 1)
+2023-11-21 13:03:18.769 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:03:18.770 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:03:27.392 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3900, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:04:03.828 | INFO     | torch._tensor:to:88 - Fault Injected To: (3950, 1)
+2023-11-21 13:04:25.768 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:04:25.769 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:04:34.399 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3950, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:05:10.865 | INFO     | torch._tensor:to:88 - Fault Injected To: (4000, 1)
+2023-11-21 13:05:33.484 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:05:33.485 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:05:42.090 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4000, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:06:18.559 | INFO     | torch._tensor:to:88 - Fault Injected To: (4050, 1)
+2023-11-21 13:06:41.407 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:06:41.408 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:06:49.911 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4050, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:07:26.311 | INFO     | torch._tensor:to:88 - Fault Injected To: (4100, 1)
+2023-11-21 13:07:49.001 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:07:49.002 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:07:57.550 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4100, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:08:33.962 | INFO     | torch._tensor:to:88 - Fault Injected To: (4150, 1)
+2023-11-21 13:08:57.046 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:08:57.047 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:09:05.799 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4150, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:09:42.405 | INFO     | torch._tensor:to:88 - Fault Injected To: (4200, 1)
+2023-11-21 13:10:05.494 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:10:05.495 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:10:14.258 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4200, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:10:50.731 | INFO     | torch._tensor:to:88 - Fault Injected To: (4250, 1)
+2023-11-21 13:11:13.702 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:11:13.704 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:11:22.440 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4250, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:11:59.112 | INFO     | torch._tensor:to:88 - Fault Injected To: (4300, 1)
+2023-11-21 13:12:22.093 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:12:22.095 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:12:30.897 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4300, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:13:07.297 | INFO     | torch._tensor:to:88 - Fault Injected To: (4350, 1)
+2023-11-21 13:13:29.330 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:13:29.331 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:13:38.030 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4350, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:14:14.510 | INFO     | torch._tensor:to:88 - Fault Injected To: (4400, 1)
+2023-11-21 13:14:37.672 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:14:37.674 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:14:46.435 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4400, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:15:22.849 | INFO     | torch._tensor:to:88 - Fault Injected To: (4450, 1)
+2023-11-21 13:15:44.845 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:15:44.847 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:15:53.385 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4450, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:16:29.783 | INFO     | torch._tensor:to:88 - Fault Injected To: (4500, 1)
+2023-11-21 13:16:52.616 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:16:52.617 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:17:01.315 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4500, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:17:38.054 | INFO     | torch._tensor:to:88 - Fault Injected To: (4550, 1)
+2023-11-21 13:18:00.996 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:18:00.998 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:18:09.739 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4550, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:18:46.241 | INFO     | torch._tensor:to:88 - Fault Injected To: (4600, 1)
+2023-11-21 13:19:09.173 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:19:09.174 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:19:17.729 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4600, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:19:54.164 | INFO     | torch._tensor:to:88 - Fault Injected To: (4650, 1)
+2023-11-21 13:20:15.814 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:20:15.815 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:20:24.329 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4650, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:21:00.795 | INFO     | torch._tensor:to:88 - Fault Injected To: (4700, 1)
+2023-11-21 13:21:23.480 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:21:23.481 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:21:32.102 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4700, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:22:08.544 | INFO     | torch._tensor:to:88 - Fault Injected To: (4750, 1)
+2023-11-21 13:22:30.474 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:22:30.475 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:22:39.024 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4750, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:23:15.634 | INFO     | torch._tensor:to:88 - Fault Injected To: (4800, 1)
+2023-11-21 13:23:38.668 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:23:38.669 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:23:47.255 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4800, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:24:23.656 | INFO     | torch._tensor:to:88 - Fault Injected To: (4850, 1)
+2023-11-21 13:24:46.585 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:24:46.587 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:24:55.212 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4850, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:25:31.690 | INFO     | torch._tensor:to:88 - Fault Injected To: (4900, 1)
+2023-11-21 13:25:54.696 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:25:54.697 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:26:03.473 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4900, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:26:39.968 | INFO     | torch._tensor:to:88 - Fault Injected To: (4950, 1)
+2023-11-21 13:27:02.962 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:27:02.963 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:27:11.570 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4950, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:27:47.941 | INFO     | torch._tensor:to:88 - Fault Injected To: (5000, 1)
+2023-11-21 13:28:10.821 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:28:10.823 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:28:19.495 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (5000, 1) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:29:39.071 | INFO     | torch:fault_injection_scheduler_and_recorder_for_epoch:1035 - 1 Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:29:45.780 | INFO     | torch._tensor:to:88 - Fault Injected To: (0, 2)
+2023-11-21 13:30:08.654 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:30:08.655 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:30:17.368 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (0, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:30:53.884 | INFO     | torch._tensor:to:88 - Fault Injected To: (50, 2)
+2023-11-21 13:31:16.977 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:31:16.978 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:31:25.741 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (50, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:32:02.200 | INFO     | torch._tensor:to:88 - Fault Injected To: (100, 2)
+2023-11-21 13:32:25.365 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:32:25.367 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:32:33.888 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (100, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:33:10.305 | INFO     | torch._tensor:to:88 - Fault Injected To: (150, 2)
+2023-11-21 13:33:33.206 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:33:33.207 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:33:41.885 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (150, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:34:18.300 | INFO     | torch._tensor:to:88 - Fault Injected To: (200, 2)
+2023-11-21 13:34:41.259 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:34:41.260 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:34:50.261 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (200, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:35:26.753 | INFO     | torch._tensor:to:88 - Fault Injected To: (250, 2)
+2023-11-21 13:35:49.638 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:35:49.639 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:35:58.232 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (250, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:36:34.632 | INFO     | torch._tensor:to:88 - Fault Injected To: (300, 2)
+2023-11-21 13:36:57.554 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:36:57.556 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:37:06.238 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (300, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:37:42.605 | INFO     | torch._tensor:to:88 - Fault Injected To: (350, 2)
+2023-11-21 13:38:05.503 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:38:05.504 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:38:14.176 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (350, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:38:50.600 | INFO     | torch._tensor:to:88 - Fault Injected To: (400, 2)
+2023-11-21 13:39:13.535 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:39:13.536 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:39:22.224 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (400, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:39:58.640 | INFO     | torch._tensor:to:88 - Fault Injected To: (450, 2)
+2023-11-21 13:40:21.626 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:40:21.628 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:40:30.352 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (450, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:41:06.831 | INFO     | torch._tensor:to:88 - Fault Injected To: (500, 2)
+2023-11-21 13:41:29.905 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:41:29.906 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:41:38.840 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (500, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:42:15.296 | INFO     | torch._tensor:to:88 - Fault Injected To: (550, 2)
+2023-11-21 13:42:37.365 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:42:37.366 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:42:46.072 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (550, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:43:22.483 | INFO     | torch._tensor:to:88 - Fault Injected To: (600, 2)
+2023-11-21 13:43:45.376 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:43:45.377 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:43:54.164 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (600, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:44:30.792 | INFO     | torch._tensor:to:88 - Fault Injected To: (650, 2)
+2023-11-21 13:44:53.699 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:44:53.701 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:45:02.364 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (650, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:45:38.826 | INFO     | torch._tensor:to:88 - Fault Injected To: (700, 2)
+2023-11-21 13:46:01.568 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:46:01.570 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:46:10.376 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (700, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:46:46.789 | INFO     | torch._tensor:to:88 - Fault Injected To: (750, 2)
+2023-11-21 13:47:09.655 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:47:09.656 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:47:18.480 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (750, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:47:54.974 | INFO     | torch._tensor:to:88 - Fault Injected To: (800, 2)
+2023-11-21 13:48:17.908 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:48:17.909 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:48:26.669 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (800, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:49:03.146 | INFO     | torch._tensor:to:88 - Fault Injected To: (850, 2)
+2023-11-21 13:49:26.303 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:49:26.304 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:49:34.968 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (850, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:50:11.395 | INFO     | torch._tensor:to:88 - Fault Injected To: (900, 2)
+2023-11-21 13:50:34.346 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:50:34.347 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:50:43.139 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (900, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:51:19.532 | INFO     | torch._tensor:to:88 - Fault Injected To: (950, 2)
+2023-11-21 13:51:42.561 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:51:42.563 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:51:51.298 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (950, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:52:28.104 | INFO     | torch._tensor:to:88 - Fault Injected To: (1000, 2)
+2023-11-21 13:52:51.028 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:52:51.030 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:52:59.674 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1000, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:53:36.022 | INFO     | torch._tensor:to:88 - Fault Injected To: (1050, 2)
+2023-11-21 13:53:59.002 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:53:59.003 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:54:07.685 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1050, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:54:44.181 | INFO     | torch._tensor:to:88 - Fault Injected To: (1100, 2)
+2023-11-21 13:55:07.352 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:55:07.353 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:55:16.012 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1100, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:55:52.444 | INFO     | torch._tensor:to:88 - Fault Injected To: (1150, 2)
+2023-11-21 13:56:15.467 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:56:15.468 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:56:24.306 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1150, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:57:00.786 | INFO     | torch._tensor:to:88 - Fault Injected To: (1200, 2)
+2023-11-21 13:57:24.044 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:57:24.045 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:57:32.735 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1200, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:58:09.204 | INFO     | torch._tensor:to:88 - Fault Injected To: (1250, 2)
+2023-11-21 13:58:32.126 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:58:32.127 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:58:40.807 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1250, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 13:59:17.251 | INFO     | torch._tensor:to:88 - Fault Injected To: (1300, 2)
+2023-11-21 13:59:40.100 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 13:59:40.101 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 13:59:48.688 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1300, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:00:25.145 | INFO     | torch._tensor:to:88 - Fault Injected To: (1350, 2)
+2023-11-21 14:00:48.108 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:00:48.110 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:00:56.688 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1350, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:01:33.189 | INFO     | torch._tensor:to:88 - Fault Injected To: (1400, 2)
+2023-11-21 14:01:56.090 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:01:56.092 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:02:04.672 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1400, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:02:41.081 | INFO     | torch._tensor:to:88 - Fault Injected To: (1450, 2)
+2023-11-21 14:03:03.918 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:03:03.920 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:03:12.874 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1450, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:03:49.323 | INFO     | torch._tensor:to:88 - Fault Injected To: (1500, 2)
+2023-11-21 14:04:12.137 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:04:12.138 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:04:20.820 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1500, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:04:57.319 | INFO     | torch._tensor:to:88 - Fault Injected To: (1550, 2)
+2023-11-21 14:05:19.382 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:05:19.383 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:05:27.948 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1550, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:06:04.402 | INFO     | torch._tensor:to:88 - Fault Injected To: (1600, 2)
+2023-11-21 14:06:26.259 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:06:26.261 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:06:35.099 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1600, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:07:11.568 | INFO     | torch._tensor:to:88 - Fault Injected To: (1650, 2)
+2023-11-21 14:07:34.609 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:07:34.610 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:07:43.266 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1650, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:08:19.656 | INFO     | torch._tensor:to:88 - Fault Injected To: (1700, 2)
+2023-11-21 14:08:42.476 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:08:42.477 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:08:51.183 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1700, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:09:27.742 | INFO     | torch._tensor:to:88 - Fault Injected To: (1750, 2)
+2023-11-21 14:09:50.661 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:09:50.662 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:09:59.329 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1750, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:10:35.814 | INFO     | torch._tensor:to:88 - Fault Injected To: (1800, 2)
+2023-11-21 14:10:58.702 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:10:58.703 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:11:07.288 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1800, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:11:43.658 | INFO     | torch._tensor:to:88 - Fault Injected To: (1850, 2)
+2023-11-21 14:12:06.663 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:12:06.664 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:12:15.535 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1850, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:12:51.977 | INFO     | torch._tensor:to:88 - Fault Injected To: (1900, 2)
+2023-11-21 14:13:13.884 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:13:13.885 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:13:22.457 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1900, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:13:58.905 | INFO     | torch._tensor:to:88 - Fault Injected To: (1950, 2)
+2023-11-21 14:14:21.917 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:14:21.918 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:14:30.514 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (1950, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:15:07.179 | INFO     | torch._tensor:to:88 - Fault Injected To: (2000, 2)
+2023-11-21 14:15:30.265 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:15:30.266 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:15:38.934 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2000, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:16:15.312 | INFO     | torch._tensor:to:88 - Fault Injected To: (2050, 2)
+2023-11-21 14:16:37.027 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:16:37.028 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:16:45.715 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2050, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:17:22.151 | INFO     | torch._tensor:to:88 - Fault Injected To: (2100, 2)
+2023-11-21 14:17:45.178 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:17:45.179 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:17:53.877 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2100, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:18:30.290 | INFO     | torch._tensor:to:88 - Fault Injected To: (2150, 2)
+2023-11-21 14:18:53.323 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:18:53.324 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:19:02.027 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2150, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:19:38.432 | INFO     | torch._tensor:to:88 - Fault Injected To: (2200, 2)
+2023-11-21 14:20:01.333 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:20:01.335 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:20:09.938 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2200, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:20:46.340 | INFO     | torch._tensor:to:88 - Fault Injected To: (2250, 2)
+2023-11-21 14:21:09.230 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:21:09.231 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:21:17.928 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2250, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:21:54.389 | INFO     | torch._tensor:to:88 - Fault Injected To: (2300, 2)
+2023-11-21 14:22:17.231 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:22:17.232 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:22:25.879 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2300, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:23:02.258 | INFO     | torch._tensor:to:88 - Fault Injected To: (2350, 2)
+2023-11-21 14:23:25.015 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:23:25.017 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:23:33.581 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2350, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:24:10.000 | INFO     | torch._tensor:to:88 - Fault Injected To: (2400, 2)
+2023-11-21 14:24:32.892 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:24:32.893 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:24:41.506 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2400, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:25:17.943 | INFO     | torch._tensor:to:88 - Fault Injected To: (2450, 2)
+2023-11-21 14:25:40.960 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:25:40.961 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:25:49.611 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2450, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:26:25.996 | INFO     | torch._tensor:to:88 - Fault Injected To: (2500, 2)
+2023-11-21 14:26:48.878 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:26:48.879 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:26:57.483 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2500, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:27:33.966 | INFO     | torch._tensor:to:88 - Fault Injected To: (2550, 2)
+2023-11-21 14:27:56.865 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:27:56.866 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:28:05.548 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2550, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:28:42.063 | INFO     | torch._tensor:to:88 - Fault Injected To: (2600, 2)
+2023-11-21 14:29:05.074 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:29:05.075 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:29:13.877 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2600, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:29:50.375 | INFO     | torch._tensor:to:88 - Fault Injected To: (2650, 2)
+2023-11-21 14:30:13.299 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:30:13.300 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:30:21.879 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2650, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:30:58.303 | INFO     | torch._tensor:to:88 - Fault Injected To: (2700, 2)
+2023-11-21 14:31:21.247 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:31:21.247 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:31:30.140 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2700, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:32:06.732 | INFO     | torch._tensor:to:88 - Fault Injected To: (2750, 2)
+2023-11-21 14:32:29.742 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:32:29.743 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:32:38.372 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2750, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:33:14.856 | INFO     | torch._tensor:to:88 - Fault Injected To: (2800, 2)
+2023-11-21 14:33:37.852 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:33:37.854 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:33:46.504 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2800, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:34:23.158 | INFO     | torch._tensor:to:88 - Fault Injected To: (2850, 2)
+2023-11-21 14:34:46.015 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:34:46.015 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:34:54.621 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2850, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:35:31.070 | INFO     | torch._tensor:to:88 - Fault Injected To: (2900, 2)
+2023-11-21 14:35:54.105 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:35:54.106 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:36:02.767 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2900, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:36:39.264 | INFO     | torch._tensor:to:88 - Fault Injected To: (2950, 2)
+2023-11-21 14:37:01.135 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:37:01.136 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:37:09.820 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (2950, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:37:46.304 | INFO     | torch._tensor:to:88 - Fault Injected To: (3000, 2)
+2023-11-21 14:38:09.414 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:38:09.415 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:38:18.095 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3000, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:38:54.535 | INFO     | torch._tensor:to:88 - Fault Injected To: (3050, 2)
+2023-11-21 14:39:17.560 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:39:17.561 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:39:26.324 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3050, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:40:02.814 | INFO     | torch._tensor:to:88 - Fault Injected To: (3100, 2)
+2023-11-21 14:40:25.642 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:40:25.643 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:40:34.365 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3100, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:41:10.738 | INFO     | torch._tensor:to:88 - Fault Injected To: (3150, 2)
+2023-11-21 14:41:33.443 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:41:33.444 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:41:42.336 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3150, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:42:19.128 | INFO     | torch._tensor:to:88 - Fault Injected To: (3200, 2)
+2023-11-21 14:42:42.137 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:42:42.138 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:42:50.779 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3200, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:43:27.165 | INFO     | torch._tensor:to:88 - Fault Injected To: (3250, 2)
+2023-11-21 14:43:50.126 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:43:50.127 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:43:58.785 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3250, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:44:35.214 | INFO     | torch._tensor:to:88 - Fault Injected To: (3300, 2)
+2023-11-21 14:44:58.245 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:44:58.246 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:45:06.981 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3300, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:45:43.463 | INFO     | torch._tensor:to:88 - Fault Injected To: (3350, 2)
+2023-11-21 14:46:06.410 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:46:06.412 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:46:15.095 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3350, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:46:51.467 | INFO     | torch._tensor:to:88 - Fault Injected To: (3400, 2)
+2023-11-21 14:47:14.235 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:47:14.237 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:47:22.800 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3400, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:47:59.247 | INFO     | torch._tensor:to:88 - Fault Injected To: (3450, 2)
+2023-11-21 14:48:22.240 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:48:22.241 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:48:30.940 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3450, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:49:07.633 | INFO     | torch._tensor:to:88 - Fault Injected To: (3500, 2)
+2023-11-21 14:49:30.439 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:49:30.440 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:49:39.075 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3500, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:50:15.511 | INFO     | torch._tensor:to:88 - Fault Injected To: (3550, 2)
+2023-11-21 14:50:38.468 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:50:38.470 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:50:47.011 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3550, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:51:23.544 | INFO     | torch._tensor:to:88 - Fault Injected To: (3600, 2)
+2023-11-21 14:51:46.801 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:51:46.803 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:51:55.541 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3600, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:52:32.099 | INFO     | torch._tensor:to:88 - Fault Injected To: (3650, 2)
+2023-11-21 14:52:55.050 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:52:55.051 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:53:03.732 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3650, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:53:40.151 | INFO     | torch._tensor:to:88 - Fault Injected To: (3700, 2)
+2023-11-21 14:54:03.147 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:54:03.149 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:54:11.931 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3700, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:54:48.340 | INFO     | torch._tensor:to:88 - Fault Injected To: (3750, 2)
+2023-11-21 14:55:11.282 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:55:11.283 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:55:20.013 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3750, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:55:56.594 | INFO     | torch._tensor:to:88 - Fault Injected To: (3800, 2)
+2023-11-21 14:56:19.309 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:56:19.311 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:56:27.987 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3800, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:57:04.446 | INFO     | torch._tensor:to:88 - Fault Injected To: (3850, 2)
+2023-11-21 14:57:27.302 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:57:27.304 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:57:35.981 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3850, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:58:12.731 | INFO     | torch._tensor:to:88 - Fault Injected To: (3900, 2)
+2023-11-21 14:58:35.816 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:58:35.817 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:58:44.395 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3900, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 14:59:21.017 | INFO     | torch._tensor:to:88 - Fault Injected To: (3950, 2)
+2023-11-21 14:59:43.864 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 14:59:43.866 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 14:59:52.549 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (3950, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:00:28.988 | INFO     | torch._tensor:to:88 - Fault Injected To: (4000, 2)
+2023-11-21 15:00:51.949 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:00:51.950 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:01:00.656 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4000, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:01:37.039 | INFO     | torch._tensor:to:88 - Fault Injected To: (4050, 2)
+2023-11-21 15:01:59.195 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:01:59.197 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:02:07.779 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4050, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:02:44.235 | INFO     | torch._tensor:to:88 - Fault Injected To: (4100, 2)
+2023-11-21 15:03:07.360 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:03:07.361 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:03:16.122 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4100, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:03:52.596 | INFO     | torch._tensor:to:88 - Fault Injected To: (4150, 2)
+2023-11-21 15:04:15.689 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:04:15.690 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:04:24.244 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4150, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:05:00.683 | INFO     | torch._tensor:to:88 - Fault Injected To: (4200, 2)
+2023-11-21 15:05:23.599 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:05:23.601 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:05:32.328 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4200, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:06:08.771 | INFO     | torch._tensor:to:88 - Fault Injected To: (4250, 2)
+2023-11-21 15:06:31.745 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:06:31.746 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:06:40.492 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4250, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:07:17.022 | INFO     | torch._tensor:to:88 - Fault Injected To: (4300, 2)
+2023-11-21 15:07:39.934 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:07:39.935 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:07:48.472 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4300, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:08:24.946 | INFO     | torch._tensor:to:88 - Fault Injected To: (4350, 2)
+2023-11-21 15:08:47.751 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:08:47.752 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:08:56.417 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4350, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:09:32.844 | INFO     | torch._tensor:to:88 - Fault Injected To: (4400, 2)
+2023-11-21 15:09:54.742 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:09:54.743 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:10:03.533 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4400, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:10:40.017 | INFO     | torch._tensor:to:88 - Fault Injected To: (4450, 2)
+2023-11-21 15:11:02.828 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:11:02.829 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:11:11.340 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4450, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:11:47.883 | INFO     | torch._tensor:to:88 - Fault Injected To: (4500, 2)
+2023-11-21 15:12:10.686 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:12:10.688 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:12:19.244 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4500, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:12:55.607 | INFO     | torch._tensor:to:88 - Fault Injected To: (4550, 2)
+2023-11-21 15:13:18.779 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:13:18.779 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:13:27.544 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4550, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:14:04.020 | INFO     | torch._tensor:to:88 - Fault Injected To: (4600, 2)
+2023-11-21 15:14:27.070 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:14:27.072 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:14:35.713 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4600, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:15:12.460 | INFO     | torch._tensor:to:88 - Fault Injected To: (4650, 2)
+2023-11-21 15:15:35.592 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:15:35.593 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:15:44.313 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4650, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:16:20.808 | INFO     | torch._tensor:to:88 - Fault Injected To: (4700, 2)
+2023-11-21 15:16:43.658 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:16:43.659 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:16:52.287 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4700, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:17:28.702 | INFO     | torch._tensor:to:88 - Fault Injected To: (4750, 2)
+2023-11-21 15:17:51.644 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:17:51.645 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:18:00.383 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4750, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:18:36.904 | INFO     | torch._tensor:to:88 - Fault Injected To: (4800, 2)
+2023-11-21 15:19:00.036 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:19:00.038 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:19:08.695 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4800, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:19:45.125 | INFO     | torch._tensor:to:88 - Fault Injected To: (4850, 2)
+2023-11-21 15:20:08.070 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:20:08.071 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:20:16.792 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4850, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:20:53.352 | INFO     | torch._tensor:to:88 - Fault Injected To: (4900, 2)
+2023-11-21 15:21:16.160 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:21:16.162 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:21:24.763 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4900, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:22:01.334 | INFO     | torch._tensor:to:88 - Fault Injected To: (4950, 2)
+2023-11-21 15:22:24.249 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:22:24.250 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:22:33.054 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (4950, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:23:09.567 | INFO     | torch._tensor:to:88 - Fault Injected To: (5000, 2)
+2023-11-21 15:23:32.738 | ERROR    | __mp_main__:main_worker:237 - Failed to restore checkpoint: PytorchStreamReader failed reading zip archive: failed finding central directory
+2023-11-21 15:23:32.739 | INFO     | __mp_main__:main_worker:238 - Give up CheckFreq Resume and Simulate Restart From Default Checkpoint (We Skip the Proper Process to Save Time, Please use the default checkpoint result as reference here)
+2023-11-21 15:23:41.386 | INFO     | torch:fault_injection_scheduler_and_recorder:999 - (5000, 2) Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:25:00.130 | INFO     | torch:fault_injection_scheduler_and_recorder_for_epoch:1035 - 2 Fault Not Properly Recovered, Please Use the Default Checkpoint Recovery Time for this Injection
+2023-11-21 15:25:03.998 | INFO     | daifu:log_program_end:40 - Program End with Quality Measure 0.196

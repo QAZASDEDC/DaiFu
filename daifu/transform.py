@@ -12,7 +12,11 @@ from pathlib import Path
 from bidict import bidict
 import copy
 from difflib import SequenceMatcher
+import difflib
 import traceback
+import multiprocessing
+import os
+import builtins
 # sys.path.append('..')
 # import daifu
 
@@ -20,10 +24,13 @@ globals_envs = {}
 TRANSFORM_REGISTRY = {}
 
 TRANSFORM_REGISTRY['IS_WARN'] = False
+TRANSFORM_REGISTRY['IS_AUTOMATIC'] = False
+TRANSFORM_REGISTRY['DIRECTLY_RETRY'] = False
+TRANSFORM_REGISTRY['DIRECTLY_RETRY_FIRST'] = False
 
 IN_ADDED_CODE = '''daifu_store = {}
 for daifu_dataname in daifu.TRANSFORM_REGISTRY['%s']['dataname_list']:
-    if daifu_dataname in globals():
+    if daifu_dataname in daifu.TRANSFORM_REGISTRY['%s']['local_variables_list'] and daifu_dataname in globals():
         daifu_store[daifu_dataname] = globals()[daifu_dataname]
     if daifu_dataname in locals():
         globals()[daifu_dataname] = locals()[daifu_dataname]
@@ -64,25 +71,36 @@ class Return2BreakTransformer(ast.NodeTransformer):
 
 
 class TryExceptTransformer(ast.NodeTransformer):
-    def __init__(self, dataname_list):
+    def __init__(self, dl_func_name, dataname_list):
         super(TryExceptTransformer, self).__init__()
         self.cell_num = 0
         self.dataname_list = dataname_list
+        self.is_first_visit_FunctionDef = True
+        self.dl_func_name = dl_func_name
 
     def visit_FunctionDef(self, node):
-        self.cell_num += 1
-        cell_num = self.cell_num
-        self.generic_visit(node)
-        node.body = [ast.Global(names=self.dataname_list)] + node.body
-        node.body = [ast.Try(body=node.body,
-                             handlers=[ast.ExceptHandler(type=ast.Name(id='Exception'),
-                                                         name=None,
-                                                         daifu_added=True,
-                                                         body=[ast.Pass()])],
-                             orelse=[],
-                             finalbody=[],
-                             cell_num=cell_num)]
-        return node
+        if self.is_first_visit_FunctionDef:
+            self.is_first_visit_FunctionDef = False
+            self.cell_num += 1
+            cell_num = self.cell_num
+            self.generic_visit(node)
+            node.body = [ast.Global(names=self.dataname_list)] + node.body
+            node.body = [ast.Try(body=node.body,
+                                handlers=[ast.ExceptHandler(type=ast.Name(id='Exception'),
+                                                            name=None,
+                                                            daifu_added=True,
+                                                            body=[ast.Pass()])],
+                                orelse=[],
+                                finalbody=[],
+                                cell_num=cell_num)]
+            return node
+        else:
+            sccode = astor.to_source(node)
+            #print(sccode)
+            code.InteractiveInterpreter(
+                globals_envs[self.dl_func_name]).runsource(sccode)
+            
+
 
     def visit_For(self, node):
         self.cell_num += 1
@@ -162,7 +180,8 @@ class NameAccumulator(ast.NodeVisitor):
         self.generic_visit(node)
 
     def get_dataname_set(self):
-        return (self.name_set - self.funcname_set) | self.argname_set | self.assignname_set
+        return (((self.name_set - self.funcname_set) | self.argname_set) - set(dir(builtins))) | self.assignname_set
+        #return (self.name_set - self.funcname_set) | self.argname_set | self.assignname_set
 
 
 class Break2ReturnTransformer(ast.NodeTransformer):
@@ -242,11 +261,12 @@ def create_TransformMapping(dl_func_name, transform_block_name, sccode_with_line
 
 
 class Block2FuncTransformer(ast.NodeTransformer):
-    def __init__(self, dl_func_name):
+    def __init__(self, dl_func_name, is_update):
         super(Block2FuncTransformer, self).__init__()
         self.name_set = set()
         self.funcname_set = set()
         self.dl_func_name = dl_func_name
+        self.is_update = is_update
 
     def visit_Name(self, node):
         self.name_set.add(node.id)
@@ -320,9 +340,10 @@ class Block2FuncTransformer(ast.NodeTransformer):
 
             scfile = Path(TRANSFORM_REGISTRY[self.dl_func_name]['workspace'])/(
                 '(transformed)' + self.dl_func_name + '_daifu_cell_'+str(node.cell_num)+'.py')
-            with scfile.open('w') as f:
-                f.write(sccode)
-                # f.write(sccode_with_lineno)
+            if "MainProcess" in multiprocessing.current_process().name or self.is_update:
+                with scfile.open('w') as f:
+                    f.write(sccode)
+                    # f.write(sccode_with_lineno)
 
             return_accumulator = ReturnAccumulator()
             return_accumulator.visit(node)
@@ -508,7 +529,7 @@ def get_local_variables(function_code):
 def transform_code(dl_func):
     dl_func_name = dl_func.__name__
 
-    (Path.cwd()/'daifu_workspace').mkdir(parents=True, exist_ok=True)
+    ((Path.cwd()/'daifu_workspace')).mkdir(parents=True, exist_ok=True)
 
     global TRANSFORM_REGISTRY
     TRANSFORM_REGISTRY[dl_func_name] = {}
@@ -517,12 +538,13 @@ def transform_code(dl_func):
     original_dl_func_tree = ast.parse(clean_indent(inspect.getsource(dl_func)))
     original_dl_func_code = astor.to_source(original_dl_func_tree)
     TRANSFORM_REGISTRY[dl_func_name]['original'] = original_dl_func_code
+    TRANSFORM_REGISTRY[dl_func_name]['fakename'] = str(Path.cwd()/'the_crash_for_analysis.py')
 
     TRANSFORM_REGISTRY[dl_func_name]['local_variables_list'] = get_local_variables(original_dl_func_code)
 
     TRANSFORM_REGISTRY[dl_func_name]['transformed'] = {}
     TRANSFORM_REGISTRY[dl_func_name]['workspace'] = str(
-        (Path.cwd()/'daifu_workspace'))
+        ((Path.cwd()/'daifu_workspace')))
     TRANSFORM_REGISTRY[dl_func_name]['mapping'] = bidict()
     TRANSFORM_REGISTRY[dl_func_name]['final_return'] = {}
 
@@ -530,9 +552,10 @@ def transform_code(dl_func):
     #TRANSFORM_REGISTRY[dl_func_name]['cell_return'] = {}
     TRANSFORM_REGISTRY[dl_func_name]['history'] = []
 
-    rawfile = Path.cwd()/'daifu_workspace'/('(original)'+dl_func_name+'.py')
-    with rawfile.open('w') as f:
-        f.write(original_dl_func_code)
+    rawfile = (Path.cwd()/'daifu_workspace')/('(original)'+dl_func_name+'.py')
+    if "MainProcess" in multiprocessing.current_process().name:
+        with rawfile.open('w') as f:
+            f.write(original_dl_func_code)
 
     # round-trip processing to force a unified format (for lineno)
     original_dl_func_tree = ast.parse(original_dl_func_code)
@@ -552,14 +575,14 @@ def transform_code(dl_func):
     original_dl_func_tree = LinenoRecorder().visit(original_dl_func_tree)
 
     transformed_dl_func_tree = ast.fix_missing_locations(
-        TryExceptTransformer(dataname_list).visit(original_dl_func_tree))
+        TryExceptTransformer(dl_func_name, dataname_list).visit(original_dl_func_tree))
 
     transformed_dl_func_tree = ast.fix_missing_locations(
         Return2BreakTransformer().visit(transformed_dl_func_tree))
 
     # print('Transformed ->')
     transformed_dl_func_tree = ast.fix_missing_locations(
-        Block2FuncTransformer(dl_func_name).visit(transformed_dl_func_tree))
+        Block2FuncTransformer(dl_func_name, is_update=False).visit(transformed_dl_func_tree))
 
     transformed_dl_func_tree = ast.fix_missing_locations(
         IfRemoveTransformer().visit(transformed_dl_func_tree))
@@ -567,7 +590,7 @@ def transform_code(dl_func):
     if TRANSFORM_REGISTRY['IS_WARN']:
         in_added_code = IN_ADDED_CODE_WARN % (dl_func_name, dl_func_name)
     else:
-        in_added_code = IN_ADDED_CODE % dl_func_name
+        in_added_code = IN_ADDED_CODE % (dl_func_name, dl_func_name)
 
     transformed_dl_func_tree.body[0].body = ast.parse(
         in_added_code).body + transformed_dl_func_tree.body[0].body
@@ -600,8 +623,9 @@ def transform_code(dl_func):
 
     transformed_dl_func_file = Path(
         TRANSFORM_REGISTRY[dl_func_name]['workspace'])/('(transformed)'+dl_func_name + '.py')
-    with transformed_dl_func_file.open('w') as f:
-        f.write(transformed_dl_func_code)
+    if "MainProcess" in multiprocessing.current_process().name:
+        with transformed_dl_func_file.open('w') as f:
+            f.write(transformed_dl_func_code)
 
     transformed_code = code.compile_command(
         transformed_dl_func_code, transformed_dl_func_file, 'single')
@@ -609,6 +633,17 @@ def transform_code(dl_func):
     # print(transformed_code.co_consts)
     return get_code(transformed_code.co_consts)
 
+
+def print_code_diff(old_code, new_code):
+    old_lines = old_code.splitlines()
+    new_lines = new_code.splitlines()
+
+    differ = difflib.Differ()
+
+    diff = list(differ.compare(old_lines, new_lines))
+
+    for line in diff:
+        print(line)
 
 def update_code(dl_func_name, dl_func_code, updated_cell_name, faulty_lineno):
     print(updated_cell_name)
@@ -624,11 +659,11 @@ def update_code(dl_func_name, dl_func_code, updated_cell_name, faulty_lineno):
 
         TRANSFORM_REGISTRY[dl_func_name]['transformed'] = {}
         TRANSFORM_REGISTRY[dl_func_name]['workspace'] = str(
-            (Path.cwd()/'daifu_workspace'))
+            ((Path.cwd()/'daifu_workspace')))
         TRANSFORM_REGISTRY[dl_func_name]['mapping'] = bidict()
         TRANSFORM_REGISTRY[dl_func_name]['final_return'] = {}
 
-        rawfile = Path.cwd()/'daifu_workspace'/('(original)'+dl_func_name+'.py')
+        rawfile = (Path.cwd()/'daifu_workspace')/('(original)'+dl_func_name+'.py')
         with rawfile.open('w') as f:
             f.write(original_dl_func_code)
 
@@ -638,14 +673,14 @@ def update_code(dl_func_name, dl_func_code, updated_cell_name, faulty_lineno):
         original_dl_func_tree = LinenoRecorder().visit(original_dl_func_tree)
 
         transformed_dl_func_tree = ast.fix_missing_locations(
-            TryExceptTransformer(TRANSFORM_REGISTRY[dl_func_name]['dataname_list']).visit(original_dl_func_tree))
+            TryExceptTransformer(dl_func_name, TRANSFORM_REGISTRY[dl_func_name]['dataname_list']).visit(original_dl_func_tree))
 
         transformed_dl_func_tree = ast.fix_missing_locations(
             Return2BreakTransformer().visit(transformed_dl_func_tree))
 
         # print('Transformed ->')
         transformed_dl_func_tree = ast.fix_missing_locations(
-            Block2FuncTransformer(dl_func_name).visit(transformed_dl_func_tree))
+            Block2FuncTransformer(dl_func_name, is_update=True).visit(transformed_dl_func_tree))
 
         transformed_dl_func_tree = ast.fix_missing_locations(
             IfRemoveTransformer().visit(transformed_dl_func_tree))
@@ -653,7 +688,7 @@ def update_code(dl_func_name, dl_func_code, updated_cell_name, faulty_lineno):
         if TRANSFORM_REGISTRY['IS_WARN']:
             in_added_code = IN_ADDED_CODE_WARN % (dl_func_name, dl_func_name)
         else:
-            in_added_code = IN_ADDED_CODE % dl_func_name
+            in_added_code = IN_ADDED_CODE % (dl_func_name, dl_func_name)
 
         transformed_dl_func_tree.body[0].body = ast.parse(
             in_added_code).body + transformed_dl_func_tree.body[0].body
@@ -682,6 +717,7 @@ def update_code(dl_func_name, dl_func_code, updated_cell_name, faulty_lineno):
                 if TRANSFORM_REGISTRY[dl_func_name]['transformed'][cell_name] != TRANSFORM_REGISTRY[dl_func_name]['history'][-1]['transformed'][cell_name]:
                     print(cell_name, 'change,', 'only',
                           updated_cell_name, 'can change')
+                    print_code_diff(TRANSFORM_REGISTRY[dl_func_name]['history'][-1]['transformed'][cell_name], TRANSFORM_REGISTRY[dl_func_name]['transformed'][cell_name])
                     other_changed_cells.append(cell_name)
 
         # print(astor.to_source(transformed_dl_func_tree))
@@ -759,7 +795,7 @@ def update_code(dl_func_name, dl_func_code, updated_cell_name, faulty_lineno):
         TRANSFORM_REGISTRY[dl_func_name]['final_return'] = TRANSFORM_REGISTRY[dl_func_name]['history'][-1]['final_return']
         TRANSFORM_REGISTRY[dl_func_name]['history'].pop()
 
-        rawfile = Path.cwd()/'daifu_workspace'/('(original)'+dl_func_name+'.py')
+        rawfile = (Path.cwd()/'daifu_workspace')/('(original)'+dl_func_name+'.py')
         with rawfile.open('w') as f:
             f.write(TRANSFORM_REGISTRY[dl_func_name]['original'])
 
@@ -769,6 +805,8 @@ def update_code(dl_func_name, dl_func_code, updated_cell_name, faulty_lineno):
             sccode = TRANSFORM_REGISTRY[dl_func_name]['transformed'][cell_name]
             scfile = Path(
                 TRANSFORM_REGISTRY[dl_func_name]['workspace'])/('(transformed)' + cell_name + '.py')
+            with scfile.open('w') as f:
+                f.write(sccode)
             code.InteractiveInterpreter(
                 globals_envs[dl_func_name]).runsource(sccode, filename=scfile)
 
@@ -824,10 +862,13 @@ def init_rest(dl_func_name, updated_cell_name, faulty_lineno):
         traceback.print_tb(e.__traceback__)
 
 
-def transform(target_globals):
+def transform(target_globals = None):
     def transform_decorator(dl_func):
         global globals_envs
-        globals_envs[dl_func.__name__] = target_globals
+        if target_globals is None:
+            globals_envs[dl_func.__name__] = dl_func.__globals__
+        else:
+            globals_envs[dl_func.__name__] = target_globals
 
         return functools.update_wrapper(
             types.FunctionType(

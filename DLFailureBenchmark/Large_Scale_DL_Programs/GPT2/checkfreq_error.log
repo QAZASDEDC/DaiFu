@@ -1,0 +1,213 @@
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+2023-11-30 10:23:05.442 | INFO     | daifu:<module>:34 - Program Begin
+2023-11-30 10:23:13.633 | INFO     | daifu:<module>:34 - Program Begin
+[W socket.cpp:401] [c10d] The server socket has failed to bind to [::]:42649 (errno: 98 - Address already in use).
+[W socket.cpp:401] [c10d] The server socket has failed to bind to 0.0.0.0:42649 (errno: 98 - Address already in use).
+[E socket.cpp:435] [c10d] The server socket has failed to listen on any local network address.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/train_with_checkfreq.py", line 97, in <module>
+    init_process_group(backend=backend)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/distributed_c10d.py", line 595, in init_process_group
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/rendezvous.py", line 257, in _env_rendezvous_handler
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/rendezvous.py", line 188, in _create_c10d_store
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket has failed to bind to [::]:42649 (errno: 98 - Address already in use). The server socket has failed to bind to 0.0.0.0:42649 (errno: 98 - Address already in use).
+Traceback (most recent call last):
+  File "train_with_checkfreq.py", line 391, in <module>
+    main()
+  File "train_with_checkfreq.py", line 229, in main
+    cf_manager = CFManager("./checkfreq_workspace", chk, mode=CFMode.AUTO)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/./checkfreq_src/cf_manager.py", line 107, in __init__
+    self.mp_manager = Manager()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/context.py", line 57, in Manager
+    m.start()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/managers.py", line 583, in start
+    self._address = reader.recv()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/train_with_checkfreq.py", line 97, in <module>
+    init_process_group(backend=backend)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/distributed_c10d.py", line 627, in init_process_group
+    _store_based_barrier(rank, store, timeout)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/distributed_c10d.py", line 242, in _store_based_barrier
+    worker_count = store.add(store_key, 0)
+RuntimeError: Broken pipe
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/train_with_checkfreq.py", line 97, in <module>
+    init_process_group(backend=backend)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/distributed_c10d.py", line 627, in init_process_group
+    _store_based_barrier(rank, store, timeout)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/distributed_c10d.py", line 242, in _store_based_barrier
+    worker_count = store.add(store_key, 0)
+RuntimeError: Broken pipe
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/train_with_checkfreq.py", line 97, in <module>
+    init_process_group(backend=backend)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/distributed_c10d.py", line 627, in init_process_group
+    _store_based_barrier(rank, store, timeout)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/torch/distributed/distributed_c10d.py", line 242, in _store_based_barrier
+    worker_count = store.add(store_key, 0)
+RuntimeError: Broken pipe
+Traceback (most recent call last):
+  File "train_with_checkfreq.py", line 391, in <module>
+    main()
+  File "train_with_checkfreq.py", line 229, in main
+    cf_manager = CFManager("./checkfreq_workspace", chk, mode=CFMode.AUTO)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/./checkfreq_src/cf_manager.py", line 107, in __init__
+    self.mp_manager = Manager()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/context.py", line 57, in Manager
+    m.start()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/managers.py", line 583, in start
+    self._address = reader.recv()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+Traceback (most recent call last):
+  File "train_with_checkfreq.py", line 391, in <module>
+    main()
+  File "train_with_checkfreq.py", line 229, in main
+    cf_manager = CFManager("./checkfreq_workspace", chk, mode=CFMode.AUTO)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/./checkfreq_src/cf_manager.py", line 107, in __init__
+    self.mp_manager = Manager()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/context.py", line 57, in Manager
+    m.start()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/managers.py", line 583, in start
+    self._address = reader.recv()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+Traceback (most recent call last):
+  File "train_with_checkfreq.py", line 391, in <module>
+    main()
+  File "train_with_checkfreq.py", line 229, in main
+    cf_manager = CFManager("./checkfreq_workspace", chk, mode=CFMode.AUTO)
+  File "/home/user/hzl/GPT2_with_daifu/nanoGPT/./checkfreq_src/cf_manager.py", line 107, in __init__
+    self.mp_manager = Manager()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/context.py", line 57, in Manager
+    m.start()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/managers.py", line 583, in start
+    self._address = reader.recv()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 27322 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 27324 closing signal SIGTERM
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 0 (pid: 27321) of binary: /home/user/anaconda3/envs/test_daifu_on_ndf_py38/bin/python3.8
+Traceback (most recent call last):
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 345, in wrapper
+    return f(*args, **kwargs)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/site-packages/torch/distributed/run.py", line 761, in main
+    run(args)
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/site-packages/torch/distributed/run.py", line 752, in run
+    elastic_launch(
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/user/anaconda3/envs/test_daifu_on_ndf_py38/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 245, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_with_checkfreq.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2023-11-30_10:23:14
+  host      : gpu-v100-4
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 27323)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-11-30_10:23:14
+  host      : gpu-v100-4
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 27321)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
