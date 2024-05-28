@@ -1,5 +1,5 @@
 # DaiFu: A Framework for In-Situ Recovery of Deep Learning Programs against Crash Failures
-The artifact of Usenix ATC 2024 submission#43
+The artifact of Usenix ASE 2024 submission#95
 
 ## Project Structure
 
