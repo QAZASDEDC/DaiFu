@@ -30,3 +30,19 @@ The command to execute them can be found in `fixed_repeated_experiments/repeat_e
 For each virtual encironment, we need to repeat the preparation to use daifu. Then we can use the command in `fixed_repeated_experiments/repeat_experiments.py` or `test_suite.py` to run the program and fix the failure in situ with daifu. The repair solution history can be found in `experiment_record.log` and files started with `(action)` or `(surgery)` in the `daifu_workplace`. 
 
 - `fixed_in_site_repeated_experiments` and `fixed_repeated_experiments` contains our code to automatically repeat the experiemnts. We can directly execute the `repeat_experiments.py` to repeat the experiments. The experiment record logs are also provided in these directories.
+
+## Try DaiFu on Your Own Program
+
+### Preparation to use daifu
+
+```
+pip install loguru
+pip install bidict
+pip install better_exceptions
+```
+
+### Try it
+Import daifu and place its provided decorator in front of the entry function of your program
+
+![image]()
+
