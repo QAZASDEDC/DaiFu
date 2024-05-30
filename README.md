@@ -1,5 +1,5 @@
 # DaiFu: Enabling In-Situ Updates for Quick Recovery of Deep Learning Program Failures
-The artifact of Usenix ASE 2024 submission#95
+The artifact of ASE 2024 submission#95
 
 ## Project Structure
 
