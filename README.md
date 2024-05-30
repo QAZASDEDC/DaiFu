@@ -56,7 +56,7 @@ Then, configure the forward server address and port in the BASE_URL configuratio
 uvicorn main:app --reload
 ```
 
-Finally, place the following code after importing daifu in your program. Then you can get the automatic root cause debugging recommendation.
+Finally, place the following code after importing daifu in your program. Then you can get the automatic root cause debugging recommendation when your program encounters and intercepts a failure.
 
 ```
 daifu.TRANSFORM_REGISTRY['IS_AUTOMATIC'] = True
