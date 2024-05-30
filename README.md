@@ -3,7 +3,9 @@ The artifact of ASE 2024 submission#95
 
 ## Please note that the preview provided by https://anonymous.4open.science cannot display all the content in ./DLFailureBenchmark. This may be caused by the large volumn of files including in our benchmark. If you want to use our benchmark, please download this repository by pushing the `Download Repository` Button in the up right of this page.
 
-<img src="https://github.com/QAZASDEDC/DaiFu/blob/main/image/overview2.png" width=60%\>
+<div align="center">
+<img src="./overview2.png" width=60%\>
+</div>
 
 ## Project Structure
 
@@ -48,7 +50,7 @@ pip install better_exceptions
 ### Try it
 Import daifu and place its provided decorator in front of the entry function of your program
 
-![image](https://github.com/QAZASDEDC/DaiFu/blob/main/image/usage.png)
+![image](./image/usage.png)
 
 ### Incoperate Large Language Model to Help Root Cause Debugging **(Not the Main Focus of This Paper, but We Still Welcome You to Try this Function)**
 
