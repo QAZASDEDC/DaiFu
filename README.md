@@ -44,5 +44,5 @@ pip install better_exceptions
 ### Try it
 Import daifu and place its provided decorator in front of the entry function of your program
 
-![image]()
+![image](https://github.com/QAZASDEDC/DaiFu/blob/main/image/usage.png)
 
