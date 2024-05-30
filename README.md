@@ -46,3 +46,19 @@ Import daifu and place its provided decorator in front of the entry function of 
 
 ![image](https://github.com/QAZASDEDC/DaiFu/blob/main/image/usage.png)
 
+### Incoperate Large Language Model to Help Root Cause Debugging **(Not the Main Focus of This Paper, but We Still Welcome You to Try this Function)**
+
+First, deploy a server to forward LLM requests (e.g., to OpenAI GPT).
+
+Then, configure the forward server address and port in the BASE_URL configuration in `daifu/daifu_repairbot/main.py`, and execute the following command in the path `daifu/daifu_repairbot/`:
+
+```
+uvicorn main:app --reload
+```
+
+Finally, place the following code after importing daifu in your program. Then you can get the automatic root cause debugging recommendation.
+
+```
+daifu.TRANSFORM_REGISTRY['IS_AUTOMATIC'] = True
+```
+
