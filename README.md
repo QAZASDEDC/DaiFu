@@ -1,5 +1,5 @@
 # DaiFu: Enabling In-Situ Updates for Lightning Recovery from Program Failures in Deep Learning
-The artifact of ASE 2024 submission#95
+The artifact of FSE 2025 submission#280
 
 ## Please note that the preview provided by https://anonymous.4open.science cannot display all the content in ./DLFailureBenchmark. This may be caused by the large volumn of files including in our benchmark. If you want to use our benchmark, please download this repository by pushing the `Download Repository` Button in the up right of this page.
 
