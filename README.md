@@ -1,6 +1,8 @@
-# DaiFu: Lightning-Fast and Cost-Efficient Failure Recovery for Deep Learning Systems via In-Situ Failure Interception and Dynamic Software Updates
+# DaiFu: In-Situ Crash Recovery for Deep Learning Systems
 
 ![image](./image/overview2.png)
+
+## Please note that the preview provided by https://anonymous.4open.science cannot display all the content in ./DLFailureBenchmark. This may be caused by the large volumn of files including in our benchmark. If you want to use our benchmark, please download this repository by pushing the `Download Repository` Button in the up right of this page.
 
 ## Project Structure
 
@@ -32,7 +34,7 @@ For each virtual encironment, we need to repeat the preparation to use daifu. Th
 
 - `fixed_in_site_repeated_experiments` and `fixed_repeated_experiments` contains our code to automatically repeat the experiemnts. We can directly execute the `repeat_experiments.py` to repeat the experiments. The experiment record logs are also provided in these directories.
 
-## Try DaiFu on Your Own Program
+## Try DaiFu on your own DL systems and programs
 
 ### Preparation to use daifu
 
@@ -47,7 +49,7 @@ Import daifu and place its provided decorator in front of the entry function of 
 
 ![image](./image/usage.png)
 
-### Incoperate Large Language Model to Help Root Cause Debugging **(Not the Main Focus of This Paper, but We Still Welcome You to Try this Function)**
+### Incoperate large language model to help root cause debugging **(not the main focus of this paper yet, but we still welcome you to try this function)**
 
 First, deploy a server to forward LLM requests (e.g., to OpenAI GPT).
 
