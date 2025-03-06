@@ -34,6 +34,11 @@ For each virtual encironment, we need to repeat the preparation to use daifu. Th
 
 - `fixed_in_site_repeated_experiments` and `fixed_repeated_experiments` contains our code to automatically repeat the experiemnts. We can directly execute the `repeat_experiments.py` to repeat the experiments. The experiment record logs are also provided in these directories.
 
+## Details of the benchmark
+
+![image](./image/details.png)
+
+
 ## Try DaiFu on your own DL systems and programs
 
 ### Preparation to use daifu
