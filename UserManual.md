@@ -5,7 +5,16 @@ This user manual is intended to help the user understand the usage of DaiFu.
 
 ## Support for Multi-GPU Setup
 
+Since DaiFu inherits from the base `pdb.Pdb` class, we need to configure a lock to prevent contention among different processes accessing the command-line in multi-GPU distributed training scenarios.
 
+For example,
+```
+lock = multiprocessing.Manager().Lock()  # Create a lock for multi-GPU distributed training
+daifu.repair.repair_lock = lock  # Configure the lock for DaiFu to access terminal
+```
+More detailed examples can be found in `DLFailureBenchmark\Large_Scale_DL_Programs\ResNet_and_Vit_and_SwinT\main_with_daifu.py`.
+
+We will make this support more user-friendly in the future.
 
 ## Available Commands
 
@@ -205,4 +214,22 @@ Note : This is a standard pdb command that DaiFuDebugger inherits from the base 
 4. Continue execution : Use `q` to continue program execution
 5. Save and broadcast session in distributed training use cases: Use `broadcast` to save debugging information and broadcast it to other processes
 6. Exit if needed : Use `exit` to terminate completely
+        
+
+## File Structure
+
+When using DaiFu, files are created in the `daifu_workspace` directory:
+- `(original)function_name.py` - Original source code
+- `(surgery-N)function_name.py` - Code for surgical modifications
+- `(action-N)function_name.py` - Code for runtime actions
+- `N.broadcast` - Saved session information
+
+## Notes
+
+- The debugger prompt appears as `(DaiFu)`
+- All commands are case-sensitive
+- Some commands require `focus` to be called first
+- The debugger maintains a queue of repair attempts
+- Line number mapping handles transformations between original and modified code
+- `q` allows graceful continuation of program execution after debugging
         
