@@ -6,7 +6,7 @@
 
 ## User Manual (Now tailored for the rebuttal, but we will continue to update it in the future)
 
-- [Updating User Manual](./UserManual.md)
+- [User Manual](./UserManual.md)
 - [Crash Examples](./CrashExamples.md)
 
 ## Project Structure
