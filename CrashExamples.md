@@ -157,7 +157,7 @@ def train(args, model, device, train_loader, optimizer, epoch):
 *Description: Temporary issues like GPU device disconnection, transient file I/O errors, and distributed communication faults occur*
 
 **Example: File I/O Operations During Training**
-```python
+```
 import torch
 import torch.nn as nn
 import os
