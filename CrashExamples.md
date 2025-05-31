@@ -105,7 +105,7 @@ while True:
     print('Occupying GPU')
 ```
 
-**Issue**: This script creates a TensorFlow session that occupies GPU:0 indefinitely, preventing other programs from accessing the GPU and causing `RuntimeError: CUDA out of memory` or device allocation failures.
+**Issue**: This script creates a TensorFlow session that occupies GPU:0 indefinitely, preventing other programs from accessing the GPU and causing `RuntimeError: CUDA out of memory` or device allocation failures. This can happen in the middle of training or inference of other programs, especially when multiple programs are sharing the same GPU.
 
 ## 5. **Path Problem**
 *Description: Specified file or directory paths are incorrect*
@@ -151,7 +151,7 @@ def train(args, model, device, train_loader, optimizer, epoch):
         optimizer.step()
 ```
 
-**Issue**: The function encounters tensors with NaN values, causing the function to throw exception.
+**Issue**: The function encounters tensors with NaN values, causing the function to throw exception. This can happen when the input data are corrupted or contain unexpected values.
 
 ## 7. **Runtime Error (Non-Deterministic)**
 *Description: Temporary issues like GPU device disconnection, transient file I/O errors, and distributed communication faults occur*
@@ -196,5 +196,12 @@ def train_with_io_operations():
 
 **Issue**: Network instability, server downtime, or connectivity issues cause random failures when downloading pretrained models or datasets, leading to non-deterministic exceptions.
 
-These examples demonstrate the seven main categories of crashes that can occur in deep learning systems, each with distinct characteristics and failure modes that the DaiFu benchmark aims to address.
+**Injection Point Examples for Diverse Transient Runtime Errors**: 
+We inject faults through making some APIs of PyTorch to throw exceptions, such as:
+
+- `to`: Faults can be injected to simulate GPU device disconnections
+- `save`: Faults can be injected to simulate transient file I/O errors
+- `all_reduce`, `broadcast_coalesced`: Faults can be injected to simulate distributed communication faults
+
+
         
