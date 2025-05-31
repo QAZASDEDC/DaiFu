@@ -21,7 +21,7 @@ def train(self, X_train, epochs=5000, batch = 32, save_interval = 100):
         y_combined_batch = np.concatenate((np.ones((batch/2, 1)), np.zeros((batch/2, 1))))
 ```
 
-**Issue**: The model's final Dense layer has only 1 output unit with sigmoid activation (designed for binary classification), but CIFAR-10 is a 10-class problem. When using `categorical_crossentropy` loss, it expects the model output to have 10 units to match the number of classes, causing a shape mismatch error: `ValueError: Shapes (None, 1) and (None, 10) are incompatible`.
+**Issue**: The integer division `batch/2` in Python 3 returns a float, which is then used in the `random_index` calculation, causing an error.
 
 ## 2. **Tensor Mismatch**
 *Description: Tensor shapes or data types are incompatible*
@@ -57,7 +57,7 @@ model.compile(loss='categorical_crossentropy',  # Expects 10 classes
 model.fit(x_train, y_train, epochs=20, batch_size=128)
 ```
 
-**Issue**: The division `(self.width * self.height * self.channels)/2` produces a float in Python 3, but Dense layers expect integer units, causing shape incompatibility errors.
+**Issue**: The output layer of the model has 1 unit, but the CIFAR-10 dataset has 10 classes. The model's output shape doesn't match the expected shape for the loss function.
 
 ## 3. **Resource Bug (Out of Memory)**
 *Description: Excessive GPU memory allocation is required*
