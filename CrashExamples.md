@@ -166,54 +166,32 @@ import time
 
 def save_checkpoint(model, epoch, filepath):
     """Save model checkpoint with potential I/O failures"""
-    try:
-        # BUG: I/O operation that may fail due to disk issues, permissions, or concurrent access
-        if random.random() < 0.2:  # 20% chance of I/O failure
-            raise OSError("Disk full or permission denied")
-        
-        torch.save({
-            'epoch': epoch,
-            'model_state_dict': model.state_dict(),
-        }, filepath)
-        print(f"Checkpoint saved at epoch {epoch}")
-    except OSError as e:
-        print(f"Failed to save checkpoint: {e}")
-        raise
+    # Possible Exception: I/O operation that may fail due to disk issues, permissions, or concurrent access
+    torch.save({
+        'epoch': epoch,
+        'model_state_dict': model.state_dict(),
+    }, filepath)
+    print(f"Checkpoint saved at epoch {epoch}")
 
 def load_training_data(data_path):
     """Load training data with potential file access issues"""
-    try:
-        # BUG: File may be locked by another process or temporarily unavailable
-        if random.random() < 0.15:  # 15% chance of file access failure
-            raise PermissionError("File is locked by another process")
-        
-        # Simulate file reading
-        time.sleep(0.1)  # Simulate I/O delay
-        return torch.randn(1000, 784)  # Simulated data
-    except PermissionError as e:
-        print(f"Data loading failed: {e}")
-        raise
+    # Possible Exception: File may be locked by another process or temporarily unavailable
+    return torch.load(data_path)
 
 def train_with_io_operations():
     model = nn.Linear(784, 10)
     
     for epoch in range(100):
-        try:
-            # BUG: Loading data may fail due to file system issues
-            data = load_training_data(f"data/batch_{epoch}.pt")
-            
-            # Training step
-            output = model(data)
-            loss = nn.functional.mse_loss(output, torch.randn(1000, 10))
-            
-            # BUG: Saving checkpoint may fail due to disk space or permissions
-            if epoch % 10 == 0:
-                save_checkpoint(model, epoch, f"checkpoints/model_epoch_{epoch}.pt")
-                
-        except (OSError, PermissionError) as e:
-            print(f"Runtime I/O error at epoch {epoch}: {e}")
-            # Training may need to be restarted or resumed from last successful checkpoint
-            raise RuntimeError(f"Training interrupted due to I/O failure: {e}")
+        # Possible Exception: Loading data may fail due to file system issues
+        data = load_training_data(f"data/batch_{epoch}.pt")
+        
+        # Training step
+        output = model(data)
+        loss = nn.functional.mse_loss(output, torch.randn(1000, 10))
+        
+        # Possible Exception: Saving checkpoint may fail due to disk space or permissions
+        if epoch % 10 == 0:
+            save_checkpoint(model, epoch, f"checkpoints/model_epoch_{epoch}.pt")
 ```
 
 **Issue**: Network instability, server downtime, or connectivity issues cause random failures when downloading pretrained models or datasets, leading to non-deterministic exceptions.
