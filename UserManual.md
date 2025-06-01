@@ -33,7 +33,7 @@ We will make this support more user-friendly in the future.
 - Displays the current exception information
 - Provides formatted traceback with better exception formatting
 
-**Example Output**:
+**Example Output ([Corressponding Demo](./demo))**:
 ```
   1  	@daifu.transform()
   2  	def main(x):
