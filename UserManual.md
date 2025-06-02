@@ -14,6 +14,8 @@ daifu.repair.repair_lock = lock  # Configure the lock for DaiFu to access termin
 ```
 More detailed examples can be found in `DLFailureBenchmark\Large_Scale_DL_Programs\ResNet_and_Vit_and_SwinT\main_with_daifu.py`.
 
+Note that this lock is not necessary for repeated experiments based on recorded recovery history. Only when we need to interact with the program with pdb, we need to configure the lock.
+
 We will make this support more user-friendly in the future.
 
 ## Available Commands
