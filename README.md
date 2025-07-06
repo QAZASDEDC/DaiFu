@@ -2,17 +2,15 @@
 
 ![image](./image/overview2.png)
 
-## Please note that the preview provided by https://anonymous.4open.science cannot display all the content in ./DLFailureBenchmark. This may be caused by the large volumn of files including in our benchmark. If you want to use our benchmark, please download this repository by pushing the `Download Repository` Button in the up right of this page.
-
-## User Manual (Now tailored for the rebuttal, but we will continue to update it in the future)
-
-- [User Manual](./UserManual.md)
-- [Crash Examples](./CrashExamples.md)
-
 ## Project Structure
 
 - `./daifu` contains the source code of daifu.
 - `./DLFailureBenchmark` contains the deep learning failure benchmark as well as our experiments on it.
+
+## User Manual
+
+- [User Manual](./UserManual.md)
+- [Crash Examples](./CrashExamples.md)
 
 ## Reproduce Experiments in Our Paper
 
