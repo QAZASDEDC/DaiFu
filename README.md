@@ -1,8 +1,12 @@
 # DaiFu: In-Situ Crash Recovery for Deep Learning Systems
 
-![image](./image/overview2.png)
+![image](./DAIFU.png)
+
+DaiFu is an in-situ crash recovery framework for Deep Learning (DL) systems that uses a lightweight "vaccination" code transformation to intercept crashes and enable instant, dynamic updates to the program's running context without requiring a restart, significantly reducing restore time with negligible runtime overhead.
 
 ## Project Structure
+
+![image](./image/overview2.png)
 
 - `./daifu` contains the source code of daifu.
 - `./DLFailureBenchmark` contains the deep learning failure benchmark as well as our experiments on it.
